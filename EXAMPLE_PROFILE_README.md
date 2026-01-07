@@ -10,4 +10,4 @@ Replace this with your own content, or keep it minimal - the terminal widget sho
 
 ---
 
-<sub>Powered by [terminal-widget-profile](https://github.com/YOUR_USERNAME/terminal-widget-profile)</sub>
+<sub>Powered by [terminal-widget-profile](https://github.com/inventory69/terminal-widget-profile)</sub>
