@@ -101,26 +101,23 @@
   {% set ns.y = ns.y + project_height + 10 %}
   {% endif %}
   
-  {# Snake contribution animation placeholder #}
+  {# Snake contribution animation - links to separate snake.svg #}
   {% if display.show_snake %}
   <g class="section" transform="translate(20, {{ ns.y }})">
-    <rect class="section-box" x="0" y="0" width="{{ terminal.width - 40 }}" height="80" rx="5"/>
+    <rect class="section-box" x="0" y="0" width="{{ terminal.width - 40 }}" height="50" rx="5"/>
     
     <text class="section-title" x="10" y="22">🐍 Contribution Activity</text>
     <line class="section-divider" x1="10" y1="30" x2="{{ terminal.width - 50 }}" y2="30"/>
     
-    <text class="section-text secondary" x="{{ (terminal.width - 40) / 2 }}" y="52" text-anchor="middle">
-      Snake animation generated separately
-    </text>
-    <text class="section-text small" x="{{ (terminal.width - 40) / 2 }}" y="68" text-anchor="middle">
-      See README for integration with Platane/snk
+    <text class="section-text small" x="{{ (terminal.width - 40) / 2 }}" y="44" text-anchor="middle">
+      See snake.svg for animated contribution graph
     </text>
   </g>
-  {% set ns.y = ns.y + 90 %}
+  {% set ns.y = ns.y + 60 %}
   {% endif %}
   
   {# Command prompt with blinking cursor #}
-  <text class="terminal-text" x="20" y="{{ ns.y + 5 }}">
+  <text class="terminal-text" x="20" y="{{ ns.y + 15 }}">
     <tspan class="prompt-user">{{ username }}@github</tspan>
     <tspan class="prompt-path"> ~ </tspan>
     <tspan class="prompt-symbol">% </tspan>

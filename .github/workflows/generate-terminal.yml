@@ -41,11 +41,22 @@ jobs:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
         run: python scripts/generate_svg.py
       
+      # Generate contribution snake animation using Platane/snk
+      # Thanks to @Platane for this awesome action! ❤️
+      # https://github.com/Platane/snk
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake.svg?palette=github-dark
+            snake-light.svg?palette=github-light
+      
       - name: Commit and push if changed
         run: |
           git config user.name "github-actions[bot]"
           git config user.email "github-actions[bot]@users.noreply.github.com"
-          git add terminal.svg
+          git add terminal.svg snake.svg snake-light.svg
           
           # Only commit if there are changes
           if git diff --staged --quiet; then

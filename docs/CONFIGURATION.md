@@ -42,9 +42,11 @@ display:
   show_bio: true        # Show bio section
   show_stats: true      # Show GitHub stats
   show_projects: true   # Show top projects
-  show_snake: true      # Snake animation placeholder
+  show_snake: true      # Contribution activity grid
   max_projects: 4       # 1-10 projects
 ```
+
+**Note:** Only your own repositories are shown (no forks or contributed repos).
 
 ## Widget Size
 

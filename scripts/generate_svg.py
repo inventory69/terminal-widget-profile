@@ -86,7 +86,7 @@ def fetch_github_data(username: str, token: Optional[str] = None) -> Dict[str, A
     query($username: String!) {
       user(login: $username) {
         name
-        repositories(first: 100, orderBy: {field: STARGAZERS, direction: DESC}, privacy: PUBLIC) {
+        repositories(first: 100, orderBy: {field: STARGAZERS, direction: DESC}, privacy: PUBLIC, ownerAffiliations: OWNER) {
           totalCount
           nodes {
             name

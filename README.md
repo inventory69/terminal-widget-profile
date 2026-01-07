@@ -25,7 +25,26 @@ A terminal-style SVG widget for your GitHub profile. Auto-updates via GitHub Act
 | 🚀 **Top Projects** | Your best repos, sorted by stars |
 | 👤 **Personal Bio** | Name, tagline, website, links |
 | 🎨 **4 Themes** | Catppuccin, Nord, Gruvbox, Tokyo Night |
+| 🐍 **Snake Animation** | Contribution graph snake (powered by [Platane/snk](https://github.com/Platane/snk)) |
 | ⚡ **Lightweight** | Pure SVG, ~7KB |
+
+## Snake Animation
+
+This project includes the awesome contribution snake animation by [@Platane](https://github.com/Platane). 
+
+The workflow generates two snake files:
+- `snake.svg` - Dark mode
+- `snake-light.svg` - Light mode
+
+Embed in your README with dark mode support:
+
+```html
+<picture>
+  <source media="(prefers-color-scheme: dark)" srcset="snake.svg" />
+  <source media="(prefers-color-scheme: light)" srcset="snake-light.svg" />
+  <img alt="Contribution Snake" src="snake.svg" />
+</picture>
+```
 
 ## Configuration
 
@@ -61,6 +80,10 @@ display:
 - [Configuration Guide](docs/CONFIGURATION.md)
 - [Development & Testing](docs/DEVELOPMENT.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
+
+## Credits
+
+- Snake animation: [Platane/snk](https://github.com/Platane/snk) ❤️
 
 ## License
 
