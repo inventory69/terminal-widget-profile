@@ -1,4 +1,4 @@
-<svg width="800" height="560" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     
     <style>
@@ -161,8 +161,8 @@
   </defs>
   
   
-  <rect class="terminal-bg" x="0" y="0" width="800" height="560" rx="10"/>
-  <rect class="terminal-border" x="0" y="0" width="800" height="560" rx="10"/>
+  <rect class="terminal-bg" x="0" y="0" width="800" height="520" rx="10"/>
+  <rect class="terminal-border" x="0" y="0" width="800" height="520" rx="10"/>
   
   
   <circle class="traffic-red" cx="20" cy="20" r="6"/>
@@ -219,12 +219,12 @@
     
     <text class="stat-text" x="15" y="50">
       <tspan>Public Repos</tspan>
-      <tspan class="stat-value" x="680">15</tspan>
+      <tspan class="stat-value" x="680">12</tspan>
     </text>
     
     <text class="stat-text" x="15" y="70">
       <tspan>Total Stars</tspan>
-      <tspan class="stat-value" x="680">10</tspan>
+      <tspan class="stat-value" x="680">9</tspan>
     </text>
     
     <text class="stat-text" x="15" y="90">
@@ -272,10 +272,10 @@
     
     <text class="project-text" x="15" y="153">
       <tspan class="project-number">4.</tspan>
-      <tspan class="project-name" dx="5">Void-Bot</tspan>
-      <tspan class="project-stars" dx="10">⭐ 1</tspan>
+      <tspan class="project-name" dx="5">terminal-widget-profile</tspan>
+      <tspan class="project-stars" dx="10">⭐ 0</tspan>
     </text>
-    <text class="project-description" x="30" y="167">No description • Python</text>
+    <text class="project-description" x="30" y="167">Terminal-style SVG widget for GitHub profile RE... • Jinja</text>
     
   </g>
   
@@ -284,23 +284,20 @@
   
   
   <g class="section" transform="translate(20, 445)">
-    <rect class="section-box" x="0" y="0" width="760" height="80" rx="5"/>
+    <rect class="section-box" x="0" y="0" width="760" height="50" rx="5"/>
     
     <text class="section-title" x="10" y="22">🐍 Contribution Activity</text>
     <line class="section-divider" x1="10" y1="30" x2="750" y2="30"/>
     
-    <text class="section-text secondary" x="380.0" y="52" text-anchor="middle">
-      Snake animation generated separately
-    </text>
-    <text class="section-text small" x="380.0" y="68" text-anchor="middle">
-      See README for integration with Platane/snk
+    <text class="section-text small" x="380.0" y="44" text-anchor="middle">
+      See snake.svg for animated contribution graph
     </text>
   </g>
   
   
   
   
-  <text class="terminal-text" x="20" y="540">
+  <text class="terminal-text" x="20" y="520">
     <tspan class="prompt-user">inventory69@github</tspan>
     <tspan class="prompt-path"> ~ </tspan>
     <tspan class="prompt-symbol">% </tspan>
