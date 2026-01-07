@@ -62,6 +62,7 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
+            git pull --rebase
             git commit -m "chore: Update terminal widget [skip ci]"
             git push
           fi
