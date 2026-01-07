@@ -172,11 +172,11 @@
   <circle class="traffic-green" cx="60" cy="20" r="6"/>
   
   
-  <text class="window-title" x="400.0" y="25" text-anchor="middle">inventory69@github</text>
+  <text class="window-title" x="400.0" y="25" text-anchor="middle">testuser@github</text>
   
   
   <text class="terminal-text" x="20" y="55">
-    <tspan class="prompt-user">inventory69@github</tspan>
+    <tspan class="prompt-user">testuser@github</tspan>
     <tspan class="prompt-path"> ~ </tspan>
     <tspan class="prompt-symbol">% </tspan>
     <tspan>neofetch</tspan>
@@ -192,7 +192,7 @@
     <rect class="section-box" x="0" y="0" width="760" height="65" rx="5"/>
     
     
-    <text class="bio-name" x="10" y="22">👤 Fabian Dettmer</text>
+    <text class="bio-name" x="10" y="22">👤 Test User</text>
     
     
     
@@ -201,7 +201,9 @@
     
     
     <text class="section-text small" x="10" y="56">
-      <tspan>🌐 dettmer.dev</tspan>
+      <tspan>🌐 example.com</tspan>
+      
+        <tspan dx="15">LinkedIn</tspan>
       
         <tspan dx="15">Email</tspan>
       
@@ -221,17 +223,17 @@
     
     <text class="stat-text" x="15" y="50">
       <tspan>Public Repos</tspan>
-      <tspan class="stat-value" x="680">12</tspan>
+      <tspan class="stat-value" x="680">42</tspan>
     </text>
     
     <text class="stat-text" x="15" y="70">
       <tspan>Total Stars</tspan>
-      <tspan class="stat-value" x="680">10</tspan>
+      <tspan class="stat-value" x="680">297</tspan>
     </text>
     
     <text class="stat-text" x="15" y="90">
       <tspan>Followers</tspan>
-      <tspan class="stat-value" x="680">3</tspan>
+      <tspan class="stat-value" x="680">256</tspan>
     </text>
   </g>
   
@@ -250,34 +252,34 @@
     
     <text class="project-text" x="15" y="48">
       <tspan class="project-number">1.</tspan>
-      <tspan class="project-name" dx="5">simple-notes-sync</tspan>
-      <tspan class="project-stars" dx="10">⭐ 5</tspan>
+      <tspan class="project-name" dx="5">awesome-project</tspan>
+      <tspan class="project-stars" dx="10">⭐ 128</tspan>
     </text>
-    <text class="project-description" x="30" y="62">Minimalistische Offline-Notiz-App mit automatis... • Kotlin</text>
+    <text class="project-description" x="30" y="62">An awesome project that does cool things • Python</text>
     
     
     <text class="project-text" x="15" y="83">
       <tspan class="project-number">2.</tspan>
-      <tspan class="project-name" dx="5">HazeBot</tspan>
-      <tspan class="project-stars" dx="10">⭐ 2</tspan>
+      <tspan class="project-name" dx="5">terminal-widget-profile</tspan>
+      <tspan class="project-stars" dx="10">⭐ 89</tspan>
     </text>
-    <text class="project-description" x="30" y="97">A feature-rich Discord bot with modular archite... • Python</text>
+    <text class="project-description" x="30" y="97">Terminal-style GitHub profile widget • Python</text>
     
     
     <text class="project-text" x="15" y="118">
       <tspan class="project-number">3.</tspan>
-      <tspan class="project-name" dx="5">voidtales-gallery</tspan>
-      <tspan class="project-stars" dx="10">⭐ 2</tspan>
+      <tspan class="project-name" dx="5">cool-app</tspan>
+      <tspan class="project-stars" dx="10">⭐ 45</tspan>
     </text>
-    <text class="project-description" x="30" y="132">🎨 Ultra lightweight gallery written in astro / ... • CSS</text>
+    <text class="project-description" x="30" y="132">A really cool application built with Rust • Rust</text>
     
     
     <text class="project-text" x="15" y="153">
       <tspan class="project-number">4.</tspan>
-      <tspan class="project-name" dx="5">terminal-widget-profile</tspan>
-      <tspan class="project-stars" dx="10">⭐ 1</tspan>
+      <tspan class="project-name" dx="5">dotfiles</tspan>
+      <tspan class="project-stars" dx="10">⭐ 23</tspan>
     </text>
-    <text class="project-description" x="30" y="167">Terminal-style SVG widget for GitHub profile RE... • Python</text>
+    <text class="project-description" x="30" y="167">My personal dotfiles for Arch Linux • Shell</text>
     
   </g>
   
@@ -309,7 +311,7 @@
   
   
   <text class="terminal-text" x="20" y="676">
-    <tspan class="prompt-user">inventory69@github</tspan>
+    <tspan class="prompt-user">testuser@github</tspan>
     <tspan class="prompt-path"> ~ </tspan>
     <tspan class="prompt-symbol">% </tspan>
     <tspan class="cursor">█</tspan>

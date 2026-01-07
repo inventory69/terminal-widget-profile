@@ -75,6 +75,11 @@ def parse_snake_svg(svg_path: Path) -> Optional[Dict[str, str]]:
     style_match = re.search(r'<style>(.*?)</style>', svg_content, re.DOTALL)
     style = style_match.group(1) if style_match else ""
     
+    # Format CSS: add line breaks after closing braces for better browser compatibility
+    # Some browsers struggle with extremely long single-line CSS (60KB+ on one line)
+    if style:
+        style = re.sub(r'}(?=[^}])', '}\n', style)
+    
     # Extract body (everything between </style> and </svg>)
     body_match = re.search(r'</style>(.*?)</svg>', svg_content, re.DOTALL)
     body = body_match.group(1).strip() if body_match else ""
@@ -101,11 +106,11 @@ def scope_snake_css(style: str, prefix: str = "snk-") -> str:
     Returns:
         Scoped CSS content
     """
-    # Scope single-letter classes (.c, .u, .s)
-    scoped = re.sub(r'\.([cus])(?=\s*[{,])', f'.{prefix}\\1', style)
+    # First scope classes with numbers/letters (.c0, .c1, .u0, .s0, etc.)
+    scoped = re.sub(r'\.([cus])([0-9a-z]+)', f'.{prefix}\\1\\2', style)
     
-    # Scope classes with numbers/letters (.c0, .c1, .u0, .s0, etc.)
-    scoped = re.sub(r'\.([cus])([0-9a-z]+)', f'.{prefix}\\1\\2', scoped)
+    # Then scope single-letter classes (.c, .u, .s) - matches before {, comma, or dot
+    scoped = re.sub(r'\.([cus])(?=\s*[{,\.])', f'.{prefix}\\1', scoped)
     
     return scoped
 
@@ -145,8 +150,9 @@ def adapt_snake_colors(style: str, theme: str) -> str:
     
     for var, value in colors.items():
         # Replace CSS custom property definitions in :root
+        # Use [^;}]+ to stop at both semicolons AND closing braces
         style = re.sub(
-            rf'{re.escape(var)}:\s*[^;]+;',
+            rf'{re.escape(var)}:\s*[^;}}]+;',
             f'{var}:{value};',
             style
         )
@@ -187,23 +193,31 @@ def prepare_embedded_snake(
     # 3. Scope SVG content classes
     scoped_content = scope_snake_content(parsed['content'], prefix)
     
-    # 4. Calculate scale factor
-    # Original viewBox is typically "-16 -32 880 192"
+    # 4. Get original viewBox
     viewbox_parts = parsed['viewbox'].split()
     if len(viewbox_parts) >= 4:
-        original_width = float(viewbox_parts[2])
-        scale = target_width / original_width
+        vb_x, vb_y, vb_width, vb_height = viewbox_parts
+        original_width = float(vb_width)
     else:
-        scale = 0.84  # Fallback
+        vb_x, vb_y, vb_width, vb_height = "-16", "-32", "880", "192"
+        original_width = 880
     
-    # 5. Build embedded content
-    # Note: We wrap in a group and include inline styles
-    embedded = f'''<defs>
+    # 5. Calculate scaled height
+    original_height = float(vb_height)
+    scale = target_width / original_width
+    scaled_height = original_height * scale
+    
+    # 6. Build embedded content - use nested SVG with viewBox for proper clipping
+    # This ensures snake content stays within bounds even if coords exceed target_width
+    # Note: No xmlns on nested SVG - it inherits from parent
+    embedded = f'''<svg width="{target_width}" height="{scaled_height}" viewBox="{vb_x} {vb_y} {vb_width} {vb_height}" preserveAspectRatio="xMidYMid meet">
+  <defs>
     <style type="text/css">{themed_style}</style>
   </defs>
-  <g class="{prefix}container" transform="scale({scale:.3f})">
+  <g class="{prefix}container">
     {scoped_content}
-  </g>'''
+  </g>
+</svg>'''
     
     return embedded
 
@@ -217,12 +231,12 @@ def get_snake_dimensions(svg_path: Path, target_width: float = 740.0) -> Dict[st
         target_width: Target width after scaling
         
     Returns:
-        Dictionary with 'width', 'height', and 'scale'
+        Dictionary with 'width', 'height', and 'viewbox'
     """
     parsed = parse_snake_svg(svg_path)
     
     if parsed is None:
-        return {'width': target_width, 'height': 160, 'scale': 0.84}
+        return {'width': target_width, 'height': 160, 'viewbox': '-16 -32 880 192'}
     
     viewbox_parts = parsed['viewbox'].split()
     if len(viewbox_parts) >= 4:
@@ -231,13 +245,15 @@ def get_snake_dimensions(svg_path: Path, target_width: float = 740.0) -> Dict[st
         scale = target_width / original_width
         scaled_height = original_height * scale
     else:
-        scale = 0.84
-        scaled_height = 160
+        original_width = 880
+        original_height = 192
+        scale = target_width / 880
+        scaled_height = 192 * scale
     
     return {
         'width': target_width,
         'height': scaled_height,
-        'scale': scale
+        'viewbox': parsed['viewbox']
     }
 
 

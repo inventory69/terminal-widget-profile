@@ -1,5 +1,7 @@
 # Terminal Widget Profile
 
+> ⚠️ **Work in Progress** - Snake animation embedding is currently being refined
+
 A terminal-style SVG widget for your GitHub profile. Auto-updates via GitHub Actions.
 
 <div align="center">
