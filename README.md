@@ -10,14 +10,18 @@ A terminal-style SVG widget for your GitHub profile. Auto-updates via GitHub Act
 
 ## Quick Start
 
-1. **Use this template** → Create repo as `<your-username>/<your-username>`
-2. **Edit** `scripts/config.yaml`:
+1. **Use this template** → Create repo as `YOUR_USERNAME/YOUR_USERNAME`
+2. **Replace README.md** with just the widget:
+   ```markdown
+   ![Terminal Widget](terminal.svg)
+   ```
+3. **Edit** `scripts/config.yaml`:
    ```yaml
    username: YOUR_GITHUB_USERNAME
    theme: catppuccin  # catppuccin | nord | gruvbox | tokyo_night
    ```
-3. **Enable Actions** → Run "Generate Terminal Widget" workflow
-4. **Done!** Widget appears at `terminal.svg`
+4. **Enable Actions** → Run "Generate Terminal Widget" workflow
+5. **Done!** Your profile updates every 6 hours
 
 ## Features
 
