@@ -3,7 +3,7 @@
 A terminal-style SVG widget for your GitHub profile. Auto-updates via GitHub Actions.
 
 <div align="center">
-  <img src="docs/preview.png" alt="Terminal Widget Preview" width="700"/>
+  <img src="terminal.svg" alt="Terminal Widget Preview" width="700"/>
 </div>
 
 ## Quick Start
