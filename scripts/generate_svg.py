@@ -18,6 +18,7 @@ from jinja2 import Environment, FileSystemLoader, TemplateNotFound
 import yaml
 from typing import Dict, List, Any, Optional
 from pathlib import Path
+from snake_parser import prepare_embedded_snake, get_snake_dimensions
 
 
 # Configuration
@@ -26,6 +27,7 @@ CONFIG_FILE = SCRIPT_DIR / "config.yaml"
 TEMPLATES_DIR = SCRIPT_DIR / "templates"
 # Output to repository root (parent of scripts directory)
 OUTPUT_FILE = SCRIPT_DIR.parent / "terminal.svg"
+SNAKE_FILE = SCRIPT_DIR.parent / "snake.svg"
 
 
 def load_config() -> Dict[str, Any]:
@@ -190,6 +192,27 @@ def render_svg(config: Dict[str, Any], github_data: Dict[str, Any]) -> str:
         config['display']['max_projects']
     )
     
+    # Prepare snake content if enabled
+    snake_content = None
+    snake_dims = {'width': 740, 'height': 160, 'scale': 0.84}
+    
+    if config['display'].get('show_snake', False):
+        if SNAKE_FILE.exists():
+            print("🐍 Embedding snake animation...")
+            snake_content = prepare_embedded_snake(
+                SNAKE_FILE,
+                theme=config['theme'],
+                prefix='snk-',
+                target_width=740.0
+            )
+            snake_dims = get_snake_dimensions(SNAKE_FILE, target_width=740.0)
+            if snake_content:
+                print(f"   Snake embedded ({len(snake_content)} chars)")
+            else:
+                print("   ⚠️  Failed to parse snake.svg")
+        else:
+            print(f"   ⚠️  snake.svg not found at {SNAKE_FILE}")
+    
     # Prepare template data
     template_data = {
         'username': config['username'],
@@ -202,7 +225,9 @@ def render_svg(config: Dict[str, Any], github_data: Dict[str, Any]) -> str:
         'top_projects': top_projects,
         'display': config['display'],
         'terminal': config['terminal'],
-        'theme': config['theme']
+        'theme': config['theme'],
+        'snake_content': snake_content,
+        'snake_dims': snake_dims,
     }
     
     # Load Jinja2 environment

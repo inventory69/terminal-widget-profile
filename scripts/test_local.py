@@ -24,6 +24,11 @@ SCRIPT_DIR = Path(__file__).parent
 sys.path.insert(0, str(SCRIPT_DIR))
 
 from jinja2 import Environment, FileSystemLoader
+from snake_parser import prepare_embedded_snake, get_snake_dimensions
+
+
+# Path to snake.svg in repository root
+SNAKE_FILE = SCRIPT_DIR.parent / "snake.svg"
 
 
 # Mock data for testing
@@ -94,7 +99,7 @@ MOCK_CONFIG = {
     },
     "terminal": {
         "width": 800,
-        "height": 500
+        "height": 680
     }
 }
 
@@ -127,6 +132,22 @@ def render_test_svg(config, github_data):
         config['display']['max_projects']
     )
     
+    # Prepare snake content if enabled and file exists
+    snake_content = None
+    snake_dims = {'width': 740, 'height': 160, 'scale': 0.84}
+    
+    if config['display'].get('show_snake', False) and SNAKE_FILE.exists():
+        print("   🐍 Embedding snake animation...")
+        snake_content = prepare_embedded_snake(
+            SNAKE_FILE,
+            theme=config['theme'],
+            prefix='snk-',
+            target_width=740.0
+        )
+        snake_dims = get_snake_dimensions(SNAKE_FILE, target_width=740.0)
+        if snake_content:
+            print(f"   Snake embedded ({len(snake_content)} chars)")
+    
     template_data = {
         'username': config['username'],
         'display_name': github_data.get('name') or config['username'],
@@ -138,7 +159,9 @@ def render_test_svg(config, github_data):
         'top_projects': top_projects,
         'display': config['display'],
         'terminal': config['terminal'],
-        'theme': config['theme']
+        'theme': config['theme'],
+        'snake_content': snake_content,
+        'snake_dims': snake_dims,
     }
     
     templates_dir = SCRIPT_DIR / "templates"
