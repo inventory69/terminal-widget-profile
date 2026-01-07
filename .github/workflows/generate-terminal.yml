@@ -9,12 +9,12 @@ on:
   workflow_dispatch:
   
   # Run on push to main (optional, for testing)
-  push:
-    branches:
-      - main
-    paths:
-      - 'scripts/**'
-      - '.github/workflows/generate-terminal.yml'
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'scripts/**'
+  #     - '.github/workflows/generate-terminal.yml'
 
 jobs:
   generate:

@@ -29,4 +29,4 @@ display:
 # Terminal appearance
 terminal:
   width: 800   # SVG width in pixels
-  height: 680  # SVG height in pixels (increased for snake section)
+  height: 720  # SVG height in pixels (increased for snake section)

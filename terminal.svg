@@ -1,4 +1,4 @@
-<svg width="800" height="680" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="720" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     
     <style>
@@ -163,8 +163,8 @@
   </defs>
   
   
-  <rect class="terminal-bg" x="0" y="0" width="800" height="680" rx="10"/>
-  <rect class="terminal-border" x="0" y="0" width="800" height="680" rx="10"/>
+  <rect class="terminal-bg" x="0" y="0" width="800" height="720" rx="10"/>
+  <rect class="terminal-border" x="0" y="0" width="800" height="720" rx="10"/>
   
   
   <circle class="traffic-red" cx="20" cy="20" r="6"/>
@@ -1383,7 +1383,7 @@
   
   
   
-  <text class="terminal-text" x="20" y="676">
+  <text class="terminal-text" x="20" y="691">
     <tspan class="prompt-user">inventory69@github</tspan>
     <tspan class="prompt-path"> ~ </tspan>
     <tspan class="prompt-symbol">% </tspan>
