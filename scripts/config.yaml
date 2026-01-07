@@ -2,21 +2,21 @@
 # Customize your GitHub profile terminal widget
 
 # Your GitHub username (REQUIRED)
-username: YOUR_GITHUB_USERNAME
+username: inventory69
 
 # Theme selection (catppuccin | nord | gruvbox | tokyo_night)
 theme: catppuccin
 
 # Personal bio (optional)
 bio:
-  name: "Your Name"  # Display name (optional, defaults to GitHub username)
-  tagline: "Full-stack Developer • Open Source Enthusiast"  # Short description
-  website: "https://yourwebsite.com"  # Personal website (optional)
+  name: "Fabian Dettmer"  # Display name (optional, defaults to GitHub username)
+  tagline: "Full-stack Developer • Open Source Enthusiast • Linux Fan"  # Short description
+  website: "https://dettmer.dev"  # Personal website (optional)
   links:  # Additional links (optional)
-    - title: "LinkedIn"
-      url: "https://linkedin.com/in/yourprofile"
+#   - title: "LinkedIn"
+#     url: "https://linkedin.com/in/inventory69"
     - title: "Email"
-      url: "mailto:you@example.com"
+      url: "mailto:admin@dettmer.dev"
 
 # Display settings
 display:
