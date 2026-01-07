@@ -1,4 +1,4 @@
-<svg width="800" height="520" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+<svg width="800" height="450" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
   <defs>
     
     <style>
@@ -73,7 +73,7 @@
   /* Section titles */
   .section-title {
     fill: #89b4fa;
-    font-family: 'JetBrains Mono', 'Hack', 'Source Code Pro', 'Fira Code', monospace;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
     font-size: 14px;
     font-weight: bold;
   }
@@ -86,7 +86,7 @@
   /* Section text */
   .section-text {
     fill: #cdd6f4;
-    font-family: 'JetBrains Mono', 'Hack', 'Source Code Pro', 'Fira Code', monospace;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
     font-size: 13px;
   }
   
@@ -102,6 +102,8 @@
   /* Bio section */
   .bio-name {
     fill: #89b4fa;
+    font-family: 'JetBrains Mono', 'Hack', 'Source Code Pro', 'Fira Code', monospace;
+    font-size: 14px;
     font-weight: bold;
   }
   
@@ -120,7 +122,7 @@
   /* Projects */
   .project-text {
     fill: #cdd6f4;
-    font-family: 'JetBrains Mono', 'Hack', 'Source Code Pro', 'Fira Code', monospace;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
     font-size: 13px;
   }
   
@@ -139,7 +141,7 @@
   
   .project-description {
     fill: #9399b2;
-    font-family: 'JetBrains Mono', 'Hack', 'Source Code Pro', 'Fira Code', monospace;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
     font-size: 11px;
   }
   
@@ -161,8 +163,8 @@
   </defs>
   
   
-  <rect class="terminal-bg" x="0" y="0" width="800" height="520" rx="10"/>
-  <rect class="terminal-border" x="0" y="0" width="800" height="520" rx="10"/>
+  <rect class="terminal-bg" x="0" y="0" width="800" height="450" rx="10"/>
+  <rect class="terminal-border" x="0" y="0" width="800" height="450" rx="10"/>
   
   
   <circle class="traffic-red" cx="20" cy="20" r="6"/>
@@ -283,21 +285,9 @@
   
   
   
-  <g class="section" transform="translate(20, 445)">
-    <rect class="section-box" x="0" y="0" width="760" height="50" rx="5"/>
-    
-    <text class="section-title" x="10" y="22">🐍 Contribution Activity</text>
-    <line class="section-divider" x1="10" y1="30" x2="750" y2="30"/>
-    
-    <text class="section-text small" x="380.0" y="44" text-anchor="middle">
-      See snake.svg for animated contribution graph
-    </text>
-  </g>
   
   
-  
-  
-  <text class="terminal-text" x="20" y="520">
+  <text class="terminal-text" x="20" y="460">
     <tspan class="prompt-user">inventory69@github</tspan>
     <tspan class="prompt-path"> ~ </tspan>
     <tspan class="prompt-symbol">% </tspan>
