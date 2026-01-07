@@ -4,6 +4,12 @@ A terminal-style SVG widget for your GitHub profile. Auto-updates via GitHub Act
 
 <div align="center">
   <img src="terminal.svg" alt="Terminal Widget Preview" width="700"/>
+  <br/><br/>
+  <picture>
+    <source media="(prefers-color-scheme: dark)" srcset="snake.svg" />
+    <source media="(prefers-color-scheme: light)" srcset="snake-light.svg" />
+    <img alt="Contribution Snake" src="snake.svg" width="700"/>
+  </picture>
 </div>
 
 ## Quick Start
