@@ -11,11 +11,15 @@ A terminal-style SVG widget for your GitHub profile. Auto-updates via GitHub Act
 ## Quick Start
 
 1. **Use this template** → Create repo as `YOUR_USERNAME/YOUR_USERNAME`
-2. **Replace README.md** with just the widget:
-   ```markdown
-   ![Terminal Widget](terminal.svg)
+2. **Replace README.md** with the widget (or just use `EXAMPLE_PROFILE_README.md` as template):
+
+   ```html
+   <div align="center">
+     <img src="terminal.svg" alt="Terminal Widget" width="800"/>
+   </div>
    ```
 3. **Edit** `scripts/config.yaml`:
+
    ```yaml
    username: YOUR_GITHUB_USERNAME
    theme: catppuccin  # catppuccin | nord | gruvbox | tokyo_night
