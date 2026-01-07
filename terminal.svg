@@ -1,0 +1,309 @@
+<svg width="800" height="500" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    
+    <style>
+  /* Catppuccin Mocha Theme */
+  /* https://github.com/catppuccin/catppuccin */
+  
+  /* Background and borders */
+  .terminal-bg {
+    fill: #1e1e2e;
+  }
+  
+  .terminal-border {
+    fill: none;
+    stroke: #45475a;
+    stroke-width: 2;
+  }
+  
+  /* Window controls (macOS-style traffic lights) */
+  .traffic-red {
+    fill: #f38ba8;
+  }
+  
+  .traffic-yellow {
+    fill: #f9e2af;
+  }
+  
+  .traffic-green {
+    fill: #a6e3a1;
+  }
+  
+  /* Window title */
+  .window-title {
+    fill: #6c7086;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 12px;
+  }
+  
+  /* Terminal text */
+  .terminal-text {
+    fill: #cdd6f4;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 14px;
+  }
+  
+  /* Prompt styling */
+  .prompt-user {
+    fill: #89b4fa;
+    font-weight: bold;
+  }
+  
+  .prompt-path {
+    fill: #cdd6f4;
+  }
+  
+  .prompt-symbol {
+    fill: #a6e3a1;
+  }
+  
+  /* ASCII art */
+  .ascii-art {
+    fill: #89b4fa;
+    font-family: monospace;
+  }
+  
+  /* Section boxes */
+  .section-box {
+    fill: #181825;
+    stroke: #313244;
+    stroke-width: 1;
+  }
+  
+  /* Section titles */
+  .section-title {
+    fill: #89b4fa;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 14px;
+    font-weight: bold;
+  }
+  
+  .section-divider {
+    stroke: #313244;
+    stroke-width: 1;
+  }
+  
+  /* Section text */
+  .section-text {
+    fill: #cdd6f4;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 13px;
+  }
+  
+  .section-text.secondary {
+    fill: #bac2de;
+  }
+  
+  .section-text.small {
+    font-size: 11px;
+    fill: #9399b2;
+  }
+  
+  /* Bio section */
+  .bio-name {
+    fill: #89b4fa;
+    font-weight: bold;
+  }
+  
+  /* Stats */
+  .stat-text {
+    fill: #cdd6f4;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 13px;
+  }
+  
+  .stat-value {
+    fill: #89b4fa;
+    font-weight: bold;
+  }
+  
+  /* Projects */
+  .project-text {
+    fill: #cdd6f4;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 13px;
+  }
+  
+  .project-number {
+    fill: #6c7086;
+  }
+  
+  .project-name {
+    fill: #89b4fa;
+    font-weight: bold;
+  }
+  
+  .project-stars {
+    fill: #f9e2af;
+  }
+  
+  .project-description {
+    fill: #9399b2;
+    font-family: 'Monaco', 'Menlo', 'Courier New', monospace;
+    font-size: 11px;
+  }
+  
+  /* Cursor animation */
+  .cursor {
+    fill: #cdd6f4;
+    animation: blink 1s infinite;
+  }
+  
+  @keyframes blink {
+    0%, 49% {
+      opacity: 1;
+    }
+    50%, 100% {
+      opacity: 0;
+    }
+  }
+</style>
+  </defs>
+  
+  
+  <rect class="terminal-bg" x="0" y="0" width="800" height="500" rx="10"/>
+  <rect class="terminal-border" x="0" y="0" width="800" height="500" rx="10"/>
+  
+  
+  <circle class="traffic-red" cx="20" cy="20" r="6"/>
+  <circle class="traffic-yellow" cx="40" cy="20" r="6"/>
+  <circle class="traffic-green" cx="60" cy="20" r="6"/>
+  
+  
+  <text class="window-title" x="400.0" y="25" text-anchor="middle">inventory69@github</text>
+  
+  
+  <text class="terminal-text" x="20" y="55">
+    <tspan class="prompt-user">inventory69@github</tspan>
+    <tspan class="prompt-path"> ~ </tspan>
+    <tspan class="prompt-symbol">% </tspan>
+    <tspan>neofetch</tspan>
+  </text>
+  
+  
+  
+  
+  
+  
+  
+  <g class="section" transform="translate(20, 75)">
+    <rect class="section-box" x="0" y="0" width="760" height="65" rx="5"/>
+    
+    
+    <text class="bio-name" x="10" y="22">👤 Fabian Dettmer</text>
+    
+    
+    
+    <text class="section-text secondary" x="10" y="40">Full-stack Developer • Open Source Enthusiast • Linux Fan</text>
+    
+    
+    
+    <text class="section-text small" x="10" y="56">
+      <tspan>🌐 dettmer.dev</tspan>
+      
+        <tspan dx="15">Email</tspan>
+      
+    </text>
+    
+  </g>
+  
+  
+  
+  
+  
+  <g class="section" transform="translate(20, 150)">
+    <rect class="section-box" x="0" y="0" width="760" height="100" rx="5"/>
+    
+    <text class="section-title" x="10" y="22">📊 GitHub Stats</text>
+    <line class="section-divider" x1="10" y1="30" x2="750" y2="30"/>
+    
+    <text class="stat-text" x="15" y="50">
+      <tspan>Public Repos</tspan>
+      <tspan class="stat-value" x="680">15</tspan>
+    </text>
+    
+    <text class="stat-text" x="15" y="70">
+      <tspan>Total Stars</tspan>
+      <tspan class="stat-value" x="680">10</tspan>
+    </text>
+    
+    <text class="stat-text" x="15" y="90">
+      <tspan>Followers</tspan>
+      <tspan class="stat-value" x="680">3</tspan>
+    </text>
+  </g>
+  
+  
+  
+  
+  
+  
+  <g class="section" transform="translate(20, 260)">
+    <rect class="section-box" x="0" y="0" width="760" height="175" rx="5"/>
+    
+    <text class="section-title" x="10" y="22">🚀 Top Projects</text>
+    <line class="section-divider" x1="10" y1="30" x2="750" y2="30"/>
+    
+    
+    
+    <text class="project-text" x="15" y="48">
+      <tspan class="project-number">1.</tspan>
+      <tspan class="project-name" dx="5">simple-notes-sync</tspan>
+      <tspan class="project-stars" dx="10">⭐ 5</tspan>
+    </text>
+    <text class="project-description" x="30" y="62">Minimalistische Offline-Notiz-App mit automatis... • Kotlin</text>
+    
+    
+    <text class="project-text" x="15" y="83">
+      <tspan class="project-number">2.</tspan>
+      <tspan class="project-name" dx="5">HazeBot</tspan>
+      <tspan class="project-stars" dx="10">⭐ 2</tspan>
+    </text>
+    <text class="project-description" x="30" y="97">A feature-rich Discord bot with modular archite... • Python</text>
+    
+    
+    <text class="project-text" x="15" y="118">
+      <tspan class="project-number">3.</tspan>
+      <tspan class="project-name" dx="5">voidtales-gallery</tspan>
+      <tspan class="project-stars" dx="10">⭐ 2</tspan>
+    </text>
+    <text class="project-description" x="30" y="132">🎨 Ultra lightweight gallery written in astro / ... • CSS</text>
+    
+    
+    <text class="project-text" x="15" y="153">
+      <tspan class="project-number">4.</tspan>
+      <tspan class="project-name" dx="5">Void-Bot</tspan>
+      <tspan class="project-stars" dx="10">⭐ 1</tspan>
+    </text>
+    <text class="project-description" x="30" y="167">No description • Python</text>
+    
+  </g>
+  
+  
+  
+  
+  
+  <g class="section" transform="translate(20, 445)">
+    <rect class="section-box" x="0" y="0" width="760" height="80" rx="5"/>
+    
+    <text class="section-title" x="10" y="22">🐍 Contribution Activity</text>
+    <line class="section-divider" x1="10" y1="30" x2="750" y2="30"/>
+    
+    <text class="section-text secondary" x="380.0" y="52" text-anchor="middle">
+      Snake animation generated separately
+    </text>
+    <text class="section-text small" x="380.0" y="68" text-anchor="middle">
+      See README for integration with Platane/snk
+    </text>
+  </g>
+  
+  
+  
+  
+  <text class="terminal-text" x="20" y="540">
+    <tspan class="prompt-user">inventory69@github</tspan>
+    <tspan class="prompt-path"> ~ </tspan>
+    <tspan class="prompt-symbol">% </tspan>
+    <tspan class="cursor">█</tspan>
+  </text>
+</svg>
