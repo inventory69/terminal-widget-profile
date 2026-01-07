@@ -226,7 +226,7 @@
     
     <text class="stat-text" x="15" y="70">
       <tspan>Total Stars</tspan>
-      <tspan class="stat-value" x="680">9</tspan>
+      <tspan class="stat-value" x="680">10</tspan>
     </text>
     
     <text class="stat-text" x="15" y="90">
@@ -275,7 +275,7 @@
     <text class="project-text" x="15" y="153">
       <tspan class="project-number">4.</tspan>
       <tspan class="project-name" dx="5">terminal-widget-profile</tspan>
-      <tspan class="project-stars" dx="10">⭐ 0</tspan>
+      <tspan class="project-stars" dx="10">⭐ 1</tspan>
     </text>
     <text class="project-description" x="30" y="167">Terminal-style SVG widget for GitHub profile RE... • Python</text>
     
