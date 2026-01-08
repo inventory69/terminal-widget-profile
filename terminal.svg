@@ -192,18 +192,18 @@
     <rect class="section-box" x="0" y="0" width="760" height="65" rx="5"/>
     
     
-    <text class="bio-name" x="10" y="22">👤 Fabian Dettmer</text>
+    <text class="bio-name" x="10" y="22">👤 Your Name</text>
     
     
     
-    <text class="section-text secondary" x="10" y="40">Full-stack Developer • Open Source Enthusiast • Linux Fan</text>
+    <text class="section-text secondary" x="10" y="40">Frontend Dev • UI/UX Designer</text>
     
     
     
     <text class="section-text small" x="10" y="56">
-      <tspan>🌐 dettmer.dev</tspan>
+      <tspan>🌐 yourwebsite.com</tspan>
       
-        <tspan dx="15">Email</tspan>
+        <tspan dx="15">LinkedIn</tspan>
       
     </text>
     
@@ -221,17 +221,17 @@
     
     <text class="stat-text" x="15" y="50">
       <tspan>Public Repos</tspan>
-      <tspan class="stat-value" x="680">12</tspan>
+      <tspan class="stat-value" x="680">13</tspan>
     </text>
     
     <text class="stat-text" x="15" y="70">
       <tspan>Total Stars</tspan>
-      <tspan class="stat-value" x="680">10</tspan>
+      <tspan class="stat-value" x="680">13</tspan>
     </text>
     
     <text class="stat-text" x="15" y="90">
       <tspan>Followers</tspan>
-      <tspan class="stat-value" x="680">3</tspan>
+      <tspan class="stat-value" x="680">5</tspan>
     </text>
   </g>
   
@@ -251,7 +251,7 @@
     <text class="project-text" x="15" y="48">
       <tspan class="project-number">1.</tspan>
       <tspan class="project-name" dx="5">simple-notes-sync</tspan>
-      <tspan class="project-stars" dx="10">⭐ 5</tspan>
+      <tspan class="project-stars" dx="10">⭐ 8</tspan>
     </text>
     <text class="project-description" x="30" y="62">Minimalistische Offline-Notiz-App mit automatis... • Kotlin</text>
     
@@ -298,1082 +298,1102 @@
       <svg width="740.0" height="161.45454545454547" viewBox="-16 -32 880 192" preserveAspectRatio="xMidYMid meet">
   <defs>
     <style type="text/css">:root{--cb:#45475a0a;--cs:#cba6f7;--ce:#1e1e2e;--c0:#1e1e2e;--c1:#313244;--c2:#45475a;--c3:#585b70;--c4:#00c647}
-.snk-c{shape-rendering:geometricPrecision;fill:var(--ce);stroke-width:1px;stroke:var(--cb);animation:none 45700ms linear infinite;width:12px;height:12px}
-@keyframes c0{40.91%{fill:var(--c1)}
-40.93%,100%{fill:var(--ce)}}
+.snk-c{shape-rendering:geometricPrecision;fill:var(--ce);stroke-width:1px;stroke:var(--cb);animation:none 44500ms linear infinite;width:12px;height:12px}
+@keyframes c0{42.01%{fill:var(--c1)}
+42.03%,100%{fill:var(--ce)}}
 .snk-c.snk-c0{fill:var(--c1);animation-name:c0}
-@keyframes c1{60.38%{fill:var(--c2)}
-60.4%,100%{fill:var(--ce)}}
+@keyframes c1{61.56%{fill:var(--c2)}
+61.58%,100%{fill:var(--ce)}}
 .snk-c.snk-c1{fill:var(--c2);animation-name:c1}
-@keyframes c2{63.88%{fill:var(--c2)}
-63.9%,100%{fill:var(--ce)}}
+@keyframes c2{65.16%{fill:var(--c2)}
+65.18%,100%{fill:var(--ce)}}
 .snk-c.snk-c2{fill:var(--c2);animation-name:c2}
-@keyframes c3{82.92%{fill:var(--c4)}
-82.94%,100%{fill:var(--ce)}}
+@keyframes c3{82.46%{fill:var(--c4)}
+82.48%,100%{fill:var(--ce)}}
 .snk-c.snk-c3{fill:var(--c4);animation-name:c3}
-@keyframes c4{40.25%{fill:var(--c1)}
-40.27%,100%{fill:var(--ce)}}
+@keyframes c4{41.34%{fill:var(--c1)}
+41.36%,100%{fill:var(--ce)}}
 .snk-c.snk-c4{fill:var(--c1);animation-name:c4}
-@keyframes c5{37.85%{fill:var(--c1)}
-37.87%,100%{fill:var(--ce)}}
+@keyframes c5{38.87%{fill:var(--c1)}
+38.89%,100%{fill:var(--ce)}}
 .snk-c.snk-c5{fill:var(--c1);animation-name:c5}
-@keyframes c6{37.63%{fill:var(--c1)}
-37.65%,100%{fill:var(--ce)}}
+@keyframes c6{38.64%{fill:var(--c1)}
+38.66%,100%{fill:var(--ce)}}
 .snk-c.snk-c6{fill:var(--c1);animation-name:c6}
-@keyframes c7{37.41%{fill:var(--c1)}
-37.43%,100%{fill:var(--ce)}}
+@keyframes c7{38.42%{fill:var(--c1)}
+38.44%,100%{fill:var(--ce)}}
 .snk-c.snk-c7{fill:var(--c1);animation-name:c7}
-@keyframes c8{38.5%{fill:var(--c1)}
-38.52%,100%{fill:var(--ce)}}
+@keyframes c8{39.54%{fill:var(--c1)}
+39.56%,100%{fill:var(--ce)}}
 .snk-c.snk-c8{fill:var(--c1);animation-name:c8}
-@keyframes c9{38.28%{fill:var(--c1)}
-38.3%,100%{fill:var(--ce)}}
+@keyframes c9{39.32%{fill:var(--c1)}
+39.34%,100%{fill:var(--ce)}}
 .snk-c.snk-c9{fill:var(--c1);animation-name:c9}
-@keyframes ca{38.06%{fill:var(--c1)}
-38.08%,100%{fill:var(--ce)}}
+@keyframes ca{39.09%{fill:var(--c1)}
+39.11%,100%{fill:var(--ce)}}
 .snk-c.snk-ca{fill:var(--c1);animation-name:ca}
-@keyframes cb{83.8%{fill:var(--c4)}
-83.82%,100%{fill:var(--ce)}}
+@keyframes cb{83.36%{fill:var(--c4)}
+83.38%,100%{fill:var(--ce)}}
 .snk-c.snk-cb{fill:var(--c4);animation-name:cb}
-@keyframes cc{59.95%{fill:var(--c2)}
-59.97%,100%{fill:var(--ce)}}
+@keyframes cc{61.11%{fill:var(--c2)}
+61.13%,100%{fill:var(--ce)}}
 .snk-c.snk-cc{fill:var(--c2);animation-name:cc}
-@keyframes cd{7.65%{fill:var(--c1)}
-7.67%,100%{fill:var(--ce)}}
+@keyframes cd{7.86%{fill:var(--c1)}
+7.88%,100%{fill:var(--ce)}}
 .snk-c.snk-cd{fill:var(--c1);animation-name:cd}
-@keyframes ce{63.45%{fill:var(--c2)}
-63.47%,100%{fill:var(--ce)}}
+@keyframes ce{64.71%{fill:var(--c2)}
+64.73%,100%{fill:var(--ce)}}
 .snk-c.snk-ce{fill:var(--c2);animation-name:ce}
-@keyframes cf{81.61%{fill:var(--c3)}
-81.63%,100%{fill:var(--ce)}}
+@keyframes cf{81.11%{fill:var(--c3)}
+81.13%,100%{fill:var(--ce)}}
 .snk-c.snk-cf{fill:var(--c3);animation-name:cf}
-@keyframes cg{61.7%{fill:var(--c2)}
-61.72%,100%{fill:var(--ce)}}
+@keyframes cg{62.91%{fill:var(--c2)}
+62.93%,100%{fill:var(--ce)}}
 .snk-c.snk-cg{fill:var(--c2);animation-name:cg}
-@keyframes ch{81.17%{fill:var(--c3)}
-81.19%,100%{fill:var(--ce)}}
+@keyframes ch{80.66%{fill:var(--c3)}
+80.68%,100%{fill:var(--ce)}}
 .snk-c.snk-ch{fill:var(--c3);animation-name:ch}
-@keyframes ci{59.51%{fill:var(--c2)}
-59.53%,100%{fill:var(--ce)}}
+@keyframes ci{60.66%{fill:var(--c2)}
+60.68%,100%{fill:var(--ce)}}
 .snk-c.snk-ci{fill:var(--c2);animation-name:ci}
-@keyframes cj{36.53%{fill:var(--c1)}
-36.55%,100%{fill:var(--ce)}}
+@keyframes cj{37.52%{fill:var(--c1)}
+37.54%,100%{fill:var(--ce)}}
 .snk-c.snk-cj{fill:var(--c1);animation-name:cj}
-@keyframes ck{63.01%{fill:var(--c2)}
-63.03%,100%{fill:var(--ce)}}
+@keyframes ck{64.26%{fill:var(--c2)}
+64.28%,100%{fill:var(--ce)}}
 .snk-c.snk-ck{fill:var(--c2);animation-name:ck}
-@keyframes cl{82.05%{fill:var(--c4)}
-82.07%,100%{fill:var(--ce)}}
+@keyframes cl{81.56%{fill:var(--c4)}
+81.58%,100%{fill:var(--ce)}}
 .snk-c.snk-cl{fill:var(--c4);animation-name:cl}
-@keyframes cm{81.83%{fill:var(--c4)}
-81.85%,100%{fill:var(--ce)}}
+@keyframes cm{81.34%{fill:var(--c4)}
+81.36%,100%{fill:var(--ce)}}
 .snk-c.snk-cm{fill:var(--c4);animation-name:cm}
-@keyframes cn{61.92%{fill:var(--c2)}
-61.94%,100%{fill:var(--ce)}}
+@keyframes cn{63.14%{fill:var(--c2)}
+63.16%,100%{fill:var(--ce)}}
 .snk-c.snk-cn{fill:var(--c2);animation-name:cn}
-@keyframes co{20.12%{fill:var(--c1)}
-20.14%,100%{fill:var(--ce)}}
+@keyframes co{20.66%{fill:var(--c1)}
+20.68%,100%{fill:var(--ce)}}
 .snk-c.snk-co{fill:var(--c1);animation-name:co}
-@keyframes cp{20.34%{fill:var(--c1)}
-20.36%,100%{fill:var(--ce)}}
+@keyframes cp{20.89%{fill:var(--c1)}
+20.91%,100%{fill:var(--ce)}}
 .snk-c.snk-cp{fill:var(--c1);animation-name:cp}
-@keyframes cq{8.52%{fill:var(--c1)}
-8.54%,100%{fill:var(--ce)}}
+@keyframes cq{8.75%{fill:var(--c1)}
+8.77%,100%{fill:var(--ce)}}
 .snk-c.snk-cq{fill:var(--c1);animation-name:cq}
-@keyframes cr{62.57%{fill:var(--c2)}
-62.59%,100%{fill:var(--ce)}}
+@keyframes cr{63.81%{fill:var(--c2)}
+63.83%,100%{fill:var(--ce)}}
 .snk-c.snk-cr{fill:var(--c2);animation-name:cr}
-@keyframes cs{18.59%{fill:var(--c1)}
-18.61%,100%{fill:var(--ce)}}
+@keyframes cs{19.09%{fill:var(--c1)}
+19.11%,100%{fill:var(--ce)}}
 .snk-c.snk-cs{fill:var(--c1);animation-name:cs}
-@keyframes ct{18.81%{fill:var(--c1)}
-18.83%,100%{fill:var(--ce)}}
+@keyframes ct{19.32%{fill:var(--c1)}
+19.34%,100%{fill:var(--ce)}}
 .snk-c.snk-ct{fill:var(--c1);animation-name:ct}
-@keyframes cu{19.9%{fill:var(--c1)}
-19.92%,100%{fill:var(--ce)}}
+@keyframes cu{20.44%{fill:var(--c1)}
+20.46%,100%{fill:var(--ce)}}
 .snk-c.snk-cu{fill:var(--c1);animation-name:cu}
-@keyframes cv{20.56%{fill:var(--c1)}
-20.58%,100%{fill:var(--ce)}}
+@keyframes cv{21.11%{fill:var(--c1)}
+21.13%,100%{fill:var(--ce)}}
 .snk-c.snk-cv{fill:var(--c1);animation-name:cv}
-@keyframes cw{8.96%{fill:var(--c1)}
-8.98%,100%{fill:var(--ce)}}
+@keyframes cw{9.2%{fill:var(--c1)}
+9.22%,100%{fill:var(--ce)}}
 .snk-c.snk-cw{fill:var(--c1);animation-name:cw}
-@keyframes cx{19.03%{fill:var(--c1)}
-19.05%,100%{fill:var(--ce)}}
+@keyframes cx{19.54%{fill:var(--c1)}
+19.56%,100%{fill:var(--ce)}}
 .snk-c.snk-cx{fill:var(--c1);animation-name:cx}
-@keyframes cy{58.63%{fill:var(--c2)}
-58.65%,100%{fill:var(--ce)}}
+@keyframes cy{59.77%{fill:var(--c2)}
+59.79%,100%{fill:var(--ce)}}
 .snk-c.snk-cy{fill:var(--c2);animation-name:cy}
-@keyframes cz{58.85%{fill:var(--c2)}
-58.87%,100%{fill:var(--ce)}}
+@keyframes cz{59.99%{fill:var(--c2)}
+60.01%,100%{fill:var(--ce)}}
 .snk-c.snk-cz{fill:var(--c2);animation-name:cz}
-@keyframes c10{21%{fill:var(--c1)}
-21.02%,100%{fill:var(--ce)}}
+@keyframes c10{21.56%{fill:var(--c1)}
+21.58%,100%{fill:var(--ce)}}
 .snk-c.snk-c10{fill:var(--c1);animation-name:c10}
-@keyframes c11{9.18%{fill:var(--c1)}
-9.2%,100%{fill:var(--ce)}}
+@keyframes c11{9.43%{fill:var(--c1)}
+9.45%,100%{fill:var(--ce)}}
 .snk-c.snk-c11{fill:var(--c1);animation-name:c11}
-@keyframes c12{57.98%{fill:var(--c2)}
-58%,100%{fill:var(--ce)}}
+@keyframes c12{59.09%{fill:var(--c2)}
+59.11%,100%{fill:var(--ce)}}
 .snk-c.snk-c12{fill:var(--c2);animation-name:c12}
-@keyframes c13{58.2%{fill:var(--c2)}
-58.22%,100%{fill:var(--ce)}}
+@keyframes c13{59.32%{fill:var(--c2)}
+59.34%,100%{fill:var(--ce)}}
 .snk-c.snk-c13{fill:var(--c2);animation-name:c13}
-@keyframes c14{22.97%{fill:var(--c1)}
-22.99%,100%{fill:var(--ce)}}
+@keyframes c14{23.59%{fill:var(--c1)}
+23.61%,100%{fill:var(--ce)}}
 .snk-c.snk-c14{fill:var(--c1);animation-name:c14}
-@keyframes c15{21.22%{fill:var(--c1)}
-21.24%,100%{fill:var(--ce)}}
+@keyframes c15{21.79%{fill:var(--c1)}
+21.81%,100%{fill:var(--ce)}}
 .snk-c.snk-c15{fill:var(--c1);animation-name:c15}
-@keyframes c16{9.62%{fill:var(--c1)}
-9.64%,100%{fill:var(--ce)}}
+@keyframes c16{9.88%{fill:var(--c1)}
+9.9%,100%{fill:var(--ce)}}
 .snk-c.snk-c16{fill:var(--c1);animation-name:c16}
-@keyframes c17{9.4%{fill:var(--c1)}
-9.42%,100%{fill:var(--ce)}}
+@keyframes c17{9.65%{fill:var(--c1)}
+9.67%,100%{fill:var(--ce)}}
 .snk-c.snk-c17{fill:var(--c1);animation-name:c17}
-@keyframes c18{17.5%{fill:var(--c1)}
-17.52%,100%{fill:var(--ce)}}
+@keyframes c18{17.97%{fill:var(--c1)}
+17.99%,100%{fill:var(--ce)}}
 .snk-c.snk-c18{fill:var(--c1);animation-name:c18}
-@keyframes c19{17.28%{fill:var(--c1)}
-17.3%,100%{fill:var(--ce)}}
+@keyframes c19{17.74%{fill:var(--c1)}
+17.76%,100%{fill:var(--ce)}}
 .snk-c.snk-c19{fill:var(--c1);animation-name:c19}
-@keyframes c1a{22.75%{fill:var(--c1)}
-22.77%,100%{fill:var(--ce)}}
+@keyframes c1a{23.36%{fill:var(--c1)}
+23.38%,100%{fill:var(--ce)}}
 .snk-c.snk-c1a{fill:var(--c1);animation-name:c1a}
-@keyframes c1b{23.4%{fill:var(--c1)}
-23.42%,100%{fill:var(--ce)}}
+@keyframes c1b{24.03%{fill:var(--c1)}
+24.05%,100%{fill:var(--ce)}}
 .snk-c.snk-c1b{fill:var(--c1);animation-name:c1b}
-@keyframes c1c{21.43%{fill:var(--c1)}
-21.45%,100%{fill:var(--ce)}}
+@keyframes c1c{22.01%{fill:var(--c1)}
+22.03%,100%{fill:var(--ce)}}
 .snk-c.snk-c1c{fill:var(--c1);animation-name:c1c}
-@keyframes c1d{9.84%{fill:var(--c1)}
-9.86%,100%{fill:var(--ce)}}
+@keyframes c1d{10.1%{fill:var(--c1)}
+10.12%,100%{fill:var(--ce)}}
 .snk-c.snk-c1d{fill:var(--c1);animation-name:c1d}
-@keyframes c1e{57.32%{fill:var(--c2)}
-57.34%,100%{fill:var(--ce)}}
+@keyframes c1e{58.42%{fill:var(--c2)}
+58.44%,100%{fill:var(--ce)}}
 .snk-c.snk-c1e{fill:var(--c2);animation-name:c1e}
-@keyframes c1f{57.54%{fill:var(--c2)}
-57.56%,100%{fill:var(--ce)}}
+@keyframes c1f{58.64%{fill:var(--c2)}
+58.66%,100%{fill:var(--ce)}}
 .snk-c.snk-c1f{fill:var(--c2);animation-name:c1f}
-@keyframes c1g{17.06%{fill:var(--c1)}
-17.08%,100%{fill:var(--ce)}}
+@keyframes c1g{17.52%{fill:var(--c1)}
+17.54%,100%{fill:var(--ce)}}
 .snk-c.snk-c1g{fill:var(--c1);animation-name:c1g}
-@keyframes c1h{22.53%{fill:var(--c1)}
-22.55%,100%{fill:var(--ce)}}
+@keyframes c1h{23.14%{fill:var(--c1)}
+23.16%,100%{fill:var(--ce)}}
 .snk-c.snk-c1h{fill:var(--c1);animation-name:c1h}
-@keyframes c1i{22.31%{fill:var(--c1)}
-22.33%,100%{fill:var(--ce)}}
+@keyframes c1i{22.91%{fill:var(--c1)}
+22.93%,100%{fill:var(--ce)}}
 .snk-c.snk-c1i{fill:var(--c1);animation-name:c1i}
-@keyframes c1j{21.65%{fill:var(--c1)}
-21.67%,100%{fill:var(--ce)}}
+@keyframes c1j{22.24%{fill:var(--c1)}
+22.26%,100%{fill:var(--ce)}}
 .snk-c.snk-c1j{fill:var(--c1);animation-name:c1j}
-@keyframes c1k{56.88%{fill:var(--c2)}
-56.9%,100%{fill:var(--ce)}}
+@keyframes c1k{57.97%{fill:var(--c2)}
+57.99%,100%{fill:var(--ce)}}
 .snk-c.snk-c1k{fill:var(--c2);animation-name:c1k}
-@keyframes c1l{56.66%{fill:var(--c2)}
-56.68%,100%{fill:var(--ce)}}
+@keyframes c1l{57.74%{fill:var(--c2)}
+57.76%,100%{fill:var(--ce)}}
 .snk-c.snk-c1l{fill:var(--c2);animation-name:c1l}
-@keyframes c1m{22.09%{fill:var(--c1)}
-22.11%,100%{fill:var(--ce)}}
+@keyframes c1m{22.69%{fill:var(--c1)}
+22.71%,100%{fill:var(--ce)}}
 .snk-c.snk-c1m{fill:var(--c1);animation-name:c1m}
-@keyframes c1n{21.87%{fill:var(--c1)}
-21.89%,100%{fill:var(--ce)}}
+@keyframes c1n{22.46%{fill:var(--c1)}
+22.48%,100%{fill:var(--ce)}}
 .snk-c.snk-c1n{fill:var(--c1);animation-name:c1n}
-@keyframes c1o{10.71%{fill:var(--c1)}
-10.73%,100%{fill:var(--ce)}}
+@keyframes c1o{11%{fill:var(--c1)}
+11.02%,100%{fill:var(--ce)}}
 .snk-c.snk-c1o{fill:var(--c1);animation-name:c1o}
-@keyframes c1p{12.24%{fill:var(--c1)}
-12.26%,100%{fill:var(--ce)}}
+@keyframes c1p{12.57%{fill:var(--c1)}
+12.59%,100%{fill:var(--ce)}}
 .snk-c.snk-c1p{fill:var(--c1);animation-name:c1p}
-@keyframes c1q{56.23%{fill:var(--c2)}
-56.25%,100%{fill:var(--ce)}}
+@keyframes c1q{57.29%{fill:var(--c2)}
+57.31%,100%{fill:var(--ce)}}
 .snk-c.snk-c1q{fill:var(--c2);animation-name:c1q}
-@keyframes c1r{56.01%{fill:var(--c2)}
-56.03%,100%{fill:var(--ce)}}
+@keyframes c1r{57.07%{fill:var(--c2)}
+57.09%,100%{fill:var(--ce)}}
 .snk-c.snk-c1r{fill:var(--c2);animation-name:c1r}
-@keyframes c1s{16.4%{fill:var(--c1)}
-16.42%,100%{fill:var(--ce)}}
+@keyframes c1s{16.84%{fill:var(--c1)}
+16.86%,100%{fill:var(--ce)}}
 .snk-c.snk-c1s{fill:var(--c1);animation-name:c1s}
-@keyframes c1t{16.18%{fill:var(--c1)}
-16.2%,100%{fill:var(--ce)}}
+@keyframes c1t{16.62%{fill:var(--c1)}
+16.64%,100%{fill:var(--ce)}}
 .snk-c.snk-c1t{fill:var(--c1);animation-name:c1t}
-@keyframes c1u{55.35%{fill:var(--c2)}
-55.37%,100%{fill:var(--ce)}}
+@keyframes c1u{56.39%{fill:var(--c2)}
+56.41%,100%{fill:var(--ce)}}
 .snk-c.snk-c1u{fill:var(--c2);animation-name:c1u}
-@keyframes c1v{10.93%{fill:var(--c1)}
-10.95%,100%{fill:var(--ce)}}
+@keyframes c1v{11.23%{fill:var(--c1)}
+11.25%,100%{fill:var(--ce)}}
 .snk-c.snk-c1v{fill:var(--c1);animation-name:c1v}
-@keyframes c1w{12.03%{fill:var(--c1)}
-12.05%,100%{fill:var(--ce)}}
+@keyframes c1w{12.35%{fill:var(--c1)}
+12.37%,100%{fill:var(--ce)}}
 .snk-c.snk-c1w{fill:var(--c1);animation-name:c1w}
-@keyframes c1x{45.5%{fill:var(--c2)}
-45.52%,100%{fill:var(--ce)}}
+@keyframes c1x{46.73%{fill:var(--c2)}
+46.75%,100%{fill:var(--ce)}}
 .snk-c.snk-c1x{fill:var(--c2);animation-name:c1x}
-@keyframes c1y{45.29%{fill:var(--c1)}
-45.31%,100%{fill:var(--ce)}}
+@keyframes c1y{46.51%{fill:var(--c1)}
+46.53%,100%{fill:var(--ce)}}
 .snk-c.snk-c1y{fill:var(--c1);animation-name:c1y}
-@keyframes c1z{75.26%{fill:var(--c3)}
-75.28%,100%{fill:var(--ce)}}
+@keyframes c1z{78.64%{fill:var(--c3)}
+78.66%,100%{fill:var(--ce)}}
 .snk-c.snk-c1z{fill:var(--c3);animation-name:c1z}
-@keyframes c20{15.96%{fill:var(--c1)}
-15.98%,100%{fill:var(--ce)}}
+@keyframes c20{16.39%{fill:var(--c1)}
+16.41%,100%{fill:var(--ce)}}
 .snk-c.snk-c20{fill:var(--c1);animation-name:c20}
-@keyframes c21{24.5%{fill:var(--c1)}
-24.52%,100%{fill:var(--ce)}}
+@keyframes c21{25.16%{fill:var(--c1)}
+25.18%,100%{fill:var(--ce)}}
 .snk-c.snk-c21{fill:var(--c1);animation-name:c21}
-@keyframes c22{11.15%{fill:var(--c1)}
-11.17%,100%{fill:var(--ce)}}
+@keyframes c22{11.45%{fill:var(--c1)}
+11.47%,100%{fill:var(--ce)}}
 .snk-c.snk-c22{fill:var(--c1);animation-name:c22}
-@keyframes c23{11.81%{fill:var(--c1)}
-11.83%,100%{fill:var(--ce)}}
+@keyframes c23{12.12%{fill:var(--c1)}
+12.14%,100%{fill:var(--ce)}}
 .snk-c.snk-c23{fill:var(--c1);animation-name:c23}
-@keyframes c24{13.34%{fill:var(--c1)}
-13.36%,100%{fill:var(--ce)}}
+@keyframes c24{13.7%{fill:var(--c1)}
+13.72%,100%{fill:var(--ce)}}
 .snk-c.snk-c24{fill:var(--c1);animation-name:c24}
-@keyframes c25{14.43%{fill:var(--c1)}
-14.45%,100%{fill:var(--ce)}}
+@keyframes c25{14.82%{fill:var(--c1)}
+14.84%,100%{fill:var(--ce)}}
 .snk-c.snk-c25{fill:var(--c1);animation-name:c25}
-@keyframes c26{15.74%{fill:var(--c1)}
-15.76%,100%{fill:var(--ce)}}
+@keyframes c26{16.17%{fill:var(--c1)}
+16.19%,100%{fill:var(--ce)}}
 .snk-c.snk-c26{fill:var(--c1);animation-name:c26}
-@keyframes c27{54.91%{fill:var(--c2)}
-54.93%,100%{fill:var(--ce)}}
+@keyframes c27{55.95%{fill:var(--c2)}
+55.97%,100%{fill:var(--ce)}}
 .snk-c.snk-c27{fill:var(--c2);animation-name:c27}
-@keyframes c28{11.37%{fill:var(--c1)}
-11.39%,100%{fill:var(--ce)}}
+@keyframes c28{11.68%{fill:var(--c1)}
+11.7%,100%{fill:var(--ce)}}
 .snk-c.snk-c28{fill:var(--c1);animation-name:c28}
-@keyframes c29{13.56%{fill:var(--c1)}
-13.58%,100%{fill:var(--ce)}}
+@keyframes c29{13.92%{fill:var(--c1)}
+13.94%,100%{fill:var(--ce)}}
 .snk-c.snk-c29{fill:var(--c1);animation-name:c29}
-@keyframes c2a{14.21%{fill:var(--c1)}
-14.23%,100%{fill:var(--ce)}}
+@keyframes c2a{14.6%{fill:var(--c1)}
+14.62%,100%{fill:var(--ce)}}
 .snk-c.snk-c2a{fill:var(--c1);animation-name:c2a}
-@keyframes c2b{14.87%{fill:var(--c1)}
-14.89%,100%{fill:var(--ce)}}
+@keyframes c2b{15.27%{fill:var(--c1)}
+15.29%,100%{fill:var(--ce)}}
 .snk-c.snk-c2b{fill:var(--c1);animation-name:c2b}
-@keyframes c2c{15.53%{fill:var(--c1)}
-15.55%,100%{fill:var(--ce)}}
+@keyframes c2c{15.95%{fill:var(--c1)}
+15.97%,100%{fill:var(--ce)}}
 .snk-c.snk-c2c{fill:var(--c1);animation-name:c2c}
-@keyframes c2d{25.37%{fill:var(--c1)}
-25.39%,100%{fill:var(--ce)}}
+@keyframes c2d{26.06%{fill:var(--c1)}
+26.08%,100%{fill:var(--ce)}}
 .snk-c.snk-c2d{fill:var(--c1);animation-name:c2d}
-@keyframes c2e{47.47%{fill:var(--c2)}
-47.49%,100%{fill:var(--ce)}}
+@keyframes c2e{48.75%{fill:var(--c2)}
+48.77%,100%{fill:var(--ce)}}
 .snk-c.snk-c2e{fill:var(--c2);animation-name:c2e}
-@keyframes c2f{67.39%{fill:var(--c2)}
-67.41%,100%{fill:var(--ce)}}
+@keyframes c2f{68.75%{fill:var(--c2)}
+68.77%,100%{fill:var(--ce)}}
 .snk-c.snk-c2f{fill:var(--c2);animation-name:c2f}
-@keyframes c2g{13.78%{fill:var(--c1)}
-13.8%,100%{fill:var(--ce)}}
+@keyframes c2g{14.15%{fill:var(--c1)}
+14.17%,100%{fill:var(--ce)}}
 .snk-c.snk-c2g{fill:var(--c1);animation-name:c2g}
-@keyframes c2h{13.99%{fill:var(--c1)}
-14.01%,100%{fill:var(--ce)}}
+@keyframes c2h{14.37%{fill:var(--c1)}
+14.39%,100%{fill:var(--ce)}}
 .snk-c.snk-c2h{fill:var(--c1);animation-name:c2h}
-@keyframes c2i{15.31%{fill:var(--c1)}
-15.33%,100%{fill:var(--ce)}}
+@keyframes c2i{15.72%{fill:var(--c1)}
+15.74%,100%{fill:var(--ce)}}
 .snk-c.snk-c2i{fill:var(--c1);animation-name:c2i}
-@keyframes c2j{25.59%{fill:var(--c1)}
-25.61%,100%{fill:var(--ce)}}
+@keyframes c2j{26.28%{fill:var(--c1)}
+26.3%,100%{fill:var(--ce)}}
 .snk-c.snk-c2j{fill:var(--c1);animation-name:c2j}
-@keyframes c2k{47.25%{fill:var(--c1)}
-47.27%,100%{fill:var(--ce)}}
+@keyframes c2k{48.53%{fill:var(--c1)}
+48.55%,100%{fill:var(--ce)}}
 .snk-c.snk-c2k{fill:var(--c1);animation-name:c2k}
-@keyframes c2l{88.61%{fill:var(--c4)}
-88.63%,100%{fill:var(--ce)}}
+@keyframes c2l{88.3%{fill:var(--c4)}
+88.32%,100%{fill:var(--ce)}}
 .snk-c.snk-c2l{fill:var(--c4);animation-name:c2l}
-@keyframes c2m{88.39%{fill:var(--c4)}
-88.41%,100%{fill:var(--ce)}}
+@keyframes c2m{88.08%{fill:var(--c4)}
+88.1%,100%{fill:var(--ce)}}
 .snk-c.snk-c2m{fill:var(--c4);animation-name:c2m}
-@keyframes c2n{74.17%{fill:var(--c3)}
-74.19%,100%{fill:var(--ce)}}
+@keyframes c2n{77.52%{fill:var(--c3)}
+77.54%,100%{fill:var(--ce)}}
 .snk-c.snk-c2n{fill:var(--c3);animation-name:c2n}
-@keyframes c2o{70.01%{fill:var(--c3)}
-70.03%,100%{fill:var(--ce)}}
+@keyframes c2o{71.45%{fill:var(--c3)}
+71.47%,100%{fill:var(--ce)}}
 .snk-c.snk-c2o{fill:var(--c3);animation-name:c2o}
-@keyframes c2p{54.04%{fill:var(--c2)}
-54.06%,100%{fill:var(--ce)}}
+@keyframes c2p{55.05%{fill:var(--c2)}
+55.07%,100%{fill:var(--ce)}}
 .snk-c.snk-c2p{fill:var(--c2);animation-name:c2p}
-@keyframes c2q{53.82%{fill:var(--c2)}
-53.84%,100%{fill:var(--ce)}}
+@keyframes c2q{54.82%{fill:var(--c2)}
+54.84%,100%{fill:var(--ce)}}
 .snk-c.snk-c2q{fill:var(--c2);animation-name:c2q}
-@keyframes c2r{89.05%{fill:var(--c4)}
-89.07%,100%{fill:var(--ce)}}
+@keyframes c2r{88.75%{fill:var(--c4)}
+88.77%,100%{fill:var(--ce)}}
 .snk-c.snk-c2r{fill:var(--c4);animation-name:c2r}
-@keyframes c2s{72.64%{fill:var(--c2)}
-72.66%,100%{fill:var(--ce)}}
+@keyframes c2s{74.15%{fill:var(--c2)}
+74.17%,100%{fill:var(--ce)}}
 .snk-c.snk-c2s{fill:var(--c2);animation-name:c2s}
-@keyframes c2t{72.86%{fill:var(--c1)}
-72.88%,100%{fill:var(--ce)}}
+@keyframes c2t{74.37%{fill:var(--c1)}
+74.39%,100%{fill:var(--ce)}}
 .snk-c.snk-c2t{fill:var(--c1);animation-name:c2t}
-@keyframes c2u{73.95%{fill:var(--c3)}
-73.97%,100%{fill:var(--ce)}}
+@keyframes c2u{77.29%{fill:var(--c3)}
+77.31%,100%{fill:var(--ce)}}
 .snk-c.snk-c2u{fill:var(--c3);animation-name:c2u}
-@keyframes c2v{69.79%{fill:var(--c1)}
-69.81%,100%{fill:var(--ce)}}
+@keyframes c2v{71.23%{fill:var(--c1)}
+71.25%,100%{fill:var(--ce)}}
 .snk-c.snk-c2v{fill:var(--c1);animation-name:c2v}
-@keyframes c2w{87.08%{fill:var(--c4)}
-87.1%,100%{fill:var(--ce)}}
+@keyframes c2w{86.73%{fill:var(--c4)}
+86.75%,100%{fill:var(--ce)}}
 .snk-c.snk-c2w{fill:var(--c4);animation-name:c2w}
-@keyframes c2x{50.1%{fill:var(--c1)}
-50.12%,100%{fill:var(--ce)}}
+@keyframes c2x{51.45%{fill:var(--c1)}
+51.47%,100%{fill:var(--ce)}}
 .snk-c.snk-c2x{fill:var(--c1);animation-name:c2x}
-@keyframes c2y{72.42%{fill:var(--c3)}
-72.44%,100%{fill:var(--ce)}}
+@keyframes c2y{73.92%{fill:var(--c3)}
+73.94%,100%{fill:var(--ce)}}
 .snk-c.snk-c2y{fill:var(--c3);animation-name:c2y}
-@keyframes c2z{73.08%{fill:var(--c3)}
-73.1%,100%{fill:var(--ce)}}
+@keyframes c2z{74.6%{fill:var(--c3)}
+74.62%,100%{fill:var(--ce)}}
 .snk-c.snk-c2z{fill:var(--c3);animation-name:c2z}
-@keyframes c30{87.74%{fill:var(--c4)}
-87.76%,100%{fill:var(--ce)}}
+@keyframes c30{87.41%{fill:var(--c4)}
+87.43%,100%{fill:var(--ce)}}
 .snk-c.snk-c30{fill:var(--c4);animation-name:c30}
-@keyframes c31{50.76%{fill:var(--c2)}
-50.78%,100%{fill:var(--ce)}}
+@keyframes c31{52.12%{fill:var(--c2)}
+52.14%,100%{fill:var(--ce)}}
 .snk-c.snk-c31{fill:var(--c2);animation-name:c31}
-@keyframes c32{50.54%{fill:var(--c2)}
-50.56%,100%{fill:var(--ce)}}
+@keyframes c32{51.9%{fill:var(--c2)}
+51.92%,100%{fill:var(--ce)}}
 .snk-c.snk-c32{fill:var(--c2);animation-name:c32}
-@keyframes c33{50.32%{fill:var(--c2)}
-50.34%,100%{fill:var(--ce)}}
+@keyframes c33{51.68%{fill:var(--c2)}
+51.7%,100%{fill:var(--ce)}}
 .snk-c.snk-c33{fill:var(--c2);animation-name:c33}
-@keyframes c34{29.97%{fill:var(--c1)}
-29.99%,100%{fill:var(--ce)}}
+@keyframes c34{30.78%{fill:var(--c1)}
+30.8%,100%{fill:var(--ce)}}
 .snk-c.snk-c34{fill:var(--c1);animation-name:c34}
-@keyframes c35{28.87%{fill:var(--c1)}
-28.89%,100%{fill:var(--ce)}}
+@keyframes c35{29.65%{fill:var(--c1)}
+29.67%,100%{fill:var(--ce)}}
 .snk-c.snk-c35{fill:var(--c1);animation-name:c35}
-@keyframes c36{28.66%{fill:var(--c1)}
-28.68%,100%{fill:var(--ce)}}
+@keyframes c36{29.43%{fill:var(--c1)}
+29.45%,100%{fill:var(--ce)}}
 .snk-c.snk-c36{fill:var(--c1);animation-name:c36}
-@keyframes c37{28.44%{fill:var(--c1)}
-28.46%,100%{fill:var(--ce)}}
+@keyframes c37{29.2%{fill:var(--c1)}
+29.22%,100%{fill:var(--ce)}}
 .snk-c.snk-c37{fill:var(--c1);animation-name:c37}
-@keyframes c38{32.16%{fill:var(--c1)}
-32.18%,100%{fill:var(--ce)}}
+@keyframes c38{33.02%{fill:var(--c1)}
+33.04%,100%{fill:var(--ce)}}
 .snk-c.snk-c38{fill:var(--c1);animation-name:c38}
-@keyframes c39{32.38%{fill:var(--c1)}
-32.4%,100%{fill:var(--ce)}}
+@keyframes c39{33.25%{fill:var(--c1)}
+33.27%,100%{fill:var(--ce)}}
 .snk-c.snk-c39{fill:var(--c1);animation-name:c39}
-@keyframes c3a{26.9%{fill:var(--c1)}
-26.92%,100%{fill:var(--ce)}}
+@keyframes c3a{27.63%{fill:var(--c1)}
+27.65%,100%{fill:var(--ce)}}
 .snk-c.snk-c3a{fill:var(--c1);animation-name:c3a}
-@keyframes c3b{29.75%{fill:var(--c1)}
-29.77%,100%{fill:var(--ce)}}
+@keyframes c3b{30.55%{fill:var(--c1)}
+30.57%,100%{fill:var(--ce)}}
 .snk-c.snk-c3b{fill:var(--c1);animation-name:c3b}
-@keyframes c3c{29.09%{fill:var(--c1)}
-29.11%,100%{fill:var(--ce)}}
+@keyframes c3c{29.88%{fill:var(--c1)}
+29.9%,100%{fill:var(--ce)}}
 .snk-c.snk-c3c{fill:var(--c1);animation-name:c3c}
-@keyframes c3d{52.07%{fill:var(--c2)}
-52.09%,100%{fill:var(--ce)}}
+@keyframes c3d{53.02%{fill:var(--c2)}
+53.04%,100%{fill:var(--ce)}}
 .snk-c.snk-c3d{fill:var(--c2);animation-name:c3d}
-@keyframes c3e{28.22%{fill:var(--c1)}
-28.24%,100%{fill:var(--ce)}}
+@keyframes c3e{28.98%{fill:var(--c1)}
+29%,100%{fill:var(--ce)}}
 .snk-c.snk-c3e{fill:var(--c1);animation-name:c3e}
-@keyframes c3f{28%{fill:var(--c1)}
-28.02%,100%{fill:var(--ce)}}
+@keyframes c3f{28.75%{fill:var(--c1)}
+28.77%,100%{fill:var(--ce)}}
 .snk-c.snk-c3f{fill:var(--c1);animation-name:c3f}
-@keyframes c3g{77.23%{fill:var(--c3)}
-77.25%,100%{fill:var(--ce)}}
+@keyframes c3g{76.17%{fill:var(--c3)}
+76.19%,100%{fill:var(--ce)}}
 .snk-c.snk-c3g{fill:var(--c3);animation-name:c3g}
-@keyframes c3h{27.12%{fill:var(--c1)}
-27.14%,100%{fill:var(--ce)}}
+@keyframes c3h{27.86%{fill:var(--c1)}
+27.88%,100%{fill:var(--ce)}}
 .snk-c.snk-c3h{fill:var(--c1);animation-name:c3h}
-@keyframes c3i{29.53%{fill:var(--c1)}
-29.55%,100%{fill:var(--ce)}}
+@keyframes c3i{30.33%{fill:var(--c1)}
+30.35%,100%{fill:var(--ce)}}
 .snk-c.snk-c3i{fill:var(--c1);animation-name:c3i}
-@keyframes c3j{29.31%{fill:var(--c1)}
-29.33%,100%{fill:var(--ce)}}
+@keyframes c3j{30.1%{fill:var(--c1)}
+30.12%,100%{fill:var(--ce)}}
 .snk-c.snk-c3j{fill:var(--c1);animation-name:c3j}
-@keyframes c3k{30.84%{fill:var(--c1)}
-30.86%,100%{fill:var(--ce)}}
+@keyframes c3k{31.68%{fill:var(--c1)}
+31.7%,100%{fill:var(--ce)}}
 .snk-c.snk-c3k{fill:var(--c1);animation-name:c3k}
-@keyframes c3l{51.63%{fill:var(--c2)}
-51.65%,100%{fill:var(--ce)}}
-.snk-c.snk-c3l{fill:var(--c2);animation-name:c3l}
-.snk-u{transform-origin:0 0;transform:scale(0,1);animation:none linear 45700ms infinite}
-@keyframes u0{7.65%{transform:scale(0.000,1)}
-7.67%,8.52%{transform:scale(0.013,1)}
-8.54%,8.96%{transform:scale(0.026,1)}
-8.98%,9.18%{transform:scale(0.039,1)}
-9.2%,9.4%{transform:scale(0.053,1)}
-9.42%,9.62%{transform:scale(0.066,1)}
-9.64%,9.84%{transform:scale(0.079,1)}
-9.86%,10.71%{transform:scale(0.092,1)}
-10.73%,10.93%{transform:scale(0.105,1)}
-10.95%,11.15%{transform:scale(0.118,1)}
-11.17%,11.37%{transform:scale(0.132,1)}
-11.39%,11.81%{transform:scale(0.145,1)}
-11.83%,12.03%{transform:scale(0.158,1)}
-12.05%,12.24%{transform:scale(0.171,1)}
-12.26%,13.34%{transform:scale(0.184,1)}
-13.36%,13.56%{transform:scale(0.197,1)}
-13.58%,13.78%{transform:scale(0.211,1)}
-13.8%,13.99%{transform:scale(0.224,1)}
-14.01%,14.21%{transform:scale(0.237,1)}
-14.23%,14.43%{transform:scale(0.250,1)}
-14.45%,14.87%{transform:scale(0.263,1)}
-14.89%,15.31%{transform:scale(0.276,1)}
-15.33%,15.53%{transform:scale(0.289,1)}
-15.55%,15.74%{transform:scale(0.303,1)}
-15.76%,15.96%{transform:scale(0.316,1)}
-15.98%,16.18%{transform:scale(0.329,1)}
-16.2%,16.4%{transform:scale(0.342,1)}
-16.42%,17.06%{transform:scale(0.355,1)}
-17.08%,17.28%{transform:scale(0.368,1)}
-17.3%,17.5%{transform:scale(0.382,1)}
-17.52%,18.59%{transform:scale(0.395,1)}
-18.61%,18.81%{transform:scale(0.408,1)}
-18.83%,19.03%{transform:scale(0.421,1)}
-19.05%,19.9%{transform:scale(0.434,1)}
-19.92%,20.12%{transform:scale(0.447,1)}
-20.14%,20.34%{transform:scale(0.461,1)}
-20.36%,20.56%{transform:scale(0.474,1)}
-20.58%,21%{transform:scale(0.487,1)}
-21.02%,21.22%{transform:scale(0.500,1)}
-21.24%,21.43%{transform:scale(0.513,1)}
-21.45%,21.65%{transform:scale(0.526,1)}
-21.67%,21.87%{transform:scale(0.539,1)}
-21.89%,22.09%{transform:scale(0.553,1)}
-22.11%,22.31%{transform:scale(0.566,1)}
-22.33%,22.53%{transform:scale(0.579,1)}
-22.55%,22.75%{transform:scale(0.592,1)}
-22.77%,22.97%{transform:scale(0.605,1)}
-22.99%,23.4%{transform:scale(0.618,1)}
-23.42%,24.5%{transform:scale(0.632,1)}
-24.52%,25.37%{transform:scale(0.645,1)}
-25.39%,25.59%{transform:scale(0.658,1)}
-25.61%,26.9%{transform:scale(0.671,1)}
-26.92%,27.12%{transform:scale(0.684,1)}
-27.14%,28%{transform:scale(0.697,1)}
-28.02%,28.22%{transform:scale(0.711,1)}
-28.24%,28.44%{transform:scale(0.724,1)}
-28.46%,28.66%{transform:scale(0.737,1)}
-28.68%,28.87%{transform:scale(0.750,1)}
-28.89%,29.09%{transform:scale(0.763,1)}
-29.11%,29.31%{transform:scale(0.776,1)}
-29.33%,29.53%{transform:scale(0.789,1)}
-29.55%,29.75%{transform:scale(0.803,1)}
-29.77%,29.97%{transform:scale(0.816,1)}
-29.99%,30.84%{transform:scale(0.829,1)}
-30.86%,32.16%{transform:scale(0.842,1)}
-32.18%,32.38%{transform:scale(0.855,1)}
-32.4%,36.53%{transform:scale(0.868,1)}
-36.55%,37.41%{transform:scale(0.882,1)}
-37.43%,37.63%{transform:scale(0.895,1)}
-37.65%,37.85%{transform:scale(0.908,1)}
-37.87%,38.06%{transform:scale(0.921,1)}
-38.08%,38.28%{transform:scale(0.934,1)}
-38.3%,38.5%{transform:scale(0.947,1)}
-38.52%,40.25%{transform:scale(0.961,1)}
-40.27%,40.91%{transform:scale(0.974,1)}
-40.93%,45.29%{transform:scale(0.987,1)}
-45.31%,100%{transform:scale(1.000,1)}}
+@keyframes c3l{75.5%{fill:var(--c3)}
+75.52%,100%{fill:var(--ce)}}
+.snk-c.snk-c3l{fill:var(--c3);animation-name:c3l}
+@keyframes c3m{28.53%{fill:var(--c1)}
+28.55%,100%{fill:var(--ce)}}
+.snk-c.snk-c3m{fill:var(--c1);animation-name:c3m}
+@keyframes c3n{28.3%{fill:var(--c1)}
+28.32%,100%{fill:var(--ce)}}
+.snk-c.snk-c3n{fill:var(--c1);animation-name:c3n}
+@keyframes c3o{28.08%{fill:var(--c1)}
+28.1%,100%{fill:var(--ce)}}
+.snk-c.snk-c3o{fill:var(--c1);animation-name:c3o}
+.snk-u{transform-origin:0 0;transform:scale(0,1);animation:none linear 44500ms infinite}
+@keyframes u0{7.86%{transform:scale(0.000,1)}
+7.88%,8.75%{transform:scale(0.013,1)}
+8.77%,9.2%{transform:scale(0.025,1)}
+9.22%,9.43%{transform:scale(0.038,1)}
+9.45%,9.65%{transform:scale(0.051,1)}
+9.67%,9.88%{transform:scale(0.063,1)}
+9.9%,10.1%{transform:scale(0.076,1)}
+10.12%,11%{transform:scale(0.089,1)}
+11.02%,11.23%{transform:scale(0.101,1)}
+11.25%,11.45%{transform:scale(0.114,1)}
+11.47%,11.68%{transform:scale(0.127,1)}
+11.7%,12.12%{transform:scale(0.139,1)}
+12.14%,12.35%{transform:scale(0.152,1)}
+12.37%,12.57%{transform:scale(0.165,1)}
+12.59%,13.7%{transform:scale(0.177,1)}
+13.72%,13.92%{transform:scale(0.190,1)}
+13.94%,14.15%{transform:scale(0.203,1)}
+14.17%,14.37%{transform:scale(0.215,1)}
+14.39%,14.6%{transform:scale(0.228,1)}
+14.62%,14.82%{transform:scale(0.241,1)}
+14.84%,15.27%{transform:scale(0.253,1)}
+15.29%,15.72%{transform:scale(0.266,1)}
+15.74%,15.95%{transform:scale(0.278,1)}
+15.97%,16.17%{transform:scale(0.291,1)}
+16.19%,16.39%{transform:scale(0.304,1)}
+16.41%,16.62%{transform:scale(0.316,1)}
+16.64%,16.84%{transform:scale(0.329,1)}
+16.86%,17.52%{transform:scale(0.342,1)}
+17.54%,17.74%{transform:scale(0.354,1)}
+17.76%,17.97%{transform:scale(0.367,1)}
+17.99%,19.09%{transform:scale(0.380,1)}
+19.11%,19.32%{transform:scale(0.392,1)}
+19.34%,19.54%{transform:scale(0.405,1)}
+19.56%,20.44%{transform:scale(0.418,1)}
+20.46%,20.66%{transform:scale(0.430,1)}
+20.68%,20.89%{transform:scale(0.443,1)}
+20.91%,21.11%{transform:scale(0.456,1)}
+21.13%,21.56%{transform:scale(0.468,1)}
+21.58%,21.79%{transform:scale(0.481,1)}
+21.81%,22.01%{transform:scale(0.494,1)}
+22.03%,22.24%{transform:scale(0.506,1)}
+22.26%,22.46%{transform:scale(0.519,1)}
+22.48%,22.69%{transform:scale(0.532,1)}
+22.71%,22.91%{transform:scale(0.544,1)}
+22.93%,23.14%{transform:scale(0.557,1)}
+23.16%,23.36%{transform:scale(0.570,1)}
+23.38%,23.59%{transform:scale(0.582,1)}
+23.61%,24.03%{transform:scale(0.595,1)}
+24.05%,25.16%{transform:scale(0.608,1)}
+25.18%,26.06%{transform:scale(0.620,1)}
+26.08%,26.28%{transform:scale(0.633,1)}
+26.3%,27.63%{transform:scale(0.646,1)}
+27.65%,27.86%{transform:scale(0.658,1)}
+27.88%,28.08%{transform:scale(0.671,1)}
+28.1%,28.3%{transform:scale(0.684,1)}
+28.32%,28.53%{transform:scale(0.696,1)}
+28.55%,28.75%{transform:scale(0.709,1)}
+28.77%,28.98%{transform:scale(0.722,1)}
+29%,29.2%{transform:scale(0.734,1)}
+29.22%,29.43%{transform:scale(0.747,1)}
+29.45%,29.65%{transform:scale(0.759,1)}
+29.67%,29.88%{transform:scale(0.772,1)}
+29.9%,30.1%{transform:scale(0.785,1)}
+30.12%,30.33%{transform:scale(0.797,1)}
+30.35%,30.55%{transform:scale(0.810,1)}
+30.57%,30.78%{transform:scale(0.823,1)}
+30.8%,31.68%{transform:scale(0.835,1)}
+31.7%,33.02%{transform:scale(0.848,1)}
+33.04%,33.25%{transform:scale(0.861,1)}
+33.27%,37.52%{transform:scale(0.873,1)}
+37.54%,38.42%{transform:scale(0.886,1)}
+38.44%,38.64%{transform:scale(0.899,1)}
+38.66%,38.87%{transform:scale(0.911,1)}
+38.89%,39.09%{transform:scale(0.924,1)}
+39.11%,39.32%{transform:scale(0.937,1)}
+39.34%,39.54%{transform:scale(0.949,1)}
+39.56%,41.34%{transform:scale(0.962,1)}
+41.36%,42.01%{transform:scale(0.975,1)}
+42.03%,46.51%{transform:scale(0.987,1)}
+46.53%,100%{transform:scale(1.000,1)}}
 .snk-u.snk-u0{fill:var(--c1);animation-name:u0;transform-origin:0.0px 0}
-@keyframes u1{45.5%{transform:scale(0.000,1)}
-45.52%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u1{fill:var(--c2);animation-name:u1;transform-origin:495.8px 0}
-@keyframes u2{47.25%{transform:scale(0.000,1)}
-47.27%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u2{fill:var(--c1);animation-name:u2;transform-origin:502.3px 0}
-@keyframes u3{47.47%{transform:scale(0.000,1)}
-47.49%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u3{fill:var(--c2);animation-name:u3;transform-origin:508.8px 0}
-@keyframes u4{50.1%{transform:scale(0.000,1)}
-50.12%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u4{fill:var(--c1);animation-name:u4;transform-origin:515.3px 0}
-@keyframes u5{50.32%{transform:scale(0.000,1)}
-50.34%,50.54%{transform:scale(0.034,1)}
-50.56%,50.76%{transform:scale(0.069,1)}
-50.78%,51.63%{transform:scale(0.103,1)}
-51.65%,52.07%{transform:scale(0.138,1)}
-52.09%,53.82%{transform:scale(0.172,1)}
-53.84%,54.04%{transform:scale(0.207,1)}
-54.06%,54.91%{transform:scale(0.241,1)}
-54.93%,55.35%{transform:scale(0.276,1)}
-55.37%,56.01%{transform:scale(0.310,1)}
-56.03%,56.23%{transform:scale(0.345,1)}
-56.25%,56.66%{transform:scale(0.379,1)}
-56.68%,56.88%{transform:scale(0.414,1)}
-56.9%,57.32%{transform:scale(0.448,1)}
-57.34%,57.54%{transform:scale(0.483,1)}
-57.56%,57.98%{transform:scale(0.517,1)}
-58%,58.2%{transform:scale(0.552,1)}
-58.22%,58.63%{transform:scale(0.586,1)}
-58.65%,58.85%{transform:scale(0.621,1)}
-58.87%,59.51%{transform:scale(0.655,1)}
-59.53%,59.95%{transform:scale(0.690,1)}
-59.97%,60.38%{transform:scale(0.724,1)}
-60.4%,61.7%{transform:scale(0.759,1)}
-61.72%,61.92%{transform:scale(0.793,1)}
-61.94%,62.57%{transform:scale(0.828,1)}
-62.59%,63.01%{transform:scale(0.862,1)}
-63.03%,63.45%{transform:scale(0.897,1)}
-63.47%,63.88%{transform:scale(0.931,1)}
-63.9%,67.39%{transform:scale(0.966,1)}
-67.41%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u5{fill:var(--c2);animation-name:u5;transform-origin:521.8px 0}
-@keyframes u6{69.79%{transform:scale(0.000,1)}
-69.81%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u6{fill:var(--c1);animation-name:u6;transform-origin:711.0px 0}
-@keyframes u7{70.01%{transform:scale(0.000,1)}
-70.03%,72.42%{transform:scale(0.500,1)}
-72.44%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u7{fill:var(--c3);animation-name:u7;transform-origin:717.5px 0}
-@keyframes u8{72.64%{transform:scale(0.000,1)}
-72.66%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u8{fill:var(--c2);animation-name:u8;transform-origin:730.6px 0}
-@keyframes u9{72.86%{transform:scale(0.000,1)}
-72.88%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-u9{fill:var(--c1);animation-name:u9;transform-origin:737.1px 0}
-@keyframes ua{73.08%{transform:scale(0.000,1)}
-73.1%,73.95%{transform:scale(0.143,1)}
-73.97%,74.17%{transform:scale(0.286,1)}
-74.19%,75.26%{transform:scale(0.429,1)}
-75.28%,77.23%{transform:scale(0.571,1)}
-77.25%,81.17%{transform:scale(0.714,1)}
-81.19%,81.61%{transform:scale(0.857,1)}
-81.63%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-ua{fill:var(--c3);animation-name:ua;transform-origin:743.6px 0}
-@keyframes ub{81.83%{transform:scale(0.000,1)}
-81.85%,82.05%{transform:scale(0.111,1)}
-82.07%,82.92%{transform:scale(0.222,1)}
-82.94%,83.8%{transform:scale(0.333,1)}
-83.82%,87.08%{transform:scale(0.444,1)}
-87.1%,87.74%{transform:scale(0.556,1)}
-87.76%,88.39%{transform:scale(0.667,1)}
-88.41%,88.61%{transform:scale(0.778,1)}
-88.63%,89.05%{transform:scale(0.889,1)}
-89.07%,100%{transform:scale(1.000,1)}}
-.snk-u.snk-ub{fill:var(--c4);animation-name:ub;transform-origin:789.3px 0}
-.snk-s{shape-rendering:geometricPrecision;fill:var(--cs);animation:none linear 45700ms infinite}
+@keyframes u1{46.73%{transform:scale(0.000,1)}
+46.75%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u1{fill:var(--c2);animation-name:u1;transform-origin:503.7px 0}
+@keyframes u2{48.53%{transform:scale(0.000,1)}
+48.55%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u2{fill:var(--c1);animation-name:u2;transform-origin:510.1px 0}
+@keyframes u3{48.75%{transform:scale(0.000,1)}
+48.77%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u3{fill:var(--c2);animation-name:u3;transform-origin:516.5px 0}
+@keyframes u4{51.45%{transform:scale(0.000,1)}
+51.47%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u4{fill:var(--c1);animation-name:u4;transform-origin:522.8px 0}
+@keyframes u5{51.68%{transform:scale(0.000,1)}
+51.7%,51.9%{transform:scale(0.036,1)}
+51.92%,52.12%{transform:scale(0.071,1)}
+52.14%,53.02%{transform:scale(0.107,1)}
+53.04%,54.82%{transform:scale(0.143,1)}
+54.84%,55.05%{transform:scale(0.179,1)}
+55.07%,55.95%{transform:scale(0.214,1)}
+55.97%,56.39%{transform:scale(0.250,1)}
+56.41%,57.07%{transform:scale(0.286,1)}
+57.09%,57.29%{transform:scale(0.321,1)}
+57.31%,57.74%{transform:scale(0.357,1)}
+57.76%,57.97%{transform:scale(0.393,1)}
+57.99%,58.42%{transform:scale(0.429,1)}
+58.44%,58.64%{transform:scale(0.464,1)}
+58.66%,59.09%{transform:scale(0.500,1)}
+59.11%,59.32%{transform:scale(0.536,1)}
+59.34%,59.77%{transform:scale(0.571,1)}
+59.79%,59.99%{transform:scale(0.607,1)}
+60.01%,60.66%{transform:scale(0.643,1)}
+60.68%,61.11%{transform:scale(0.679,1)}
+61.13%,61.56%{transform:scale(0.714,1)}
+61.58%,62.91%{transform:scale(0.750,1)}
+62.93%,63.14%{transform:scale(0.786,1)}
+63.16%,63.81%{transform:scale(0.821,1)}
+63.83%,64.26%{transform:scale(0.857,1)}
+64.28%,64.71%{transform:scale(0.893,1)}
+64.73%,65.16%{transform:scale(0.929,1)}
+65.18%,68.75%{transform:scale(0.964,1)}
+68.77%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u5{fill:var(--c2);animation-name:u5;transform-origin:529.2px 0}
+@keyframes u6{71.23%{transform:scale(0.000,1)}
+71.25%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u6{fill:var(--c1);animation-name:u6;transform-origin:707.7px 0}
+@keyframes u7{71.45%{transform:scale(0.000,1)}
+71.47%,73.92%{transform:scale(0.500,1)}
+73.94%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u7{fill:var(--c3);animation-name:u7;transform-origin:714.1px 0}
+@keyframes u8{74.15%{transform:scale(0.000,1)}
+74.17%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u8{fill:var(--c2);animation-name:u8;transform-origin:726.9px 0}
+@keyframes u9{74.37%{transform:scale(0.000,1)}
+74.39%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-u9{fill:var(--c1);animation-name:u9;transform-origin:733.2px 0}
+@keyframes ua{74.6%{transform:scale(0.000,1)}
+74.62%,75.5%{transform:scale(0.125,1)}
+75.52%,76.17%{transform:scale(0.250,1)}
+76.19%,77.29%{transform:scale(0.375,1)}
+77.31%,77.52%{transform:scale(0.500,1)}
+77.54%,78.64%{transform:scale(0.625,1)}
+78.66%,80.66%{transform:scale(0.750,1)}
+80.68%,81.11%{transform:scale(0.875,1)}
+81.13%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-ua{fill:var(--c3);animation-name:ua;transform-origin:739.6px 0}
+@keyframes ub{81.34%{transform:scale(0.000,1)}
+81.36%,81.56%{transform:scale(0.111,1)}
+81.58%,82.46%{transform:scale(0.222,1)}
+82.48%,83.36%{transform:scale(0.333,1)}
+83.38%,86.73%{transform:scale(0.444,1)}
+86.75%,87.41%{transform:scale(0.556,1)}
+87.43%,88.08%{transform:scale(0.667,1)}
+88.1%,88.3%{transform:scale(0.778,1)}
+88.32%,88.75%{transform:scale(0.889,1)}
+88.77%,100%{transform:scale(1.000,1)}}
+.snk-u.snk-ub{fill:var(--c4);animation-name:ub;transform-origin:790.6px 0}
+.snk-s{shape-rendering:geometricPrecision;fill:var(--cs);animation:none linear 44500ms infinite}
 @keyframes s0{0%,99.78%{transform:translate(0px,-16px)}
 0.22%{transform:translate(0px,0px)}
-7.66%,63.24%{transform:translate(544px,0px)}
-7.88%{transform:translate(544px,-16px)}
-8.32%{transform:translate(576px,-16px)}
-8.53%,62.8%{transform:translate(576px,0px)}
-8.75%{transform:translate(592px,0px)}
-8.97%,18.16%{transform:translate(592px,16px)}
-9.41%,17.72%{transform:translate(624px,16px)}
-9.63%{transform:translate(624px,0px)}
-9.85%,57.11%{transform:translate(640px,0px)}
-10.07%{transform:translate(640px,-16px)}
-10.5%{transform:translate(672px,-16px)}
-10.72%,12.47%{transform:translate(672px,0px)}
-11.38%,47.7%{transform:translate(720px,0px)}
-11.6%{transform:translate(720px,16px)}
-12.25%,56.46%{transform:translate(672px,16px)}
-12.91%,46.17%{transform:translate(704px,0px)}
-13.35%{transform:translate(704px,32px)}
-13.79%{transform:translate(736px,32px)}
-14%{transform:translate(736px,48px)}
-14.44%,45.08%{transform:translate(704px,48px)}
-14.66%{transform:translate(704px,64px)}
-15.1%{transform:translate(736px,64px)}
-15.32%{transform:translate(736px,80px)}
-16.19%{transform:translate(672px,80px)}
-16.41%{transform:translate(672px,64px)}
-16.63%{transform:translate(656px,64px)}
-16.85%{transform:translate(656px,48px)}
-17.29%{transform:translate(624px,48px)}
-18.38%,19.26%{transform:translate(592px,32px)}
-18.6%,19.47%{transform:translate(576px,32px)}
-18.82%,62.14%{transform:translate(576px,48px)}
-19.04%,58.42%{transform:translate(592px,48px)}
-19.91%{transform:translate(576px,64px)}
-20.13%{transform:translate(560px,64px)}
-20.35%{transform:translate(560px,80px)}
-20.57%{transform:translate(576px,80px)}
-20.79%{transform:translate(576px,96px)}
-21.88%,35.01%{transform:translate(656px,96px)}
-22.1%{transform:translate(656px,80px)}
-22.32%{transform:translate(640px,80px)}
-22.54%{transform:translate(640px,64px)}
-22.98%{transform:translate(608px,64px)}
-23.19%,43.33%{transform:translate(608px,80px)}
-24.29%{transform:translate(688px,80px)}
-24.73%{transform:translate(688px,112px)}
-25.16%,49.23%{transform:translate(720px,112px)}
-25.38%{transform:translate(720px,96px)}
-25.6%,68.49%{transform:translate(736px,96px)}
-25.82%{transform:translate(736px,112px)}
-26.7%,32.82%{transform:translate(800px,112px)}
-26.91%{transform:translate(800px,96px)}
-27.35%{transform:translate(832px,96px)}
-27.79%,51.42%{transform:translate(832px,64px)}
-28.01%,77.02%{transform:translate(816px,64px)}
-28.23%{transform:translate(816px,48px)}
-28.45%{transform:translate(800px,48px)}
-28.88%,30.2%,72.21%{transform:translate(800px,16px)}
-29.32%,30.63%{transform:translate(832px,16px)}
-29.54%{transform:translate(832px,0px)}
-29.98%{transform:translate(800px,0px)}
-30.85%,51.86%{transform:translate(832px,32px)}
-31.07%{transform:translate(848px,32px)}
-31.51%{transform:translate(848px,64px)}
-32.17%,52.74%,77.68%{transform:translate(800px,64px)}
-34.79%{transform:translate(656px,112px)}
-36.54%,42.23%,59.74%{transform:translate(544px,96px)}
-36.76%,42.01%{transform:translate(544px,112px)}
-37.2%,41.58%{transform:translate(512px,112px)}
-37.86%,40.48%,61.05%{transform:translate(512px,64px)}
-38.07%,61.27%{transform:translate(528px,64px)}
-38.95%{transform:translate(528px,0px)}
-39.39%{transform:translate(496px,0px)}
-40.04%{transform:translate(496px,48px)}
-40.26%{transform:translate(512px,48px)}
-40.7%{transform:translate(496px,64px)}
-40.92%,60.61%{transform:translate(496px,80px)}
-41.14%,60.83%{transform:translate(512px,80px)}
-43.11%{transform:translate(608px,96px)}
-44.64%,54.7%{transform:translate(704px,80px)}
-45.3%,75.05%{transform:translate(688px,48px)}
-45.95%{transform:translate(688px,0px)}
-46.39%{transform:translate(704px,-16px)}
-47.05%{transform:translate(752px,-16px)}
-47.26%{transform:translate(752px,0px)}
-49.89%{transform:translate(768px,112px)}
-50.11%{transform:translate(768px,96px)}
-50.33%,53.39%,69.15%,70.9%{transform:translate(784px,96px)}
-50.77%,52.95%,69.58%{transform:translate(784px,64px)}
-52.3%{transform:translate(800px,32px)}
-53.83%,70.46%{transform:translate(752px,96px)}
-54.05%{transform:translate(752px,80px)}
-54.92%{transform:translate(704px,96px)}
-55.36%{transform:translate(672px,96px)}
-56.67%{transform:translate(656px,16px)}
-56.89%{transform:translate(656px,0px)}
-57.55%{transform:translate(640px,32px)}
-57.99%{transform:translate(608px,32px)}
-58.21%{transform:translate(608px,48px)}
-58.86%{transform:translate(592px,80px)}
-59.52%{transform:translate(544px,80px)}
-60.39%{transform:translate(496px,96px)}
-61.49%{transform:translate(528px,48px)}
-63.46%{transform:translate(544px,16px)}
-63.89%,82.71%{transform:translate(512px,16px)}
-64.11%{transform:translate(512px,0px)}
-67.18%{transform:translate(736px,0px)}
-70.02%{transform:translate(752px,64px)}
-71.12%,87.31%{transform:translate(784px,80px)}
-71.33%,77.46%{transform:translate(800px,80px)}
-72.65%,73.52%,88.84%{transform:translate(768px,16px)}
-72.87%{transform:translate(768px,32px)}
-73.09%,87.96%{transform:translate(784px,32px)}
-73.3%{transform:translate(784px,16px)}
-73.96%{transform:translate(768px,48px)}
-75.27%{transform:translate(688px,64px)}
-77.24%{transform:translate(816px,80px)}
-81.18%{transform:translate(544px,64px)}
-81.62%{transform:translate(544px,32px)}
-81.84%{transform:translate(560px,32px)}
-82.06%{transform:translate(560px,16px)}
-82.93%{transform:translate(512px,32px)}
-83.15%{transform:translate(528px,32px)}
-83.81%{transform:translate(528px,80px)}
-88.4%{transform:translate(752px,32px)}
-88.62%{transform:translate(752px,16px)}
-89.06%{transform:translate(768px,0px)}
-98.91%{transform:translate(48px,0px)}
-99.12%{transform:translate(48px,-16px)}}
+7.87%,64.49%{transform:translate(544px,0px)}
+8.09%{transform:translate(544px,-16px)}
+8.54%{transform:translate(576px,-16px)}
+8.76%,64.04%{transform:translate(576px,0px)}
+8.99%{transform:translate(592px,0px)}
+9.21%,18.65%{transform:translate(592px,16px)}
+9.66%,18.2%{transform:translate(624px,16px)}
+9.89%{transform:translate(624px,0px)}
+10.11%,58.2%{transform:translate(640px,0px)}
+10.34%{transform:translate(640px,-16px)}
+10.79%{transform:translate(672px,-16px)}
+11.01%,12.81%{transform:translate(672px,0px)}
+11.69%,48.99%{transform:translate(720px,0px)}
+11.91%{transform:translate(720px,16px)}
+12.58%,57.53%{transform:translate(672px,16px)}
+13.26%,47.42%{transform:translate(704px,0px)}
+13.71%{transform:translate(704px,32px)}
+14.16%{transform:translate(736px,32px)}
+14.38%{transform:translate(736px,48px)}
+14.83%,46.29%{transform:translate(704px,48px)}
+15.06%{transform:translate(704px,64px)}
+15.51%{transform:translate(736px,64px)}
+15.73%{transform:translate(736px,80px)}
+16.63%{transform:translate(672px,80px)}
+16.85%{transform:translate(672px,64px)}
+17.08%{transform:translate(656px,64px)}
+17.3%{transform:translate(656px,48px)}
+17.75%{transform:translate(624px,48px)}
+18.88%,19.78%{transform:translate(592px,32px)}
+19.1%,20%{transform:translate(576px,32px)}
+19.33%,63.37%{transform:translate(576px,48px)}
+19.55%,59.55%{transform:translate(592px,48px)}
+20.45%{transform:translate(576px,64px)}
+20.67%{transform:translate(560px,64px)}
+20.9%{transform:translate(560px,80px)}
+21.12%{transform:translate(576px,80px)}
+21.35%{transform:translate(576px,96px)}
+22.47%,35.96%{transform:translate(656px,96px)}
+22.7%{transform:translate(656px,80px)}
+22.92%{transform:translate(640px,80px)}
+23.15%{transform:translate(640px,64px)}
+23.6%{transform:translate(608px,64px)}
+23.82%,44.49%{transform:translate(608px,80px)}
+24.94%{transform:translate(688px,80px)}
+25.39%{transform:translate(688px,112px)}
+25.84%,50.56%{transform:translate(720px,112px)}
+26.07%{transform:translate(720px,96px)}
+26.29%,69.89%{transform:translate(736px,96px)}
+26.52%{transform:translate(736px,112px)}
+27.42%,33.71%{transform:translate(800px,112px)}
+27.64%{transform:translate(800px,96px)}
+28.09%{transform:translate(832px,96px)}
+28.54%{transform:translate(832px,64px)}
+28.76%,52.58%{transform:translate(816px,64px)}
+28.99%,75.73%{transform:translate(816px,48px)}
+29.21%{transform:translate(800px,48px)}
+29.66%,31.01%,73.71%{transform:translate(800px,16px)}
+30.11%,31.46%{transform:translate(832px,16px)}
+30.34%{transform:translate(832px,0px)}
+30.79%{transform:translate(800px,0px)}
+31.69%,75.28%{transform:translate(832px,32px)}
+31.91%{transform:translate(848px,32px)}
+32.36%{transform:translate(848px,64px)}
+33.03%,53.71%,76.63%{transform:translate(800px,64px)}
+35.73%{transform:translate(656px,112px)}
+37.53%,43.37%,60.9%{transform:translate(544px,96px)}
+37.75%,43.15%{transform:translate(544px,112px)}
+38.2%,42.7%{transform:translate(512px,112px)}
+38.88%,41.57%,62.25%{transform:translate(512px,64px)}
+39.1%,62.47%{transform:translate(528px,64px)}
+40%{transform:translate(528px,0px)}
+40.45%{transform:translate(496px,0px)}
+41.12%{transform:translate(496px,48px)}
+41.35%{transform:translate(512px,48px)}
+41.8%{transform:translate(496px,64px)}
+42.02%,61.8%{transform:translate(496px,80px)}
+42.25%,62.02%{transform:translate(512px,80px)}
+44.27%{transform:translate(608px,96px)}
+45.84%,55.73%{transform:translate(704px,80px)}
+46.52%,78.43%{transform:translate(688px,48px)}
+47.19%{transform:translate(688px,0px)}
+47.64%{transform:translate(704px,-16px)}
+48.31%{transform:translate(752px,-16px)}
+48.54%{transform:translate(752px,0px)}
+51.24%{transform:translate(768px,112px)}
+51.46%{transform:translate(768px,96px)}
+51.69%,54.38%,70.56%,72.36%{transform:translate(784px,96px)}
+52.13%,53.93%,71.01%{transform:translate(784px,64px)}
+53.03%{transform:translate(816px,32px)}
+53.26%{transform:translate(800px,32px)}
+54.83%,71.91%{transform:translate(752px,96px)}
+55.06%{transform:translate(752px,80px)}
+55.96%{transform:translate(704px,96px)}
+56.4%{transform:translate(672px,96px)}
+57.75%{transform:translate(656px,16px)}
+57.98%{transform:translate(656px,0px)}
+58.65%{transform:translate(640px,32px)}
+59.1%{transform:translate(608px,32px)}
+59.33%{transform:translate(608px,48px)}
+60%{transform:translate(592px,80px)}
+60.67%{transform:translate(544px,80px)}
+61.57%{transform:translate(496px,96px)}
+62.7%{transform:translate(528px,48px)}
+64.72%{transform:translate(544px,16px)}
+65.17%,82.25%{transform:translate(512px,16px)}
+65.39%{transform:translate(512px,0px)}
+68.54%{transform:translate(736px,0px)}
+71.46%{transform:translate(752px,64px)}
+72.58%,86.97%{transform:translate(784px,80px)}
+72.81%,76.4%{transform:translate(800px,80px)}
+74.16%,88.54%{transform:translate(768px,16px)}
+74.38%{transform:translate(768px,32px)}
+75.51%{transform:translate(832px,48px)}
+76.18%{transform:translate(816px,80px)}
+77.08%{transform:translate(768px,64px)}
+77.3%{transform:translate(768px,48px)}
+78.65%{transform:translate(688px,64px)}
+80.67%{transform:translate(544px,64px)}
+81.12%{transform:translate(544px,32px)}
+81.35%{transform:translate(560px,32px)}
+81.57%{transform:translate(560px,16px)}
+82.47%{transform:translate(512px,32px)}
+82.7%{transform:translate(528px,32px)}
+83.37%{transform:translate(528px,80px)}
+87.64%{transform:translate(784px,32px)}
+88.09%{transform:translate(752px,32px)}
+88.31%{transform:translate(752px,16px)}
+88.76%{transform:translate(768px,0px)}
+98.88%{transform:translate(48px,0px)}
+99.1%{transform:translate(48px,-16px)}}
 .snk-s.snk-s0{transform:translate(0px,-16px);animation-name:s0}
 @keyframes s1{0%,99.78%{transform:translate(16px,-16px)}
 0.22%{transform:translate(0px,-16px)}
-0.44%{transform:translate(0px,0px)}
-7.88%,63.46%{transform:translate(544px,0px)}
-8.1%{transform:translate(544px,-16px)}
-8.53%{transform:translate(576px,-16px)}
-8.75%,63.02%{transform:translate(576px,0px)}
-8.97%{transform:translate(592px,0px)}
-9.19%,18.38%{transform:translate(592px,16px)}
-9.63%,17.94%{transform:translate(624px,16px)}
-9.85%{transform:translate(624px,0px)}
-10.07%,57.33%{transform:translate(640px,0px)}
-10.28%{transform:translate(640px,-16px)}
-10.72%{transform:translate(672px,-16px)}
-10.94%,12.69%{transform:translate(672px,0px)}
-11.6%,47.92%{transform:translate(720px,0px)}
-11.82%{transform:translate(720px,16px)}
-12.47%,56.67%{transform:translate(672px,16px)}
-13.13%,46.39%{transform:translate(704px,0px)}
-13.57%{transform:translate(704px,32px)}
-14%{transform:translate(736px,32px)}
-14.22%{transform:translate(736px,48px)}
-14.66%,45.3%{transform:translate(704px,48px)}
-14.88%{transform:translate(704px,64px)}
-15.32%{transform:translate(736px,64px)}
-15.54%{transform:translate(736px,80px)}
-16.41%{transform:translate(672px,80px)}
-16.63%{transform:translate(672px,64px)}
-16.85%{transform:translate(656px,64px)}
-17.07%{transform:translate(656px,48px)}
-17.51%{transform:translate(624px,48px)}
-18.6%,19.47%{transform:translate(592px,32px)}
-18.82%,19.69%{transform:translate(576px,32px)}
-19.04%,62.36%{transform:translate(576px,48px)}
-19.26%,58.64%{transform:translate(592px,48px)}
-20.13%{transform:translate(576px,64px)}
-20.35%{transform:translate(560px,64px)}
-20.57%{transform:translate(560px,80px)}
-20.79%{transform:translate(576px,80px)}
-21.01%{transform:translate(576px,96px)}
-22.1%,35.23%{transform:translate(656px,96px)}
-22.32%{transform:translate(656px,80px)}
-22.54%{transform:translate(640px,80px)}
-22.76%{transform:translate(640px,64px)}
-23.19%{transform:translate(608px,64px)}
-23.41%,43.54%{transform:translate(608px,80px)}
-24.51%{transform:translate(688px,80px)}
-24.95%{transform:translate(688px,112px)}
-25.38%,49.45%{transform:translate(720px,112px)}
-25.6%{transform:translate(720px,96px)}
-25.82%,68.71%{transform:translate(736px,96px)}
-26.04%{transform:translate(736px,112px)}
-26.91%,33.04%{transform:translate(800px,112px)}
-27.13%{transform:translate(800px,96px)}
-27.57%{transform:translate(832px,96px)}
-28.01%,51.64%{transform:translate(832px,64px)}
-28.23%,77.24%{transform:translate(816px,64px)}
-28.45%{transform:translate(816px,48px)}
-28.67%{transform:translate(800px,48px)}
-29.1%,30.42%,72.43%{transform:translate(800px,16px)}
-29.54%,30.85%{transform:translate(832px,16px)}
-29.76%{transform:translate(832px,0px)}
-30.2%{transform:translate(800px,0px)}
-31.07%,52.08%{transform:translate(832px,32px)}
-31.29%{transform:translate(848px,32px)}
-31.73%{transform:translate(848px,64px)}
-32.39%,52.95%,77.9%{transform:translate(800px,64px)}
-35.01%{transform:translate(656px,112px)}
-36.76%,42.45%,59.96%{transform:translate(544px,96px)}
-36.98%,42.23%{transform:translate(544px,112px)}
-37.42%,41.79%{transform:translate(512px,112px)}
-38.07%,40.7%,61.27%{transform:translate(512px,64px)}
-38.29%,61.49%{transform:translate(528px,64px)}
-39.17%{transform:translate(528px,0px)}
-39.61%{transform:translate(496px,0px)}
-40.26%{transform:translate(496px,48px)}
-40.48%{transform:translate(512px,48px)}
-40.92%{transform:translate(496px,64px)}
-41.14%,60.83%{transform:translate(496px,80px)}
-41.36%,61.05%{transform:translate(512px,80px)}
-43.33%{transform:translate(608px,96px)}
-44.86%,54.92%{transform:translate(704px,80px)}
-45.51%,75.27%{transform:translate(688px,48px)}
-46.17%{transform:translate(688px,0px)}
-46.61%{transform:translate(704px,-16px)}
-47.26%{transform:translate(752px,-16px)}
-47.48%{transform:translate(752px,0px)}
-50.11%{transform:translate(768px,112px)}
-50.33%{transform:translate(768px,96px)}
-50.55%,53.61%,69.37%,71.12%{transform:translate(784px,96px)}
-50.98%,53.17%,69.8%{transform:translate(784px,64px)}
-52.52%{transform:translate(800px,32px)}
-54.05%,70.68%{transform:translate(752px,96px)}
-54.27%{transform:translate(752px,80px)}
-55.14%{transform:translate(704px,96px)}
-55.58%{transform:translate(672px,96px)}
-56.89%{transform:translate(656px,16px)}
-57.11%{transform:translate(656px,0px)}
-57.77%{transform:translate(640px,32px)}
-58.21%{transform:translate(608px,32px)}
-58.42%{transform:translate(608px,48px)}
-59.08%{transform:translate(592px,80px)}
-59.74%{transform:translate(544px,80px)}
-60.61%{transform:translate(496px,96px)}
-61.71%{transform:translate(528px,48px)}
-63.68%{transform:translate(544px,16px)}
-64.11%,82.93%{transform:translate(512px,16px)}
-64.33%{transform:translate(512px,0px)}
-67.4%{transform:translate(736px,0px)}
-70.24%{transform:translate(752px,64px)}
-71.33%,87.53%{transform:translate(784px,80px)}
-71.55%,77.68%{transform:translate(800px,80px)}
-72.87%,73.74%,89.06%{transform:translate(768px,16px)}
-73.09%{transform:translate(768px,32px)}
-73.3%,88.18%{transform:translate(784px,32px)}
-73.52%{transform:translate(784px,16px)}
-74.18%{transform:translate(768px,48px)}
-75.49%{transform:translate(688px,64px)}
-77.46%{transform:translate(816px,80px)}
-81.4%{transform:translate(544px,64px)}
-81.84%{transform:translate(544px,32px)}
-82.06%{transform:translate(560px,32px)}
-82.28%{transform:translate(560px,16px)}
-83.15%{transform:translate(512px,32px)}
-83.37%{transform:translate(528px,32px)}
-84.03%{transform:translate(528px,80px)}
-88.62%{transform:translate(752px,32px)}
-88.84%{transform:translate(752px,16px)}
-89.28%{transform:translate(768px,0px)}
-99.12%{transform:translate(48px,0px)}
-99.34%{transform:translate(48px,-16px)}}
+0.45%{transform:translate(0px,0px)}
+8.09%,64.72%{transform:translate(544px,0px)}
+8.31%{transform:translate(544px,-16px)}
+8.76%{transform:translate(576px,-16px)}
+8.99%,64.27%{transform:translate(576px,0px)}
+9.21%{transform:translate(592px,0px)}
+9.44%,18.88%{transform:translate(592px,16px)}
+9.89%,18.43%{transform:translate(624px,16px)}
+10.11%{transform:translate(624px,0px)}
+10.34%,58.43%{transform:translate(640px,0px)}
+10.56%{transform:translate(640px,-16px)}
+11.01%{transform:translate(672px,-16px)}
+11.24%,13.03%{transform:translate(672px,0px)}
+11.91%,49.21%{transform:translate(720px,0px)}
+12.13%{transform:translate(720px,16px)}
+12.81%,57.75%{transform:translate(672px,16px)}
+13.48%,47.64%{transform:translate(704px,0px)}
+13.93%{transform:translate(704px,32px)}
+14.38%{transform:translate(736px,32px)}
+14.61%{transform:translate(736px,48px)}
+15.06%,46.52%{transform:translate(704px,48px)}
+15.28%{transform:translate(704px,64px)}
+15.73%{transform:translate(736px,64px)}
+15.96%{transform:translate(736px,80px)}
+16.85%{transform:translate(672px,80px)}
+17.08%{transform:translate(672px,64px)}
+17.3%{transform:translate(656px,64px)}
+17.53%{transform:translate(656px,48px)}
+17.98%{transform:translate(624px,48px)}
+19.1%,20%{transform:translate(592px,32px)}
+19.33%,20.22%{transform:translate(576px,32px)}
+19.55%,63.6%{transform:translate(576px,48px)}
+19.78%,59.78%{transform:translate(592px,48px)}
+20.67%{transform:translate(576px,64px)}
+20.9%{transform:translate(560px,64px)}
+21.12%{transform:translate(560px,80px)}
+21.35%{transform:translate(576px,80px)}
+21.57%{transform:translate(576px,96px)}
+22.7%,36.18%{transform:translate(656px,96px)}
+22.92%{transform:translate(656px,80px)}
+23.15%{transform:translate(640px,80px)}
+23.37%{transform:translate(640px,64px)}
+23.82%{transform:translate(608px,64px)}
+24.04%,44.72%{transform:translate(608px,80px)}
+25.17%{transform:translate(688px,80px)}
+25.62%{transform:translate(688px,112px)}
+26.07%,50.79%{transform:translate(720px,112px)}
+26.29%{transform:translate(720px,96px)}
+26.52%,70.11%{transform:translate(736px,96px)}
+26.74%{transform:translate(736px,112px)}
+27.64%,33.93%{transform:translate(800px,112px)}
+27.87%{transform:translate(800px,96px)}
+28.31%{transform:translate(832px,96px)}
+28.76%{transform:translate(832px,64px)}
+28.99%,52.81%{transform:translate(816px,64px)}
+29.21%,75.96%{transform:translate(816px,48px)}
+29.44%{transform:translate(800px,48px)}
+29.89%,31.24%,73.93%{transform:translate(800px,16px)}
+30.34%,31.69%{transform:translate(832px,16px)}
+30.56%{transform:translate(832px,0px)}
+31.01%{transform:translate(800px,0px)}
+31.91%,75.51%{transform:translate(832px,32px)}
+32.13%{transform:translate(848px,32px)}
+32.58%{transform:translate(848px,64px)}
+33.26%,53.93%,76.85%{transform:translate(800px,64px)}
+35.96%{transform:translate(656px,112px)}
+37.75%,43.6%,61.12%{transform:translate(544px,96px)}
+37.98%,43.37%{transform:translate(544px,112px)}
+38.43%,42.92%{transform:translate(512px,112px)}
+39.1%,41.8%,62.47%{transform:translate(512px,64px)}
+39.33%,62.7%{transform:translate(528px,64px)}
+40.22%{transform:translate(528px,0px)}
+40.67%{transform:translate(496px,0px)}
+41.35%{transform:translate(496px,48px)}
+41.57%{transform:translate(512px,48px)}
+42.02%{transform:translate(496px,64px)}
+42.25%,62.02%{transform:translate(496px,80px)}
+42.47%,62.25%{transform:translate(512px,80px)}
+44.49%{transform:translate(608px,96px)}
+46.07%,55.96%{transform:translate(704px,80px)}
+46.74%,78.65%{transform:translate(688px,48px)}
+47.42%{transform:translate(688px,0px)}
+47.87%{transform:translate(704px,-16px)}
+48.54%{transform:translate(752px,-16px)}
+48.76%{transform:translate(752px,0px)}
+51.46%{transform:translate(768px,112px)}
+51.69%{transform:translate(768px,96px)}
+51.91%,54.61%,70.79%,72.58%{transform:translate(784px,96px)}
+52.36%,54.16%,71.24%{transform:translate(784px,64px)}
+53.26%{transform:translate(816px,32px)}
+53.48%{transform:translate(800px,32px)}
+55.06%,72.13%{transform:translate(752px,96px)}
+55.28%{transform:translate(752px,80px)}
+56.18%{transform:translate(704px,96px)}
+56.63%{transform:translate(672px,96px)}
+57.98%{transform:translate(656px,16px)}
+58.2%{transform:translate(656px,0px)}
+58.88%{transform:translate(640px,32px)}
+59.33%{transform:translate(608px,32px)}
+59.55%{transform:translate(608px,48px)}
+60.22%{transform:translate(592px,80px)}
+60.9%{transform:translate(544px,80px)}
+61.8%{transform:translate(496px,96px)}
+62.92%{transform:translate(528px,48px)}
+64.94%{transform:translate(544px,16px)}
+65.39%,82.47%{transform:translate(512px,16px)}
+65.62%{transform:translate(512px,0px)}
+68.76%{transform:translate(736px,0px)}
+71.69%{transform:translate(752px,64px)}
+72.81%,87.19%{transform:translate(784px,80px)}
+73.03%,76.63%{transform:translate(800px,80px)}
+74.38%,88.76%{transform:translate(768px,16px)}
+74.61%{transform:translate(768px,32px)}
+75.73%{transform:translate(832px,48px)}
+76.4%{transform:translate(816px,80px)}
+77.3%{transform:translate(768px,64px)}
+77.53%{transform:translate(768px,48px)}
+78.88%{transform:translate(688px,64px)}
+80.9%{transform:translate(544px,64px)}
+81.35%{transform:translate(544px,32px)}
+81.57%{transform:translate(560px,32px)}
+81.8%{transform:translate(560px,16px)}
+82.7%{transform:translate(512px,32px)}
+82.92%{transform:translate(528px,32px)}
+83.6%{transform:translate(528px,80px)}
+87.87%{transform:translate(784px,32px)}
+88.31%{transform:translate(752px,32px)}
+88.54%{transform:translate(752px,16px)}
+88.99%{transform:translate(768px,0px)}
+99.1%{transform:translate(48px,0px)}
+99.33%{transform:translate(48px,-16px)}}
 .snk-s.snk-s1{transform:translate(16px,-16px);animation-name:s1}
 @keyframes s2{0%,99.78%{transform:translate(32px,-16px)}
-0.44%{transform:translate(0px,-16px)}
-0.66%{transform:translate(0px,0px)}
-8.1%,63.68%{transform:translate(544px,0px)}
-8.32%{transform:translate(544px,-16px)}
-8.75%{transform:translate(576px,-16px)}
-8.97%,63.24%{transform:translate(576px,0px)}
-9.19%{transform:translate(592px,0px)}
-9.41%,18.6%{transform:translate(592px,16px)}
-9.85%,18.16%{transform:translate(624px,16px)}
-10.07%{transform:translate(624px,0px)}
-10.28%,57.55%{transform:translate(640px,0px)}
-10.5%{transform:translate(640px,-16px)}
-10.94%{transform:translate(672px,-16px)}
-11.16%,12.91%{transform:translate(672px,0px)}
-11.82%,48.14%{transform:translate(720px,0px)}
-12.04%{transform:translate(720px,16px)}
-12.69%,56.89%{transform:translate(672px,16px)}
-13.35%,46.61%{transform:translate(704px,0px)}
-13.79%{transform:translate(704px,32px)}
-14.22%{transform:translate(736px,32px)}
-14.44%{transform:translate(736px,48px)}
-14.88%,45.51%{transform:translate(704px,48px)}
-15.1%{transform:translate(704px,64px)}
-15.54%{transform:translate(736px,64px)}
-15.75%{transform:translate(736px,80px)}
-16.63%{transform:translate(672px,80px)}
-16.85%{transform:translate(672px,64px)}
-17.07%{transform:translate(656px,64px)}
-17.29%{transform:translate(656px,48px)}
-17.72%{transform:translate(624px,48px)}
-18.82%,19.69%{transform:translate(592px,32px)}
-19.04%,19.91%{transform:translate(576px,32px)}
-19.26%,62.58%{transform:translate(576px,48px)}
-19.47%,58.86%{transform:translate(592px,48px)}
-20.35%{transform:translate(576px,64px)}
-20.57%{transform:translate(560px,64px)}
-20.79%{transform:translate(560px,80px)}
-21.01%{transform:translate(576px,80px)}
-21.23%{transform:translate(576px,96px)}
-22.32%,35.45%{transform:translate(656px,96px)}
-22.54%{transform:translate(656px,80px)}
-22.76%{transform:translate(640px,80px)}
-22.98%{transform:translate(640px,64px)}
-23.41%{transform:translate(608px,64px)}
-23.63%,43.76%{transform:translate(608px,80px)}
-24.73%{transform:translate(688px,80px)}
-25.16%{transform:translate(688px,112px)}
-25.6%,49.67%{transform:translate(720px,112px)}
-25.82%{transform:translate(720px,96px)}
-26.04%,68.93%{transform:translate(736px,96px)}
-26.26%{transform:translate(736px,112px)}
-27.13%,33.26%{transform:translate(800px,112px)}
-27.35%{transform:translate(800px,96px)}
-27.79%{transform:translate(832px,96px)}
-28.23%,51.86%{transform:translate(832px,64px)}
-28.45%,77.46%{transform:translate(816px,64px)}
-28.67%{transform:translate(816px,48px)}
-28.88%{transform:translate(800px,48px)}
-29.32%,30.63%,72.65%{transform:translate(800px,16px)}
-29.76%,31.07%{transform:translate(832px,16px)}
-29.98%{transform:translate(832px,0px)}
-30.42%{transform:translate(800px,0px)}
-31.29%,52.3%{transform:translate(832px,32px)}
-31.51%{transform:translate(848px,32px)}
-31.95%{transform:translate(848px,64px)}
-32.6%,53.17%,78.12%{transform:translate(800px,64px)}
-35.23%{transform:translate(656px,112px)}
-36.98%,42.67%,60.18%{transform:translate(544px,96px)}
-37.2%,42.45%{transform:translate(544px,112px)}
-37.64%,42.01%{transform:translate(512px,112px)}
-38.29%,40.92%,61.49%{transform:translate(512px,64px)}
-38.51%,61.71%{transform:translate(528px,64px)}
-39.39%{transform:translate(528px,0px)}
-39.82%{transform:translate(496px,0px)}
-40.48%{transform:translate(496px,48px)}
-40.7%{transform:translate(512px,48px)}
-41.14%{transform:translate(496px,64px)}
-41.36%,61.05%{transform:translate(496px,80px)}
-41.58%,61.27%{transform:translate(512px,80px)}
-43.54%{transform:translate(608px,96px)}
-45.08%,55.14%{transform:translate(704px,80px)}
-45.73%,75.49%{transform:translate(688px,48px)}
-46.39%{transform:translate(688px,0px)}
-46.83%{transform:translate(704px,-16px)}
-47.48%{transform:translate(752px,-16px)}
-47.7%{transform:translate(752px,0px)}
-50.33%{transform:translate(768px,112px)}
-50.55%{transform:translate(768px,96px)}
-50.77%,53.83%,69.58%,71.33%{transform:translate(784px,96px)}
-51.2%,53.39%,70.02%{transform:translate(784px,64px)}
-52.74%{transform:translate(800px,32px)}
-54.27%,70.9%{transform:translate(752px,96px)}
-54.49%{transform:translate(752px,80px)}
-55.36%{transform:translate(704px,96px)}
-55.8%{transform:translate(672px,96px)}
-57.11%{transform:translate(656px,16px)}
-57.33%{transform:translate(656px,0px)}
-57.99%{transform:translate(640px,32px)}
-58.42%{transform:translate(608px,32px)}
-58.64%{transform:translate(608px,48px)}
-59.3%{transform:translate(592px,80px)}
-59.96%{transform:translate(544px,80px)}
-60.83%{transform:translate(496px,96px)}
-61.93%{transform:translate(528px,48px)}
-63.89%{transform:translate(544px,16px)}
-64.33%,83.15%{transform:translate(512px,16px)}
-64.55%{transform:translate(512px,0px)}
-67.61%{transform:translate(736px,0px)}
-70.46%{transform:translate(752px,64px)}
-71.55%,87.75%{transform:translate(784px,80px)}
-71.77%,77.9%{transform:translate(800px,80px)}
-73.09%,73.96%,89.28%{transform:translate(768px,16px)}
-73.3%{transform:translate(768px,32px)}
-73.52%,88.4%{transform:translate(784px,32px)}
-73.74%{transform:translate(784px,16px)}
-74.4%{transform:translate(768px,48px)}
-75.71%{transform:translate(688px,64px)}
-77.68%{transform:translate(816px,80px)}
-81.62%{transform:translate(544px,64px)}
-82.06%{transform:translate(544px,32px)}
-82.28%{transform:translate(560px,32px)}
-82.49%{transform:translate(560px,16px)}
-83.37%{transform:translate(512px,32px)}
-83.59%{transform:translate(528px,32px)}
-84.25%{transform:translate(528px,80px)}
-88.84%{transform:translate(752px,32px)}
-89.06%{transform:translate(752px,16px)}
-89.5%{transform:translate(768px,0px)}
-99.34%{transform:translate(48px,0px)}
-99.56%{transform:translate(48px,-16px)}}
+0.45%{transform:translate(0px,-16px)}
+0.67%{transform:translate(0px,0px)}
+8.31%,64.94%{transform:translate(544px,0px)}
+8.54%{transform:translate(544px,-16px)}
+8.99%{transform:translate(576px,-16px)}
+9.21%,64.49%{transform:translate(576px,0px)}
+9.44%{transform:translate(592px,0px)}
+9.66%,19.1%{transform:translate(592px,16px)}
+10.11%,18.65%{transform:translate(624px,16px)}
+10.34%{transform:translate(624px,0px)}
+10.56%,58.65%{transform:translate(640px,0px)}
+10.79%{transform:translate(640px,-16px)}
+11.24%{transform:translate(672px,-16px)}
+11.46%,13.26%{transform:translate(672px,0px)}
+12.13%,49.44%{transform:translate(720px,0px)}
+12.36%{transform:translate(720px,16px)}
+13.03%,57.98%{transform:translate(672px,16px)}
+13.71%,47.87%{transform:translate(704px,0px)}
+14.16%{transform:translate(704px,32px)}
+14.61%{transform:translate(736px,32px)}
+14.83%{transform:translate(736px,48px)}
+15.28%,46.74%{transform:translate(704px,48px)}
+15.51%{transform:translate(704px,64px)}
+15.96%{transform:translate(736px,64px)}
+16.18%{transform:translate(736px,80px)}
+17.08%{transform:translate(672px,80px)}
+17.3%{transform:translate(672px,64px)}
+17.53%{transform:translate(656px,64px)}
+17.75%{transform:translate(656px,48px)}
+18.2%{transform:translate(624px,48px)}
+19.33%,20.22%{transform:translate(592px,32px)}
+19.55%,20.45%{transform:translate(576px,32px)}
+19.78%,63.82%{transform:translate(576px,48px)}
+20%,60%{transform:translate(592px,48px)}
+20.9%{transform:translate(576px,64px)}
+21.12%{transform:translate(560px,64px)}
+21.35%{transform:translate(560px,80px)}
+21.57%{transform:translate(576px,80px)}
+21.8%{transform:translate(576px,96px)}
+22.92%,36.4%{transform:translate(656px,96px)}
+23.15%{transform:translate(656px,80px)}
+23.37%{transform:translate(640px,80px)}
+23.6%{transform:translate(640px,64px)}
+24.04%{transform:translate(608px,64px)}
+24.27%,44.94%{transform:translate(608px,80px)}
+25.39%{transform:translate(688px,80px)}
+25.84%{transform:translate(688px,112px)}
+26.29%,51.01%{transform:translate(720px,112px)}
+26.52%{transform:translate(720px,96px)}
+26.74%,70.34%{transform:translate(736px,96px)}
+26.97%{transform:translate(736px,112px)}
+27.87%,34.16%{transform:translate(800px,112px)}
+28.09%{transform:translate(800px,96px)}
+28.54%{transform:translate(832px,96px)}
+28.99%{transform:translate(832px,64px)}
+29.21%,53.03%{transform:translate(816px,64px)}
+29.44%,76.18%{transform:translate(816px,48px)}
+29.66%{transform:translate(800px,48px)}
+30.11%,31.46%,74.16%{transform:translate(800px,16px)}
+30.56%,31.91%{transform:translate(832px,16px)}
+30.79%{transform:translate(832px,0px)}
+31.24%{transform:translate(800px,0px)}
+32.13%,75.73%{transform:translate(832px,32px)}
+32.36%{transform:translate(848px,32px)}
+32.81%{transform:translate(848px,64px)}
+33.48%,54.16%,77.08%{transform:translate(800px,64px)}
+36.18%{transform:translate(656px,112px)}
+37.98%,43.82%,61.35%{transform:translate(544px,96px)}
+38.2%,43.6%{transform:translate(544px,112px)}
+38.65%,43.15%{transform:translate(512px,112px)}
+39.33%,42.02%,62.7%{transform:translate(512px,64px)}
+39.55%,62.92%{transform:translate(528px,64px)}
+40.45%{transform:translate(528px,0px)}
+40.9%{transform:translate(496px,0px)}
+41.57%{transform:translate(496px,48px)}
+41.8%{transform:translate(512px,48px)}
+42.25%{transform:translate(496px,64px)}
+42.47%,62.25%{transform:translate(496px,80px)}
+42.7%,62.47%{transform:translate(512px,80px)}
+44.72%{transform:translate(608px,96px)}
+46.29%,56.18%{transform:translate(704px,80px)}
+46.97%,78.88%{transform:translate(688px,48px)}
+47.64%{transform:translate(688px,0px)}
+48.09%{transform:translate(704px,-16px)}
+48.76%{transform:translate(752px,-16px)}
+48.99%{transform:translate(752px,0px)}
+51.69%{transform:translate(768px,112px)}
+51.91%{transform:translate(768px,96px)}
+52.13%,54.83%,71.01%,72.81%{transform:translate(784px,96px)}
+52.58%,54.38%,71.46%{transform:translate(784px,64px)}
+53.48%{transform:translate(816px,32px)}
+53.71%{transform:translate(800px,32px)}
+55.28%,72.36%{transform:translate(752px,96px)}
+55.51%{transform:translate(752px,80px)}
+56.4%{transform:translate(704px,96px)}
+56.85%{transform:translate(672px,96px)}
+58.2%{transform:translate(656px,16px)}
+58.43%{transform:translate(656px,0px)}
+59.1%{transform:translate(640px,32px)}
+59.55%{transform:translate(608px,32px)}
+59.78%{transform:translate(608px,48px)}
+60.45%{transform:translate(592px,80px)}
+61.12%{transform:translate(544px,80px)}
+62.02%{transform:translate(496px,96px)}
+63.15%{transform:translate(528px,48px)}
+65.17%{transform:translate(544px,16px)}
+65.62%,82.7%{transform:translate(512px,16px)}
+65.84%{transform:translate(512px,0px)}
+68.99%{transform:translate(736px,0px)}
+71.91%{transform:translate(752px,64px)}
+73.03%,87.42%{transform:translate(784px,80px)}
+73.26%,76.85%{transform:translate(800px,80px)}
+74.61%,88.99%{transform:translate(768px,16px)}
+74.83%{transform:translate(768px,32px)}
+75.96%{transform:translate(832px,48px)}
+76.63%{transform:translate(816px,80px)}
+77.53%{transform:translate(768px,64px)}
+77.75%{transform:translate(768px,48px)}
+79.1%{transform:translate(688px,64px)}
+81.12%{transform:translate(544px,64px)}
+81.57%{transform:translate(544px,32px)}
+81.8%{transform:translate(560px,32px)}
+82.02%{transform:translate(560px,16px)}
+82.92%{transform:translate(512px,32px)}
+83.15%{transform:translate(528px,32px)}
+83.82%{transform:translate(528px,80px)}
+88.09%{transform:translate(784px,32px)}
+88.54%{transform:translate(752px,32px)}
+88.76%{transform:translate(752px,16px)}
+89.21%{transform:translate(768px,0px)}
+99.33%{transform:translate(48px,0px)}
+99.55%{transform:translate(48px,-16px)}}
 .snk-s.snk-s2{transform:translate(32px,-16px);animation-name:s2}
 @keyframes s3{0%,99.78%{transform:translate(48px,-16px)}
-0.66%{transform:translate(0px,-16px)}
-0.88%{transform:translate(0px,0px)}
-8.32%,63.89%{transform:translate(544px,0px)}
-8.53%{transform:translate(544px,-16px)}
-8.97%{transform:translate(576px,-16px)}
-9.19%,63.46%{transform:translate(576px,0px)}
-9.41%{transform:translate(592px,0px)}
-9.63%,18.82%{transform:translate(592px,16px)}
-10.07%,18.38%{transform:translate(624px,16px)}
-10.28%{transform:translate(624px,0px)}
-10.5%,57.77%{transform:translate(640px,0px)}
-10.72%{transform:translate(640px,-16px)}
-11.16%{transform:translate(672px,-16px)}
-11.38%,13.13%{transform:translate(672px,0px)}
-12.04%,48.36%{transform:translate(720px,0px)}
-12.25%{transform:translate(720px,16px)}
-12.91%,57.11%{transform:translate(672px,16px)}
-13.57%,46.83%{transform:translate(704px,0px)}
-14%{transform:translate(704px,32px)}
-14.44%{transform:translate(736px,32px)}
-14.66%{transform:translate(736px,48px)}
-15.1%,45.73%{transform:translate(704px,48px)}
-15.32%{transform:translate(704px,64px)}
-15.75%{transform:translate(736px,64px)}
-15.97%{transform:translate(736px,80px)}
-16.85%{transform:translate(672px,80px)}
-17.07%{transform:translate(672px,64px)}
-17.29%{transform:translate(656px,64px)}
-17.51%{transform:translate(656px,48px)}
-17.94%{transform:translate(624px,48px)}
-19.04%,19.91%{transform:translate(592px,32px)}
-19.26%,20.13%{transform:translate(576px,32px)}
-19.47%,62.8%{transform:translate(576px,48px)}
-19.69%,59.08%{transform:translate(592px,48px)}
-20.57%{transform:translate(576px,64px)}
-20.79%{transform:translate(560px,64px)}
-21.01%{transform:translate(560px,80px)}
-21.23%{transform:translate(576px,80px)}
-21.44%{transform:translate(576px,96px)}
-22.54%,35.67%{transform:translate(656px,96px)}
-22.76%{transform:translate(656px,80px)}
-22.98%{transform:translate(640px,80px)}
-23.19%{transform:translate(640px,64px)}
-23.63%{transform:translate(608px,64px)}
-23.85%,43.98%{transform:translate(608px,80px)}
-24.95%{transform:translate(688px,80px)}
-25.38%{transform:translate(688px,112px)}
-25.82%,49.89%{transform:translate(720px,112px)}
-26.04%{transform:translate(720px,96px)}
-26.26%,69.15%{transform:translate(736px,96px)}
-26.48%{transform:translate(736px,112px)}
-27.35%,33.48%{transform:translate(800px,112px)}
-27.57%{transform:translate(800px,96px)}
-28.01%{transform:translate(832px,96px)}
-28.45%,52.08%{transform:translate(832px,64px)}
-28.67%,77.68%{transform:translate(816px,64px)}
-28.88%{transform:translate(816px,48px)}
-29.1%{transform:translate(800px,48px)}
-29.54%,30.85%,72.87%{transform:translate(800px,16px)}
-29.98%,31.29%{transform:translate(832px,16px)}
-30.2%{transform:translate(832px,0px)}
-30.63%{transform:translate(800px,0px)}
-31.51%,52.52%{transform:translate(832px,32px)}
-31.73%{transform:translate(848px,32px)}
-32.17%{transform:translate(848px,64px)}
-32.82%,53.39%,78.34%{transform:translate(800px,64px)}
-35.45%{transform:translate(656px,112px)}
-37.2%,42.89%,60.39%{transform:translate(544px,96px)}
-37.42%,42.67%{transform:translate(544px,112px)}
-37.86%,42.23%{transform:translate(512px,112px)}
-38.51%,41.14%,61.71%{transform:translate(512px,64px)}
-38.73%,61.93%{transform:translate(528px,64px)}
-39.61%{transform:translate(528px,0px)}
-40.04%{transform:translate(496px,0px)}
-40.7%{transform:translate(496px,48px)}
-40.92%{transform:translate(512px,48px)}
-41.36%{transform:translate(496px,64px)}
-41.58%,61.27%{transform:translate(496px,80px)}
-41.79%,61.49%{transform:translate(512px,80px)}
-43.76%{transform:translate(608px,96px)}
-45.3%,55.36%{transform:translate(704px,80px)}
-45.95%,75.71%{transform:translate(688px,48px)}
-46.61%{transform:translate(688px,0px)}
-47.05%{transform:translate(704px,-16px)}
-47.7%{transform:translate(752px,-16px)}
-47.92%{transform:translate(752px,0px)}
-50.55%{transform:translate(768px,112px)}
-50.77%{transform:translate(768px,96px)}
-50.98%,54.05%,69.8%,71.55%{transform:translate(784px,96px)}
-51.42%,53.61%,70.24%{transform:translate(784px,64px)}
-52.95%{transform:translate(800px,32px)}
-54.49%,71.12%{transform:translate(752px,96px)}
-54.7%{transform:translate(752px,80px)}
-55.58%{transform:translate(704px,96px)}
-56.02%{transform:translate(672px,96px)}
-57.33%{transform:translate(656px,16px)}
-57.55%{transform:translate(656px,0px)}
-58.21%{transform:translate(640px,32px)}
-58.64%{transform:translate(608px,32px)}
-58.86%{transform:translate(608px,48px)}
-59.52%{transform:translate(592px,80px)}
-60.18%{transform:translate(544px,80px)}
-61.05%{transform:translate(496px,96px)}
-62.14%{transform:translate(528px,48px)}
-64.11%{transform:translate(544px,16px)}
-64.55%,83.37%{transform:translate(512px,16px)}
-64.77%{transform:translate(512px,0px)}
-67.83%{transform:translate(736px,0px)}
-70.68%{transform:translate(752px,64px)}
-71.77%,87.96%{transform:translate(784px,80px)}
-71.99%,78.12%{transform:translate(800px,80px)}
-73.3%,74.18%,89.5%{transform:translate(768px,16px)}
-73.52%{transform:translate(768px,32px)}
-73.74%,88.62%{transform:translate(784px,32px)}
-73.96%{transform:translate(784px,16px)}
-74.62%{transform:translate(768px,48px)}
-75.93%{transform:translate(688px,64px)}
-77.9%{transform:translate(816px,80px)}
-81.84%{transform:translate(544px,64px)}
-82.28%{transform:translate(544px,32px)}
-82.49%{transform:translate(560px,32px)}
-82.71%{transform:translate(560px,16px)}
-83.59%{transform:translate(512px,32px)}
-83.81%{transform:translate(528px,32px)}
-84.46%{transform:translate(528px,80px)}
-89.06%{transform:translate(752px,32px)}
-89.28%{transform:translate(752px,16px)}
-89.72%{transform:translate(768px,0px)}
-99.56%{transform:translate(48px,0px)}}
+0.67%{transform:translate(0px,-16px)}
+0.9%{transform:translate(0px,0px)}
+8.54%,65.17%{transform:translate(544px,0px)}
+8.76%{transform:translate(544px,-16px)}
+9.21%{transform:translate(576px,-16px)}
+9.44%,64.72%{transform:translate(576px,0px)}
+9.66%{transform:translate(592px,0px)}
+9.89%,19.33%{transform:translate(592px,16px)}
+10.34%,18.88%{transform:translate(624px,16px)}
+10.56%{transform:translate(624px,0px)}
+10.79%,58.88%{transform:translate(640px,0px)}
+11.01%{transform:translate(640px,-16px)}
+11.46%{transform:translate(672px,-16px)}
+11.69%,13.48%{transform:translate(672px,0px)}
+12.36%,49.66%{transform:translate(720px,0px)}
+12.58%{transform:translate(720px,16px)}
+13.26%,58.2%{transform:translate(672px,16px)}
+13.93%,48.09%{transform:translate(704px,0px)}
+14.38%{transform:translate(704px,32px)}
+14.83%{transform:translate(736px,32px)}
+15.06%{transform:translate(736px,48px)}
+15.51%,46.97%{transform:translate(704px,48px)}
+15.73%{transform:translate(704px,64px)}
+16.18%{transform:translate(736px,64px)}
+16.4%{transform:translate(736px,80px)}
+17.3%{transform:translate(672px,80px)}
+17.53%{transform:translate(672px,64px)}
+17.75%{transform:translate(656px,64px)}
+17.98%{transform:translate(656px,48px)}
+18.43%{transform:translate(624px,48px)}
+19.55%,20.45%{transform:translate(592px,32px)}
+19.78%,20.67%{transform:translate(576px,32px)}
+20%,64.04%{transform:translate(576px,48px)}
+20.22%,60.22%{transform:translate(592px,48px)}
+21.12%{transform:translate(576px,64px)}
+21.35%{transform:translate(560px,64px)}
+21.57%{transform:translate(560px,80px)}
+21.8%{transform:translate(576px,80px)}
+22.02%{transform:translate(576px,96px)}
+23.15%,36.63%{transform:translate(656px,96px)}
+23.37%{transform:translate(656px,80px)}
+23.6%{transform:translate(640px,80px)}
+23.82%{transform:translate(640px,64px)}
+24.27%{transform:translate(608px,64px)}
+24.49%,45.17%{transform:translate(608px,80px)}
+25.62%{transform:translate(688px,80px)}
+26.07%{transform:translate(688px,112px)}
+26.52%,51.24%{transform:translate(720px,112px)}
+26.74%{transform:translate(720px,96px)}
+26.97%,70.56%{transform:translate(736px,96px)}
+27.19%{transform:translate(736px,112px)}
+28.09%,34.38%{transform:translate(800px,112px)}
+28.31%{transform:translate(800px,96px)}
+28.76%{transform:translate(832px,96px)}
+29.21%{transform:translate(832px,64px)}
+29.44%,53.26%{transform:translate(816px,64px)}
+29.66%,76.4%{transform:translate(816px,48px)}
+29.89%{transform:translate(800px,48px)}
+30.34%,31.69%,74.38%{transform:translate(800px,16px)}
+30.79%,32.13%{transform:translate(832px,16px)}
+31.01%{transform:translate(832px,0px)}
+31.46%{transform:translate(800px,0px)}
+32.36%,75.96%{transform:translate(832px,32px)}
+32.58%{transform:translate(848px,32px)}
+33.03%{transform:translate(848px,64px)}
+33.71%,54.38%,77.3%{transform:translate(800px,64px)}
+36.4%{transform:translate(656px,112px)}
+38.2%,44.04%,61.57%{transform:translate(544px,96px)}
+38.43%,43.82%{transform:translate(544px,112px)}
+38.88%,43.37%{transform:translate(512px,112px)}
+39.55%,42.25%,62.92%{transform:translate(512px,64px)}
+39.78%,63.15%{transform:translate(528px,64px)}
+40.67%{transform:translate(528px,0px)}
+41.12%{transform:translate(496px,0px)}
+41.8%{transform:translate(496px,48px)}
+42.02%{transform:translate(512px,48px)}
+42.47%{transform:translate(496px,64px)}
+42.7%,62.47%{transform:translate(496px,80px)}
+42.92%,62.7%{transform:translate(512px,80px)}
+44.94%{transform:translate(608px,96px)}
+46.52%,56.4%{transform:translate(704px,80px)}
+47.19%,79.1%{transform:translate(688px,48px)}
+47.87%{transform:translate(688px,0px)}
+48.31%{transform:translate(704px,-16px)}
+48.99%{transform:translate(752px,-16px)}
+49.21%{transform:translate(752px,0px)}
+51.91%{transform:translate(768px,112px)}
+52.13%{transform:translate(768px,96px)}
+52.36%,55.06%,71.24%,73.03%{transform:translate(784px,96px)}
+52.81%,54.61%,71.69%{transform:translate(784px,64px)}
+53.71%{transform:translate(816px,32px)}
+53.93%{transform:translate(800px,32px)}
+55.51%,72.58%{transform:translate(752px,96px)}
+55.73%{transform:translate(752px,80px)}
+56.63%{transform:translate(704px,96px)}
+57.08%{transform:translate(672px,96px)}
+58.43%{transform:translate(656px,16px)}
+58.65%{transform:translate(656px,0px)}
+59.33%{transform:translate(640px,32px)}
+59.78%{transform:translate(608px,32px)}
+60%{transform:translate(608px,48px)}
+60.67%{transform:translate(592px,80px)}
+61.35%{transform:translate(544px,80px)}
+62.25%{transform:translate(496px,96px)}
+63.37%{transform:translate(528px,48px)}
+65.39%{transform:translate(544px,16px)}
+65.84%,82.92%{transform:translate(512px,16px)}
+66.07%{transform:translate(512px,0px)}
+69.21%{transform:translate(736px,0px)}
+72.13%{transform:translate(752px,64px)}
+73.26%,87.64%{transform:translate(784px,80px)}
+73.48%,77.08%{transform:translate(800px,80px)}
+74.83%,89.21%{transform:translate(768px,16px)}
+75.06%{transform:translate(768px,32px)}
+76.18%{transform:translate(832px,48px)}
+76.85%{transform:translate(816px,80px)}
+77.75%{transform:translate(768px,64px)}
+77.98%{transform:translate(768px,48px)}
+79.33%{transform:translate(688px,64px)}
+81.35%{transform:translate(544px,64px)}
+81.8%{transform:translate(544px,32px)}
+82.02%{transform:translate(560px,32px)}
+82.25%{transform:translate(560px,16px)}
+83.15%{transform:translate(512px,32px)}
+83.37%{transform:translate(528px,32px)}
+84.04%{transform:translate(528px,80px)}
+88.31%{transform:translate(784px,32px)}
+88.76%{transform:translate(752px,32px)}
+88.99%{transform:translate(752px,16px)}
+89.44%{transform:translate(768px,0px)}
+99.55%{transform:translate(48px,0px)}}
 .snk-s.snk-s3{transform:translate(48px,-16px);animation-name:s3}</style>
   </defs>
   <g class="snk-container">
-    <rect class="snk-c" x="2" y="2" rx="2" ry="2"/><rect class="snk-c" x="2" y="18" rx="2" ry="2"/><rect class="snk-c" x="2" y="34" rx="2" ry="2"/><rect class="snk-c" x="2" y="50" rx="2" ry="2"/><rect class="snk-c" x="2" y="66" rx="2" ry="2"/><rect class="snk-c" x="2" y="82" rx="2" ry="2"/><rect class="snk-c" x="2" y="98" rx="2" ry="2"/><rect class="snk-c" x="18" y="2" rx="2" ry="2"/><rect class="snk-c" x="18" y="18" rx="2" ry="2"/><rect class="snk-c" x="18" y="34" rx="2" ry="2"/><rect class="snk-c" x="18" y="50" rx="2" ry="2"/><rect class="snk-c" x="18" y="66" rx="2" ry="2"/><rect class="snk-c" x="18" y="82" rx="2" ry="2"/><rect class="snk-c" x="18" y="98" rx="2" ry="2"/><rect class="snk-c" x="34" y="2" rx="2" ry="2"/><rect class="snk-c" x="34" y="18" rx="2" ry="2"/><rect class="snk-c" x="34" y="34" rx="2" ry="2"/><rect class="snk-c" x="34" y="50" rx="2" ry="2"/><rect class="snk-c" x="34" y="66" rx="2" ry="2"/><rect class="snk-c" x="34" y="82" rx="2" ry="2"/><rect class="snk-c" x="34" y="98" rx="2" ry="2"/><rect class="snk-c" x="50" y="2" rx="2" ry="2"/><rect class="snk-c" x="50" y="18" rx="2" ry="2"/><rect class="snk-c" x="50" y="34" rx="2" ry="2"/><rect class="snk-c" x="50" y="50" rx="2" ry="2"/><rect class="snk-c" x="50" y="66" rx="2" ry="2"/><rect class="snk-c" x="50" y="82" rx="2" ry="2"/><rect class="snk-c" x="50" y="98" rx="2" ry="2"/><rect class="snk-c" x="66" y="2" rx="2" ry="2"/><rect class="snk-c" x="66" y="18" rx="2" ry="2"/><rect class="snk-c" x="66" y="34" rx="2" ry="2"/><rect class="snk-c" x="66" y="50" rx="2" ry="2"/><rect class="snk-c" x="66" y="66" rx="2" ry="2"/><rect class="snk-c" x="66" y="82" rx="2" ry="2"/><rect class="snk-c" x="66" y="98" rx="2" ry="2"/><rect class="snk-c" x="82" y="2" rx="2" ry="2"/><rect class="snk-c" x="82" y="18" rx="2" ry="2"/><rect class="snk-c" x="82" y="34" rx="2" ry="2"/><rect class="snk-c" x="82" y="50" rx="2" ry="2"/><rect class="snk-c" x="82" y="66" rx="2" ry="2"/><rect class="snk-c" x="82" y="82" rx="2" ry="2"/><rect class="snk-c" x="82" y="98" rx="2" ry="2"/><rect class="snk-c" x="98" y="2" rx="2" ry="2"/><rect class="snk-c" x="98" y="18" rx="2" ry="2"/><rect class="snk-c" x="98" y="34" rx="2" ry="2"/><rect class="snk-c" x="98" y="50" rx="2" ry="2"/><rect class="snk-c" x="98" y="66" rx="2" ry="2"/><rect class="snk-c" x="98" y="82" rx="2" ry="2"/><rect class="snk-c" x="98" y="98" rx="2" ry="2"/><rect class="snk-c" x="114" y="2" rx="2" ry="2"/><rect class="snk-c" x="114" y="18" rx="2" ry="2"/><rect class="snk-c" x="114" y="34" rx="2" ry="2"/><rect class="snk-c" x="114" y="50" rx="2" ry="2"/><rect class="snk-c" x="114" y="66" rx="2" ry="2"/><rect class="snk-c" x="114" y="82" rx="2" ry="2"/><rect class="snk-c" x="114" y="98" rx="2" ry="2"/><rect class="snk-c" x="130" y="2" rx="2" ry="2"/><rect class="snk-c" x="130" y="18" rx="2" ry="2"/><rect class="snk-c" x="130" y="34" rx="2" ry="2"/><rect class="snk-c" x="130" y="50" rx="2" ry="2"/><rect class="snk-c" x="130" y="66" rx="2" ry="2"/><rect class="snk-c" x="130" y="82" rx="2" ry="2"/><rect class="snk-c" x="130" y="98" rx="2" ry="2"/><rect class="snk-c" x="146" y="2" rx="2" ry="2"/><rect class="snk-c" x="146" y="18" rx="2" ry="2"/><rect class="snk-c" x="146" y="34" rx="2" ry="2"/><rect class="snk-c" x="146" y="50" rx="2" ry="2"/><rect class="snk-c" x="146" y="66" rx="2" ry="2"/><rect class="snk-c" x="146" y="82" rx="2" ry="2"/><rect class="snk-c" x="146" y="98" rx="2" ry="2"/><rect class="snk-c" x="162" y="2" rx="2" ry="2"/><rect class="snk-c" x="162" y="18" rx="2" ry="2"/><rect class="snk-c" x="162" y="34" rx="2" ry="2"/><rect class="snk-c" x="162" y="50" rx="2" ry="2"/><rect class="snk-c" x="162" y="66" rx="2" ry="2"/><rect class="snk-c" x="162" y="82" rx="2" ry="2"/><rect class="snk-c" x="162" y="98" rx="2" ry="2"/><rect class="snk-c" x="178" y="2" rx="2" ry="2"/><rect class="snk-c" x="178" y="18" rx="2" ry="2"/><rect class="snk-c" x="178" y="34" rx="2" ry="2"/><rect class="snk-c" x="178" y="50" rx="2" ry="2"/><rect class="snk-c" x="178" y="66" rx="2" ry="2"/><rect class="snk-c" x="178" y="82" rx="2" ry="2"/><rect class="snk-c" x="178" y="98" rx="2" ry="2"/><rect class="snk-c" x="194" y="2" rx="2" ry="2"/><rect class="snk-c" x="194" y="18" rx="2" ry="2"/><rect class="snk-c" x="194" y="34" rx="2" ry="2"/><rect class="snk-c" x="194" y="50" rx="2" ry="2"/><rect class="snk-c" x="194" y="66" rx="2" ry="2"/><rect class="snk-c" x="194" y="82" rx="2" ry="2"/><rect class="snk-c" x="194" y="98" rx="2" ry="2"/><rect class="snk-c" x="210" y="2" rx="2" ry="2"/><rect class="snk-c" x="210" y="18" rx="2" ry="2"/><rect class="snk-c" x="210" y="34" rx="2" ry="2"/><rect class="snk-c" x="210" y="50" rx="2" ry="2"/><rect class="snk-c" x="210" y="66" rx="2" ry="2"/><rect class="snk-c" x="210" y="82" rx="2" ry="2"/><rect class="snk-c" x="210" y="98" rx="2" ry="2"/><rect class="snk-c" x="226" y="2" rx="2" ry="2"/><rect class="snk-c" x="226" y="18" rx="2" ry="2"/><rect class="snk-c" x="226" y="34" rx="2" ry="2"/><rect class="snk-c" x="226" y="50" rx="2" ry="2"/><rect class="snk-c" x="226" y="66" rx="2" ry="2"/><rect class="snk-c" x="226" y="82" rx="2" ry="2"/><rect class="snk-c" x="226" y="98" rx="2" ry="2"/><rect class="snk-c" x="242" y="2" rx="2" ry="2"/><rect class="snk-c" x="242" y="18" rx="2" ry="2"/><rect class="snk-c" x="242" y="34" rx="2" ry="2"/><rect class="snk-c" x="242" y="50" rx="2" ry="2"/><rect class="snk-c" x="242" y="66" rx="2" ry="2"/><rect class="snk-c" x="242" y="82" rx="2" ry="2"/><rect class="snk-c" x="242" y="98" rx="2" ry="2"/><rect class="snk-c" x="258" y="2" rx="2" ry="2"/><rect class="snk-c" x="258" y="18" rx="2" ry="2"/><rect class="snk-c" x="258" y="34" rx="2" ry="2"/><rect class="snk-c" x="258" y="50" rx="2" ry="2"/><rect class="snk-c" x="258" y="66" rx="2" ry="2"/><rect class="snk-c" x="258" y="82" rx="2" ry="2"/><rect class="snk-c" x="258" y="98" rx="2" ry="2"/><rect class="snk-c" x="274" y="2" rx="2" ry="2"/><rect class="snk-c" x="274" y="18" rx="2" ry="2"/><rect class="snk-c" x="274" y="34" rx="2" ry="2"/><rect class="snk-c" x="274" y="50" rx="2" ry="2"/><rect class="snk-c" x="274" y="66" rx="2" ry="2"/><rect class="snk-c" x="274" y="82" rx="2" ry="2"/><rect class="snk-c" x="274" y="98" rx="2" ry="2"/><rect class="snk-c" x="290" y="2" rx="2" ry="2"/><rect class="snk-c" x="290" y="18" rx="2" ry="2"/><rect class="snk-c" x="290" y="34" rx="2" ry="2"/><rect class="snk-c" x="290" y="50" rx="2" ry="2"/><rect class="snk-c" x="290" y="66" rx="2" ry="2"/><rect class="snk-c" x="290" y="82" rx="2" ry="2"/><rect class="snk-c" x="290" y="98" rx="2" ry="2"/><rect class="snk-c" x="306" y="2" rx="2" ry="2"/><rect class="snk-c" x="306" y="18" rx="2" ry="2"/><rect class="snk-c" x="306" y="34" rx="2" ry="2"/><rect class="snk-c" x="306" y="50" rx="2" ry="2"/><rect class="snk-c" x="306" y="66" rx="2" ry="2"/><rect class="snk-c" x="306" y="82" rx="2" ry="2"/><rect class="snk-c" x="306" y="98" rx="2" ry="2"/><rect class="snk-c" x="322" y="2" rx="2" ry="2"/><rect class="snk-c" x="322" y="18" rx="2" ry="2"/><rect class="snk-c" x="322" y="34" rx="2" ry="2"/><rect class="snk-c" x="322" y="50" rx="2" ry="2"/><rect class="snk-c" x="322" y="66" rx="2" ry="2"/><rect class="snk-c" x="322" y="82" rx="2" ry="2"/><rect class="snk-c" x="322" y="98" rx="2" ry="2"/><rect class="snk-c" x="338" y="2" rx="2" ry="2"/><rect class="snk-c" x="338" y="18" rx="2" ry="2"/><rect class="snk-c" x="338" y="34" rx="2" ry="2"/><rect class="snk-c" x="338" y="50" rx="2" ry="2"/><rect class="snk-c" x="338" y="66" rx="2" ry="2"/><rect class="snk-c" x="338" y="82" rx="2" ry="2"/><rect class="snk-c" x="338" y="98" rx="2" ry="2"/><rect class="snk-c" x="354" y="2" rx="2" ry="2"/><rect class="snk-c" x="354" y="18" rx="2" ry="2"/><rect class="snk-c" x="354" y="34" rx="2" ry="2"/><rect class="snk-c" x="354" y="50" rx="2" ry="2"/><rect class="snk-c" x="354" y="66" rx="2" ry="2"/><rect class="snk-c" x="354" y="82" rx="2" ry="2"/><rect class="snk-c" x="354" y="98" rx="2" ry="2"/><rect class="snk-c" x="370" y="2" rx="2" ry="2"/><rect class="snk-c" x="370" y="18" rx="2" ry="2"/><rect class="snk-c" x="370" y="34" rx="2" ry="2"/><rect class="snk-c" x="370" y="50" rx="2" ry="2"/><rect class="snk-c" x="370" y="66" rx="2" ry="2"/><rect class="snk-c" x="370" y="82" rx="2" ry="2"/><rect class="snk-c" x="370" y="98" rx="2" ry="2"/><rect class="snk-c" x="386" y="2" rx="2" ry="2"/><rect class="snk-c" x="386" y="18" rx="2" ry="2"/><rect class="snk-c" x="386" y="34" rx="2" ry="2"/><rect class="snk-c" x="386" y="50" rx="2" ry="2"/><rect class="snk-c" x="386" y="66" rx="2" ry="2"/><rect class="snk-c" x="386" y="82" rx="2" ry="2"/><rect class="snk-c" x="386" y="98" rx="2" ry="2"/><rect class="snk-c" x="402" y="2" rx="2" ry="2"/><rect class="snk-c" x="402" y="18" rx="2" ry="2"/><rect class="snk-c" x="402" y="34" rx="2" ry="2"/><rect class="snk-c" x="402" y="50" rx="2" ry="2"/><rect class="snk-c" x="402" y="66" rx="2" ry="2"/><rect class="snk-c" x="402" y="82" rx="2" ry="2"/><rect class="snk-c" x="402" y="98" rx="2" ry="2"/><rect class="snk-c" x="418" y="2" rx="2" ry="2"/><rect class="snk-c" x="418" y="18" rx="2" ry="2"/><rect class="snk-c" x="418" y="34" rx="2" ry="2"/><rect class="snk-c" x="418" y="50" rx="2" ry="2"/><rect class="snk-c" x="418" y="66" rx="2" ry="2"/><rect class="snk-c" x="418" y="82" rx="2" ry="2"/><rect class="snk-c" x="418" y="98" rx="2" ry="2"/><rect class="snk-c" x="434" y="2" rx="2" ry="2"/><rect class="snk-c" x="434" y="18" rx="2" ry="2"/><rect class="snk-c" x="434" y="34" rx="2" ry="2"/><rect class="snk-c" x="434" y="50" rx="2" ry="2"/><rect class="snk-c" x="434" y="66" rx="2" ry="2"/><rect class="snk-c" x="434" y="82" rx="2" ry="2"/><rect class="snk-c" x="434" y="98" rx="2" ry="2"/><rect class="snk-c" x="450" y="2" rx="2" ry="2"/><rect class="snk-c" x="450" y="18" rx="2" ry="2"/><rect class="snk-c" x="450" y="34" rx="2" ry="2"/><rect class="snk-c" x="450" y="50" rx="2" ry="2"/><rect class="snk-c" x="450" y="66" rx="2" ry="2"/><rect class="snk-c" x="450" y="82" rx="2" ry="2"/><rect class="snk-c" x="450" y="98" rx="2" ry="2"/><rect class="snk-c" x="466" y="2" rx="2" ry="2"/><rect class="snk-c" x="466" y="18" rx="2" ry="2"/><rect class="snk-c" x="466" y="34" rx="2" ry="2"/><rect class="snk-c" x="466" y="50" rx="2" ry="2"/><rect class="snk-c" x="466" y="66" rx="2" ry="2"/><rect class="snk-c" x="466" y="82" rx="2" ry="2"/><rect class="snk-c" x="466" y="98" rx="2" ry="2"/><rect class="snk-c" x="482" y="2" rx="2" ry="2"/><rect class="snk-c" x="482" y="18" rx="2" ry="2"/><rect class="snk-c" x="482" y="34" rx="2" ry="2"/><rect class="snk-c" x="482" y="50" rx="2" ry="2"/><rect class="snk-c" x="482" y="66" rx="2" ry="2"/><rect class="snk-c" x="482" y="82" rx="2" ry="2"/><rect class="snk-c" x="482" y="98" rx="2" ry="2"/><rect class="snk-c" x="498" y="2" rx="2" ry="2"/><rect class="snk-c" x="498" y="18" rx="2" ry="2"/><rect class="snk-c" x="498" y="34" rx="2" ry="2"/><rect class="snk-c" x="498" y="50" rx="2" ry="2"/><rect class="snk-c" x="498" y="66" rx="2" ry="2"/><rect class="snk-c snk-c0" x="498" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1" x="498" y="98" rx="2" ry="2"/><rect class="snk-c" x="514" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2" x="514" y="18" rx="2" ry="2"/><rect class="snk-c snk-c3" x="514" y="34" rx="2" ry="2"/><rect class="snk-c snk-c4" x="514" y="50" rx="2" ry="2"/><rect class="snk-c snk-c5" x="514" y="66" rx="2" ry="2"/><rect class="snk-c snk-c6" x="514" y="82" rx="2" ry="2"/><rect class="snk-c snk-c7" x="514" y="98" rx="2" ry="2"/><rect class="snk-c" x="530" y="2" rx="2" ry="2"/><rect class="snk-c" x="530" y="18" rx="2" ry="2"/><rect class="snk-c snk-c8" x="530" y="34" rx="2" ry="2"/><rect class="snk-c snk-c9" x="530" y="50" rx="2" ry="2"/><rect class="snk-c snk-ca" x="530" y="66" rx="2" ry="2"/><rect class="snk-c snk-cb" x="530" y="82" rx="2" ry="2"/><rect class="snk-c snk-cc" x="530" y="98" rx="2" ry="2"/><rect class="snk-c snk-cd" x="546" y="2" rx="2" ry="2"/><rect class="snk-c snk-ce" x="546" y="18" rx="2" ry="2"/><rect class="snk-c snk-cf" x="546" y="34" rx="2" ry="2"/><rect class="snk-c snk-cg" x="546" y="50" rx="2" ry="2"/><rect class="snk-c snk-ch" x="546" y="66" rx="2" ry="2"/><rect class="snk-c snk-ci" x="546" y="82" rx="2" ry="2"/><rect class="snk-c snk-cj" x="546" y="98" rx="2" ry="2"/><rect class="snk-c snk-ck" x="562" y="2" rx="2" ry="2"/><rect class="snk-c snk-cl" x="562" y="18" rx="2" ry="2"/><rect class="snk-c snk-cm" x="562" y="34" rx="2" ry="2"/><rect class="snk-c snk-cn" x="562" y="50" rx="2" ry="2"/><rect class="snk-c snk-co" x="562" y="66" rx="2" ry="2"/><rect class="snk-c snk-cp" x="562" y="82" rx="2" ry="2"/><rect class="snk-c" x="562" y="98" rx="2" ry="2"/><rect class="snk-c snk-cq" x="578" y="2" rx="2" ry="2"/><rect class="snk-c snk-cr" x="578" y="18" rx="2" ry="2"/><rect class="snk-c snk-cs" x="578" y="34" rx="2" ry="2"/><rect class="snk-c snk-ct" x="578" y="50" rx="2" ry="2"/><rect class="snk-c snk-cu" x="578" y="66" rx="2" ry="2"/><rect class="snk-c snk-cv" x="578" y="82" rx="2" ry="2"/><rect class="snk-c" x="578" y="98" rx="2" ry="2"/><rect class="snk-c" x="594" y="2" rx="2" ry="2"/><rect class="snk-c snk-cw" x="594" y="18" rx="2" ry="2"/><rect class="snk-c" x="594" y="34" rx="2" ry="2"/><rect class="snk-c snk-cx" x="594" y="50" rx="2" ry="2"/><rect class="snk-c snk-cy" x="594" y="66" rx="2" ry="2"/><rect class="snk-c snk-cz" x="594" y="82" rx="2" ry="2"/><rect class="snk-c snk-c10" x="594" y="98" rx="2" ry="2"/><rect class="snk-c" x="610" y="2" rx="2" ry="2"/><rect class="snk-c snk-c11" x="610" y="18" rx="2" ry="2"/><rect class="snk-c snk-c12" x="610" y="34" rx="2" ry="2"/><rect class="snk-c snk-c13" x="610" y="50" rx="2" ry="2"/><rect class="snk-c snk-c14" x="610" y="66" rx="2" ry="2"/><rect class="snk-c" x="610" y="82" rx="2" ry="2"/><rect class="snk-c snk-c15" x="610" y="98" rx="2" ry="2"/><rect class="snk-c snk-c16" x="626" y="2" rx="2" ry="2"/><rect class="snk-c snk-c17" x="626" y="18" rx="2" ry="2"/><rect class="snk-c snk-c18" x="626" y="34" rx="2" ry="2"/><rect class="snk-c snk-c19" x="626" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1a" x="626" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1b" x="626" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1c" x="626" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1d" x="642" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1e" x="642" y="18" rx="2" ry="2"/><rect class="snk-c snk-c1f" x="642" y="34" rx="2" ry="2"/><rect class="snk-c snk-c1g" x="642" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1h" x="642" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1i" x="642" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1j" x="642" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1k" x="658" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1l" x="658" y="18" rx="2" ry="2"/><rect class="snk-c" x="658" y="34" rx="2" ry="2"/><rect class="snk-c" x="658" y="50" rx="2" ry="2"/><rect class="snk-c" x="658" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1m" x="658" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1n" x="658" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1o" x="674" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1p" x="674" y="18" rx="2" ry="2"/><rect class="snk-c snk-c1q" x="674" y="34" rx="2" ry="2"/><rect class="snk-c snk-c1r" x="674" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1s" x="674" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1t" x="674" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1u" x="674" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1v" x="690" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1w" x="690" y="18" rx="2" ry="2"/><rect class="snk-c snk-c1x" x="690" y="34" rx="2" ry="2"/><rect class="snk-c snk-c1y" x="690" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1z" x="690" y="66" rx="2" ry="2"/><rect class="snk-c snk-c20" x="690" y="82" rx="2" ry="2"/><rect class="snk-c snk-c21" x="690" y="98" rx="2" ry="2"/><rect class="snk-c snk-c22" x="706" y="2" rx="2" ry="2"/><rect class="snk-c snk-c23" x="706" y="18" rx="2" ry="2"/><rect class="snk-c snk-c24" x="706" y="34" rx="2" ry="2"/><rect class="snk-c snk-c25" x="706" y="50" rx="2" ry="2"/><rect class="snk-c" x="706" y="66" rx="2" ry="2"/><rect class="snk-c snk-c26" x="706" y="82" rx="2" ry="2"/><rect class="snk-c snk-c27" x="706" y="98" rx="2" ry="2"/><rect class="snk-c snk-c28" x="722" y="2" rx="2" ry="2"/><rect class="snk-c" x="722" y="18" rx="2" ry="2"/><rect class="snk-c snk-c29" x="722" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2a" x="722" y="50" rx="2" ry="2"/><rect class="snk-c snk-c2b" x="722" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2c" x="722" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2d" x="722" y="98" rx="2" ry="2"/><rect class="snk-c snk-c2e" x="738" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2f" x="738" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2g" x="738" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2h" x="738" y="50" rx="2" ry="2"/><rect class="snk-c" x="738" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2i" x="738" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2j" x="738" y="98" rx="2" ry="2"/><rect class="snk-c snk-c2k" x="754" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2l" x="754" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2m" x="754" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2n" x="754" y="50" rx="2" ry="2"/><rect class="snk-c snk-c2o" x="754" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2p" x="754" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2q" x="754" y="98" rx="2" ry="2"/><rect class="snk-c snk-c2r" x="770" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2s" x="770" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2t" x="770" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2u" x="770" y="50" rx="2" ry="2"/><rect class="snk-c snk-c2v" x="770" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2w" x="770" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2x" x="770" y="98" rx="2" ry="2"/><rect class="snk-c" x="786" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2y" x="786" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2z" x="786" y="34" rx="2" ry="2"/><rect class="snk-c snk-c30" x="786" y="50" rx="2" ry="2"/><rect class="snk-c snk-c31" x="786" y="66" rx="2" ry="2"/><rect class="snk-c snk-c32" x="786" y="82" rx="2" ry="2"/><rect class="snk-c snk-c33" x="786" y="98" rx="2" ry="2"/><rect class="snk-c snk-c34" x="802" y="2" rx="2" ry="2"/><rect class="snk-c snk-c35" x="802" y="18" rx="2" ry="2"/><rect class="snk-c snk-c36" x="802" y="34" rx="2" ry="2"/><rect class="snk-c snk-c37" x="802" y="50" rx="2" ry="2"/><rect class="snk-c snk-c38" x="802" y="66" rx="2" ry="2"/><rect class="snk-c snk-c39" x="802" y="82" rx="2" ry="2"/><rect class="snk-c snk-c3a" x="802" y="98" rx="2" ry="2"/><rect class="snk-c snk-c3b" x="818" y="2" rx="2" ry="2"/><rect class="snk-c snk-c3c" x="818" y="18" rx="2" ry="2"/><rect class="snk-c snk-c3d" x="818" y="34" rx="2" ry="2"/><rect class="snk-c snk-c3e" x="818" y="50" rx="2" ry="2"/><rect class="snk-c snk-c3f" x="818" y="66" rx="2" ry="2"/><rect class="snk-c snk-c3g" x="818" y="82" rx="2" ry="2"/><rect class="snk-c snk-c3h" x="818" y="98" rx="2" ry="2"/><rect class="snk-c snk-c3i" x="834" y="2" rx="2" ry="2"/><rect class="snk-c snk-c3j" x="834" y="18" rx="2" ry="2"/><rect class="snk-c snk-c3k" x="834" y="34" rx="2" ry="2"/><rect class="snk-c snk-c3l" x="834" y="50" rx="2" ry="2"/><rect class="snk-u snk-u0" height="12" width="496.4" x="0.0" y="144"/><rect class="snk-u snk-u1" height="12" width="7.1" x="495.8" y="144"/><rect class="snk-u snk-u2" height="12" width="7.1" x="502.3" y="144"/><rect class="snk-u snk-u3" height="12" width="7.1" x="508.8" y="144"/><rect class="snk-u snk-u4" height="12" width="7.1" x="515.3" y="144"/><rect class="snk-u snk-u5" height="12" width="189.8" x="521.8" y="144"/><rect class="snk-u snk-u6" height="12" width="7.1" x="711.0" y="144"/><rect class="snk-u snk-u7" height="12" width="13.6" x="717.5" y="144"/><rect class="snk-u snk-u8" height="12" width="7.1" x="730.6" y="144"/><rect class="snk-u snk-u9" height="12" width="7.1" x="737.1" y="144"/><rect class="snk-u snk-ua" height="12" width="46.3" x="743.6" y="144"/><rect class="snk-u snk-ub" height="12" width="59.3" x="789.3" y="144"/><rect class="snk-s snk-s0" x="0.8" y="0.8" width="14.4" height="14.4" rx="4.5" ry="4.5"/><rect class="snk-s snk-s1" x="1.8" y="1.8" width="12.3" height="12.3" rx="4.1" ry="4.1"/><rect class="snk-s snk-s2" x="2.6" y="2.6" width="10.8" height="10.8" rx="3.6" ry="3.6"/><rect class="snk-s snk-s3" x="3.0" y="3.0" width="9.9" height="9.9" rx="3.3" ry="3.3"/>
+    <rect class="snk-c" x="2" y="2" rx="2" ry="2"/><rect class="snk-c" x="2" y="18" rx="2" ry="2"/><rect class="snk-c" x="2" y="34" rx="2" ry="2"/><rect class="snk-c" x="2" y="50" rx="2" ry="2"/><rect class="snk-c" x="2" y="66" rx="2" ry="2"/><rect class="snk-c" x="2" y="82" rx="2" ry="2"/><rect class="snk-c" x="2" y="98" rx="2" ry="2"/><rect class="snk-c" x="18" y="2" rx="2" ry="2"/><rect class="snk-c" x="18" y="18" rx="2" ry="2"/><rect class="snk-c" x="18" y="34" rx="2" ry="2"/><rect class="snk-c" x="18" y="50" rx="2" ry="2"/><rect class="snk-c" x="18" y="66" rx="2" ry="2"/><rect class="snk-c" x="18" y="82" rx="2" ry="2"/><rect class="snk-c" x="18" y="98" rx="2" ry="2"/><rect class="snk-c" x="34" y="2" rx="2" ry="2"/><rect class="snk-c" x="34" y="18" rx="2" ry="2"/><rect class="snk-c" x="34" y="34" rx="2" ry="2"/><rect class="snk-c" x="34" y="50" rx="2" ry="2"/><rect class="snk-c" x="34" y="66" rx="2" ry="2"/><rect class="snk-c" x="34" y="82" rx="2" ry="2"/><rect class="snk-c" x="34" y="98" rx="2" ry="2"/><rect class="snk-c" x="50" y="2" rx="2" ry="2"/><rect class="snk-c" x="50" y="18" rx="2" ry="2"/><rect class="snk-c" x="50" y="34" rx="2" ry="2"/><rect class="snk-c" x="50" y="50" rx="2" ry="2"/><rect class="snk-c" x="50" y="66" rx="2" ry="2"/><rect class="snk-c" x="50" y="82" rx="2" ry="2"/><rect class="snk-c" x="50" y="98" rx="2" ry="2"/><rect class="snk-c" x="66" y="2" rx="2" ry="2"/><rect class="snk-c" x="66" y="18" rx="2" ry="2"/><rect class="snk-c" x="66" y="34" rx="2" ry="2"/><rect class="snk-c" x="66" y="50" rx="2" ry="2"/><rect class="snk-c" x="66" y="66" rx="2" ry="2"/><rect class="snk-c" x="66" y="82" rx="2" ry="2"/><rect class="snk-c" x="66" y="98" rx="2" ry="2"/><rect class="snk-c" x="82" y="2" rx="2" ry="2"/><rect class="snk-c" x="82" y="18" rx="2" ry="2"/><rect class="snk-c" x="82" y="34" rx="2" ry="2"/><rect class="snk-c" x="82" y="50" rx="2" ry="2"/><rect class="snk-c" x="82" y="66" rx="2" ry="2"/><rect class="snk-c" x="82" y="82" rx="2" ry="2"/><rect class="snk-c" x="82" y="98" rx="2" ry="2"/><rect class="snk-c" x="98" y="2" rx="2" ry="2"/><rect class="snk-c" x="98" y="18" rx="2" ry="2"/><rect class="snk-c" x="98" y="34" rx="2" ry="2"/><rect class="snk-c" x="98" y="50" rx="2" ry="2"/><rect class="snk-c" x="98" y="66" rx="2" ry="2"/><rect class="snk-c" x="98" y="82" rx="2" ry="2"/><rect class="snk-c" x="98" y="98" rx="2" ry="2"/><rect class="snk-c" x="114" y="2" rx="2" ry="2"/><rect class="snk-c" x="114" y="18" rx="2" ry="2"/><rect class="snk-c" x="114" y="34" rx="2" ry="2"/><rect class="snk-c" x="114" y="50" rx="2" ry="2"/><rect class="snk-c" x="114" y="66" rx="2" ry="2"/><rect class="snk-c" x="114" y="82" rx="2" ry="2"/><rect class="snk-c" x="114" y="98" rx="2" ry="2"/><rect class="snk-c" x="130" y="2" rx="2" ry="2"/><rect class="snk-c" x="130" y="18" rx="2" ry="2"/><rect class="snk-c" x="130" y="34" rx="2" ry="2"/><rect class="snk-c" x="130" y="50" rx="2" ry="2"/><rect class="snk-c" x="130" y="66" rx="2" ry="2"/><rect class="snk-c" x="130" y="82" rx="2" ry="2"/><rect class="snk-c" x="130" y="98" rx="2" ry="2"/><rect class="snk-c" x="146" y="2" rx="2" ry="2"/><rect class="snk-c" x="146" y="18" rx="2" ry="2"/><rect class="snk-c" x="146" y="34" rx="2" ry="2"/><rect class="snk-c" x="146" y="50" rx="2" ry="2"/><rect class="snk-c" x="146" y="66" rx="2" ry="2"/><rect class="snk-c" x="146" y="82" rx="2" ry="2"/><rect class="snk-c" x="146" y="98" rx="2" ry="2"/><rect class="snk-c" x="162" y="2" rx="2" ry="2"/><rect class="snk-c" x="162" y="18" rx="2" ry="2"/><rect class="snk-c" x="162" y="34" rx="2" ry="2"/><rect class="snk-c" x="162" y="50" rx="2" ry="2"/><rect class="snk-c" x="162" y="66" rx="2" ry="2"/><rect class="snk-c" x="162" y="82" rx="2" ry="2"/><rect class="snk-c" x="162" y="98" rx="2" ry="2"/><rect class="snk-c" x="178" y="2" rx="2" ry="2"/><rect class="snk-c" x="178" y="18" rx="2" ry="2"/><rect class="snk-c" x="178" y="34" rx="2" ry="2"/><rect class="snk-c" x="178" y="50" rx="2" ry="2"/><rect class="snk-c" x="178" y="66" rx="2" ry="2"/><rect class="snk-c" x="178" y="82" rx="2" ry="2"/><rect class="snk-c" x="178" y="98" rx="2" ry="2"/><rect class="snk-c" x="194" y="2" rx="2" ry="2"/><rect class="snk-c" x="194" y="18" rx="2" ry="2"/><rect class="snk-c" x="194" y="34" rx="2" ry="2"/><rect class="snk-c" x="194" y="50" rx="2" ry="2"/><rect class="snk-c" x="194" y="66" rx="2" ry="2"/><rect class="snk-c" x="194" y="82" rx="2" ry="2"/><rect class="snk-c" x="194" y="98" rx="2" ry="2"/><rect class="snk-c" x="210" y="2" rx="2" ry="2"/><rect class="snk-c" x="210" y="18" rx="2" ry="2"/><rect class="snk-c" x="210" y="34" rx="2" ry="2"/><rect class="snk-c" x="210" y="50" rx="2" ry="2"/><rect class="snk-c" x="210" y="66" rx="2" ry="2"/><rect class="snk-c" x="210" y="82" rx="2" ry="2"/><rect class="snk-c" x="210" y="98" rx="2" ry="2"/><rect class="snk-c" x="226" y="2" rx="2" ry="2"/><rect class="snk-c" x="226" y="18" rx="2" ry="2"/><rect class="snk-c" x="226" y="34" rx="2" ry="2"/><rect class="snk-c" x="226" y="50" rx="2" ry="2"/><rect class="snk-c" x="226" y="66" rx="2" ry="2"/><rect class="snk-c" x="226" y="82" rx="2" ry="2"/><rect class="snk-c" x="226" y="98" rx="2" ry="2"/><rect class="snk-c" x="242" y="2" rx="2" ry="2"/><rect class="snk-c" x="242" y="18" rx="2" ry="2"/><rect class="snk-c" x="242" y="34" rx="2" ry="2"/><rect class="snk-c" x="242" y="50" rx="2" ry="2"/><rect class="snk-c" x="242" y="66" rx="2" ry="2"/><rect class="snk-c" x="242" y="82" rx="2" ry="2"/><rect class="snk-c" x="242" y="98" rx="2" ry="2"/><rect class="snk-c" x="258" y="2" rx="2" ry="2"/><rect class="snk-c" x="258" y="18" rx="2" ry="2"/><rect class="snk-c" x="258" y="34" rx="2" ry="2"/><rect class="snk-c" x="258" y="50" rx="2" ry="2"/><rect class="snk-c" x="258" y="66" rx="2" ry="2"/><rect class="snk-c" x="258" y="82" rx="2" ry="2"/><rect class="snk-c" x="258" y="98" rx="2" ry="2"/><rect class="snk-c" x="274" y="2" rx="2" ry="2"/><rect class="snk-c" x="274" y="18" rx="2" ry="2"/><rect class="snk-c" x="274" y="34" rx="2" ry="2"/><rect class="snk-c" x="274" y="50" rx="2" ry="2"/><rect class="snk-c" x="274" y="66" rx="2" ry="2"/><rect class="snk-c" x="274" y="82" rx="2" ry="2"/><rect class="snk-c" x="274" y="98" rx="2" ry="2"/><rect class="snk-c" x="290" y="2" rx="2" ry="2"/><rect class="snk-c" x="290" y="18" rx="2" ry="2"/><rect class="snk-c" x="290" y="34" rx="2" ry="2"/><rect class="snk-c" x="290" y="50" rx="2" ry="2"/><rect class="snk-c" x="290" y="66" rx="2" ry="2"/><rect class="snk-c" x="290" y="82" rx="2" ry="2"/><rect class="snk-c" x="290" y="98" rx="2" ry="2"/><rect class="snk-c" x="306" y="2" rx="2" ry="2"/><rect class="snk-c" x="306" y="18" rx="2" ry="2"/><rect class="snk-c" x="306" y="34" rx="2" ry="2"/><rect class="snk-c" x="306" y="50" rx="2" ry="2"/><rect class="snk-c" x="306" y="66" rx="2" ry="2"/><rect class="snk-c" x="306" y="82" rx="2" ry="2"/><rect class="snk-c" x="306" y="98" rx="2" ry="2"/><rect class="snk-c" x="322" y="2" rx="2" ry="2"/><rect class="snk-c" x="322" y="18" rx="2" ry="2"/><rect class="snk-c" x="322" y="34" rx="2" ry="2"/><rect class="snk-c" x="322" y="50" rx="2" ry="2"/><rect class="snk-c" x="322" y="66" rx="2" ry="2"/><rect class="snk-c" x="322" y="82" rx="2" ry="2"/><rect class="snk-c" x="322" y="98" rx="2" ry="2"/><rect class="snk-c" x="338" y="2" rx="2" ry="2"/><rect class="snk-c" x="338" y="18" rx="2" ry="2"/><rect class="snk-c" x="338" y="34" rx="2" ry="2"/><rect class="snk-c" x="338" y="50" rx="2" ry="2"/><rect class="snk-c" x="338" y="66" rx="2" ry="2"/><rect class="snk-c" x="338" y="82" rx="2" ry="2"/><rect class="snk-c" x="338" y="98" rx="2" ry="2"/><rect class="snk-c" x="354" y="2" rx="2" ry="2"/><rect class="snk-c" x="354" y="18" rx="2" ry="2"/><rect class="snk-c" x="354" y="34" rx="2" ry="2"/><rect class="snk-c" x="354" y="50" rx="2" ry="2"/><rect class="snk-c" x="354" y="66" rx="2" ry="2"/><rect class="snk-c" x="354" y="82" rx="2" ry="2"/><rect class="snk-c" x="354" y="98" rx="2" ry="2"/><rect class="snk-c" x="370" y="2" rx="2" ry="2"/><rect class="snk-c" x="370" y="18" rx="2" ry="2"/><rect class="snk-c" x="370" y="34" rx="2" ry="2"/><rect class="snk-c" x="370" y="50" rx="2" ry="2"/><rect class="snk-c" x="370" y="66" rx="2" ry="2"/><rect class="snk-c" x="370" y="82" rx="2" ry="2"/><rect class="snk-c" x="370" y="98" rx="2" ry="2"/><rect class="snk-c" x="386" y="2" rx="2" ry="2"/><rect class="snk-c" x="386" y="18" rx="2" ry="2"/><rect class="snk-c" x="386" y="34" rx="2" ry="2"/><rect class="snk-c" x="386" y="50" rx="2" ry="2"/><rect class="snk-c" x="386" y="66" rx="2" ry="2"/><rect class="snk-c" x="386" y="82" rx="2" ry="2"/><rect class="snk-c" x="386" y="98" rx="2" ry="2"/><rect class="snk-c" x="402" y="2" rx="2" ry="2"/><rect class="snk-c" x="402" y="18" rx="2" ry="2"/><rect class="snk-c" x="402" y="34" rx="2" ry="2"/><rect class="snk-c" x="402" y="50" rx="2" ry="2"/><rect class="snk-c" x="402" y="66" rx="2" ry="2"/><rect class="snk-c" x="402" y="82" rx="2" ry="2"/><rect class="snk-c" x="402" y="98" rx="2" ry="2"/><rect class="snk-c" x="418" y="2" rx="2" ry="2"/><rect class="snk-c" x="418" y="18" rx="2" ry="2"/><rect class="snk-c" x="418" y="34" rx="2" ry="2"/><rect class="snk-c" x="418" y="50" rx="2" ry="2"/><rect class="snk-c" x="418" y="66" rx="2" ry="2"/><rect class="snk-c" x="418" y="82" rx="2" ry="2"/><rect class="snk-c" x="418" y="98" rx="2" ry="2"/><rect class="snk-c" x="434" y="2" rx="2" ry="2"/><rect class="snk-c" x="434" y="18" rx="2" ry="2"/><rect class="snk-c" x="434" y="34" rx="2" ry="2"/><rect class="snk-c" x="434" y="50" rx="2" ry="2"/><rect class="snk-c" x="434" y="66" rx="2" ry="2"/><rect class="snk-c" x="434" y="82" rx="2" ry="2"/><rect class="snk-c" x="434" y="98" rx="2" ry="2"/><rect class="snk-c" x="450" y="2" rx="2" ry="2"/><rect class="snk-c" x="450" y="18" rx="2" ry="2"/><rect class="snk-c" x="450" y="34" rx="2" ry="2"/><rect class="snk-c" x="450" y="50" rx="2" ry="2"/><rect class="snk-c" x="450" y="66" rx="2" ry="2"/><rect class="snk-c" x="450" y="82" rx="2" ry="2"/><rect class="snk-c" x="450" y="98" rx="2" ry="2"/><rect class="snk-c" x="466" y="2" rx="2" ry="2"/><rect class="snk-c" x="466" y="18" rx="2" ry="2"/><rect class="snk-c" x="466" y="34" rx="2" ry="2"/><rect class="snk-c" x="466" y="50" rx="2" ry="2"/><rect class="snk-c" x="466" y="66" rx="2" ry="2"/><rect class="snk-c" x="466" y="82" rx="2" ry="2"/><rect class="snk-c" x="466" y="98" rx="2" ry="2"/><rect class="snk-c" x="482" y="2" rx="2" ry="2"/><rect class="snk-c" x="482" y="18" rx="2" ry="2"/><rect class="snk-c" x="482" y="34" rx="2" ry="2"/><rect class="snk-c" x="482" y="50" rx="2" ry="2"/><rect class="snk-c" x="482" y="66" rx="2" ry="2"/><rect class="snk-c" x="482" y="82" rx="2" ry="2"/><rect class="snk-c" x="482" y="98" rx="2" ry="2"/><rect class="snk-c" x="498" y="2" rx="2" ry="2"/><rect class="snk-c" x="498" y="18" rx="2" ry="2"/><rect class="snk-c" x="498" y="34" rx="2" ry="2"/><rect class="snk-c" x="498" y="50" rx="2" ry="2"/><rect class="snk-c" x="498" y="66" rx="2" ry="2"/><rect class="snk-c snk-c0" x="498" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1" x="498" y="98" rx="2" ry="2"/><rect class="snk-c" x="514" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2" x="514" y="18" rx="2" ry="2"/><rect class="snk-c snk-c3" x="514" y="34" rx="2" ry="2"/><rect class="snk-c snk-c4" x="514" y="50" rx="2" ry="2"/><rect class="snk-c snk-c5" x="514" y="66" rx="2" ry="2"/><rect class="snk-c snk-c6" x="514" y="82" rx="2" ry="2"/><rect class="snk-c snk-c7" x="514" y="98" rx="2" ry="2"/><rect class="snk-c" x="530" y="2" rx="2" ry="2"/><rect class="snk-c" x="530" y="18" rx="2" ry="2"/><rect class="snk-c snk-c8" x="530" y="34" rx="2" ry="2"/><rect class="snk-c snk-c9" x="530" y="50" rx="2" ry="2"/><rect class="snk-c snk-ca" x="530" y="66" rx="2" ry="2"/><rect class="snk-c snk-cb" x="530" y="82" rx="2" ry="2"/><rect class="snk-c snk-cc" x="530" y="98" rx="2" ry="2"/><rect class="snk-c snk-cd" x="546" y="2" rx="2" ry="2"/><rect class="snk-c snk-ce" x="546" y="18" rx="2" ry="2"/><rect class="snk-c snk-cf" x="546" y="34" rx="2" ry="2"/><rect class="snk-c snk-cg" x="546" y="50" rx="2" ry="2"/><rect class="snk-c snk-ch" x="546" y="66" rx="2" ry="2"/><rect class="snk-c snk-ci" x="546" y="82" rx="2" ry="2"/><rect class="snk-c snk-cj" x="546" y="98" rx="2" ry="2"/><rect class="snk-c snk-ck" x="562" y="2" rx="2" ry="2"/><rect class="snk-c snk-cl" x="562" y="18" rx="2" ry="2"/><rect class="snk-c snk-cm" x="562" y="34" rx="2" ry="2"/><rect class="snk-c snk-cn" x="562" y="50" rx="2" ry="2"/><rect class="snk-c snk-co" x="562" y="66" rx="2" ry="2"/><rect class="snk-c snk-cp" x="562" y="82" rx="2" ry="2"/><rect class="snk-c" x="562" y="98" rx="2" ry="2"/><rect class="snk-c snk-cq" x="578" y="2" rx="2" ry="2"/><rect class="snk-c snk-cr" x="578" y="18" rx="2" ry="2"/><rect class="snk-c snk-cs" x="578" y="34" rx="2" ry="2"/><rect class="snk-c snk-ct" x="578" y="50" rx="2" ry="2"/><rect class="snk-c snk-cu" x="578" y="66" rx="2" ry="2"/><rect class="snk-c snk-cv" x="578" y="82" rx="2" ry="2"/><rect class="snk-c" x="578" y="98" rx="2" ry="2"/><rect class="snk-c" x="594" y="2" rx="2" ry="2"/><rect class="snk-c snk-cw" x="594" y="18" rx="2" ry="2"/><rect class="snk-c" x="594" y="34" rx="2" ry="2"/><rect class="snk-c snk-cx" x="594" y="50" rx="2" ry="2"/><rect class="snk-c snk-cy" x="594" y="66" rx="2" ry="2"/><rect class="snk-c snk-cz" x="594" y="82" rx="2" ry="2"/><rect class="snk-c snk-c10" x="594" y="98" rx="2" ry="2"/><rect class="snk-c" x="610" y="2" rx="2" ry="2"/><rect class="snk-c snk-c11" x="610" y="18" rx="2" ry="2"/><rect class="snk-c snk-c12" x="610" y="34" rx="2" ry="2"/><rect class="snk-c snk-c13" x="610" y="50" rx="2" ry="2"/><rect class="snk-c snk-c14" x="610" y="66" rx="2" ry="2"/><rect class="snk-c" x="610" y="82" rx="2" ry="2"/><rect class="snk-c snk-c15" x="610" y="98" rx="2" ry="2"/><rect class="snk-c snk-c16" x="626" y="2" rx="2" ry="2"/><rect class="snk-c snk-c17" x="626" y="18" rx="2" ry="2"/><rect class="snk-c snk-c18" x="626" y="34" rx="2" ry="2"/><rect class="snk-c snk-c19" x="626" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1a" x="626" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1b" x="626" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1c" x="626" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1d" x="642" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1e" x="642" y="18" rx="2" ry="2"/><rect class="snk-c snk-c1f" x="642" y="34" rx="2" ry="2"/><rect class="snk-c snk-c1g" x="642" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1h" x="642" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1i" x="642" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1j" x="642" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1k" x="658" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1l" x="658" y="18" rx="2" ry="2"/><rect class="snk-c" x="658" y="34" rx="2" ry="2"/><rect class="snk-c" x="658" y="50" rx="2" ry="2"/><rect class="snk-c" x="658" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1m" x="658" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1n" x="658" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1o" x="674" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1p" x="674" y="18" rx="2" ry="2"/><rect class="snk-c snk-c1q" x="674" y="34" rx="2" ry="2"/><rect class="snk-c snk-c1r" x="674" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1s" x="674" y="66" rx="2" ry="2"/><rect class="snk-c snk-c1t" x="674" y="82" rx="2" ry="2"/><rect class="snk-c snk-c1u" x="674" y="98" rx="2" ry="2"/><rect class="snk-c snk-c1v" x="690" y="2" rx="2" ry="2"/><rect class="snk-c snk-c1w" x="690" y="18" rx="2" ry="2"/><rect class="snk-c snk-c1x" x="690" y="34" rx="2" ry="2"/><rect class="snk-c snk-c1y" x="690" y="50" rx="2" ry="2"/><rect class="snk-c snk-c1z" x="690" y="66" rx="2" ry="2"/><rect class="snk-c snk-c20" x="690" y="82" rx="2" ry="2"/><rect class="snk-c snk-c21" x="690" y="98" rx="2" ry="2"/><rect class="snk-c snk-c22" x="706" y="2" rx="2" ry="2"/><rect class="snk-c snk-c23" x="706" y="18" rx="2" ry="2"/><rect class="snk-c snk-c24" x="706" y="34" rx="2" ry="2"/><rect class="snk-c snk-c25" x="706" y="50" rx="2" ry="2"/><rect class="snk-c" x="706" y="66" rx="2" ry="2"/><rect class="snk-c snk-c26" x="706" y="82" rx="2" ry="2"/><rect class="snk-c snk-c27" x="706" y="98" rx="2" ry="2"/><rect class="snk-c snk-c28" x="722" y="2" rx="2" ry="2"/><rect class="snk-c" x="722" y="18" rx="2" ry="2"/><rect class="snk-c snk-c29" x="722" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2a" x="722" y="50" rx="2" ry="2"/><rect class="snk-c snk-c2b" x="722" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2c" x="722" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2d" x="722" y="98" rx="2" ry="2"/><rect class="snk-c snk-c2e" x="738" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2f" x="738" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2g" x="738" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2h" x="738" y="50" rx="2" ry="2"/><rect class="snk-c" x="738" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2i" x="738" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2j" x="738" y="98" rx="2" ry="2"/><rect class="snk-c snk-c2k" x="754" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2l" x="754" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2m" x="754" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2n" x="754" y="50" rx="2" ry="2"/><rect class="snk-c snk-c2o" x="754" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2p" x="754" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2q" x="754" y="98" rx="2" ry="2"/><rect class="snk-c snk-c2r" x="770" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2s" x="770" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2t" x="770" y="34" rx="2" ry="2"/><rect class="snk-c snk-c2u" x="770" y="50" rx="2" ry="2"/><rect class="snk-c snk-c2v" x="770" y="66" rx="2" ry="2"/><rect class="snk-c snk-c2w" x="770" y="82" rx="2" ry="2"/><rect class="snk-c snk-c2x" x="770" y="98" rx="2" ry="2"/><rect class="snk-c" x="786" y="2" rx="2" ry="2"/><rect class="snk-c snk-c2y" x="786" y="18" rx="2" ry="2"/><rect class="snk-c snk-c2z" x="786" y="34" rx="2" ry="2"/><rect class="snk-c snk-c30" x="786" y="50" rx="2" ry="2"/><rect class="snk-c snk-c31" x="786" y="66" rx="2" ry="2"/><rect class="snk-c snk-c32" x="786" y="82" rx="2" ry="2"/><rect class="snk-c snk-c33" x="786" y="98" rx="2" ry="2"/><rect class="snk-c snk-c34" x="802" y="2" rx="2" ry="2"/><rect class="snk-c snk-c35" x="802" y="18" rx="2" ry="2"/><rect class="snk-c snk-c36" x="802" y="34" rx="2" ry="2"/><rect class="snk-c snk-c37" x="802" y="50" rx="2" ry="2"/><rect class="snk-c snk-c38" x="802" y="66" rx="2" ry="2"/><rect class="snk-c snk-c39" x="802" y="82" rx="2" ry="2"/><rect class="snk-c snk-c3a" x="802" y="98" rx="2" ry="2"/><rect class="snk-c snk-c3b" x="818" y="2" rx="2" ry="2"/><rect class="snk-c snk-c3c" x="818" y="18" rx="2" ry="2"/><rect class="snk-c snk-c3d" x="818" y="34" rx="2" ry="2"/><rect class="snk-c snk-c3e" x="818" y="50" rx="2" ry="2"/><rect class="snk-c snk-c3f" x="818" y="66" rx="2" ry="2"/><rect class="snk-c snk-c3g" x="818" y="82" rx="2" ry="2"/><rect class="snk-c snk-c3h" x="818" y="98" rx="2" ry="2"/><rect class="snk-c snk-c3i" x="834" y="2" rx="2" ry="2"/><rect class="snk-c snk-c3j" x="834" y="18" rx="2" ry="2"/><rect class="snk-c snk-c3k" x="834" y="34" rx="2" ry="2"/><rect class="snk-c snk-c3l" x="834" y="50" rx="2" ry="2"/><rect class="snk-c snk-c3m" x="834" y="66" rx="2" ry="2"/><rect class="snk-c snk-c3n" x="834" y="82" rx="2" ry="2"/><rect class="snk-c snk-c3o" x="834" y="98" rx="2" ry="2"/><rect class="snk-u snk-u0" height="12" width="504.3" x="0.0" y="144"/><rect class="snk-u snk-u1" height="12" width="7.0" x="503.7" y="144"/><rect class="snk-u snk-u2" height="12" width="7.0" x="510.1" y="144"/><rect class="snk-u snk-u3" height="12" width="7.0" x="516.5" y="144"/><rect class="snk-u snk-u4" height="12" width="7.0" x="522.8" y="144"/><rect class="snk-u snk-u5" height="12" width="179.1" x="529.2" y="144"/><rect class="snk-u snk-u6" height="12" width="7.0" x="707.7" y="144"/><rect class="snk-u snk-u7" height="12" width="13.4" x="714.1" y="144"/><rect class="snk-u snk-u8" height="12" width="7.0" x="726.9" y="144"/><rect class="snk-u snk-u9" height="12" width="7.0" x="733.2" y="144"/><rect class="snk-u snk-ua" height="12" width="51.6" x="739.6" y="144"/><rect class="snk-u snk-ub" height="12" width="58.0" x="790.6" y="144"/><rect class="snk-s snk-s0" x="0.8" y="0.8" width="14.4" height="14.4" rx="4.5" ry="4.5"/><rect class="snk-s snk-s1" x="1.8" y="1.8" width="12.3" height="12.3" rx="4.1" ry="4.1"/><rect class="snk-s snk-s2" x="2.6" y="2.6" width="10.8" height="10.8" rx="3.6" ry="3.6"/><rect class="snk-s snk-s3" x="3.0" y="3.0" width="9.9" height="9.9" rx="3.3" ry="3.3"/>
   </g>
 </svg>
     </g>

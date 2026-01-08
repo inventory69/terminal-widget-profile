@@ -66,6 +66,15 @@ jobs:
           if git diff --staged --quiet; then
             echo "No changes to commit"
           else
-            git commit -m "chore: Update terminal widget [skip ci]"
-            git push
+            # Check if last commit was an auto-update (to amend instead of new commit)
+            LAST_MSG=$(git log -1 --pretty=%s)
+            if [[ "$LAST_MSG" == "chore: Update terminal widget [skip ci]" ]]; then
+              echo "Amending previous auto-update commit..."
+              git commit --amend --no-edit
+              git push --force-with-lease
+            else
+              echo "Creating new commit..."
+              git commit -m "chore: Update terminal widget [skip ci]"
+              git push
+            fi
           fi
