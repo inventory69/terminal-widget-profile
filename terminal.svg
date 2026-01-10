@@ -226,7 +226,7 @@
     
     <text class="stat-text" x="15" y="70">
       <tspan>Total Stars</tspan>
-      <tspan class="stat-value" x="680">13</tspan>
+      <tspan class="stat-value" x="680">14</tspan>
     </text>
     
     <text class="stat-text" x="15" y="90">
@@ -258,26 +258,26 @@
     
     <text class="project-text" x="15" y="83">
       <tspan class="project-number">2.</tspan>
-      <tspan class="project-name" dx="5">HazeBot</tspan>
+      <tspan class="project-name" dx="5">terminal-widget-profile</tspan>
       <tspan class="project-stars" dx="10">⭐ 2</tspan>
     </text>
-    <text class="project-description" x="30" y="97">A feature-rich Discord bot with modular archite... • Python</text>
+    <text class="project-description" x="30" y="97">Terminal-style SVG widget for GitHub profile RE... • Python</text>
     
     
     <text class="project-text" x="15" y="118">
       <tspan class="project-number">3.</tspan>
-      <tspan class="project-name" dx="5">voidtales-gallery</tspan>
+      <tspan class="project-name" dx="5">HazeBot</tspan>
       <tspan class="project-stars" dx="10">⭐ 2</tspan>
     </text>
-    <text class="project-description" x="30" y="132">🎨 Ultra lightweight gallery written in astro / ... • CSS</text>
+    <text class="project-description" x="30" y="132">A feature-rich Discord bot with modular archite... • Python</text>
     
     
     <text class="project-text" x="15" y="153">
       <tspan class="project-number">4.</tspan>
-      <tspan class="project-name" dx="5">terminal-widget-profile</tspan>
-      <tspan class="project-stars" dx="10">⭐ 1</tspan>
+      <tspan class="project-name" dx="5">voidtales-gallery</tspan>
+      <tspan class="project-stars" dx="10">⭐ 2</tspan>
     </text>
-    <text class="project-description" x="30" y="167">Terminal-style SVG widget for GitHub profile RE... • Python</text>
+    <text class="project-description" x="30" y="167">🎨 Ultra lightweight gallery written in astro / ... • CSS</text>
     
   </g>
   
