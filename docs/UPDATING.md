@@ -18,20 +18,55 @@ git remote -v
 
 ## Get Updates
 
+⚠️ **Important:** GitHub templates create repos with **unrelated histories**. Use `cherry-pick` instead of `merge`.
+
+### Method 1: Cherry-Pick (Recommended)
+
 ```bash
-# Fetch latest changes from upstream
+# Fetch latest changes
 git fetch upstream
 
-# Merge upstream changes into your main branch
-git checkout main
-git merge upstream/main
+# See available updates
+git log upstream/main --oneline | head -10
 
-# If there are conflicts, resolve them, then:
-git add .
-git commit -m "chore: Merge upstream updates"
+# Cherry-pick specific commits (e.g., the commit spam fix)
+git cherry-pick d6a72fc
+git cherry-pick ab6b64a
+
+# If README.md conflicts (expected), keep your version:
+git checkout --ours README.md
+git add README.md
+git cherry-pick --continue
 
 # Push to your repository
 git push origin main
+```
+
+### Method 2: Manual File Copy (Simple)
+
+If cherry-pick is too complex, just copy specific files:
+
+```bash
+# Fetch latest changes
+git fetch upstream
+
+# Copy specific files from upstream
+git checkout upstream/main -- .github/workflows/generate-terminal.yml
+git checkout upstream/main -- scripts/generate_svg.py
+git checkout upstream/main -- docs/UPDATING.md
+
+# Commit
+git commit -m "chore: Update from upstream template"
+git push origin main
+```
+
+### Method 3: Merge (Only works if repos have shared history)
+
+⚠️ This usually **doesn't work** for GitHub template repos:
+
+```bash
+git fetch upstream
+git merge upstream/main  # Will likely fail with "unrelated histories"
 ```
 
 ## What Gets Updated?
@@ -63,37 +98,63 @@ git commit -m "chore: Keep personal config"
 
 ## Quick Update Script
 
-Create `update.sh`:
+Create `update.sh` for easy updates:
 
 ```bash
 #!/bin/bash
+# Fetch updates
 git fetch upstream
-git merge upstream/main
-git push origin main
+
+# Show available updates
+echo "=== Available Updates ==="
+git log upstream/main --oneline | head -10
+echo ""
+
+# Ask which commits to cherry-pick
+echo "Enter commit hashes to apply (space-separated):"
+read -a commits
+
+# Apply each commit
+for commit in "${commits[@]}"; do
+  echo "Applying $commit..."
+  git cherry-pick "$commit"
+  
+  # Auto-resolve README conflicts
+  if git status | grep -q "README.md"; then
+    git checkout --ours README.md
+    git add README.md
+    git cherry-pick --continue
+  fi
+done
+
+echo "Done! Push with: git push origin main"
 ```
 
 Then just run: `./update.sh`
 
-## Alternative: Cherry-Pick Specific Fixes
+## Troubleshooting
 
-If you only want specific updates (e.g., the commit spam fix):
+### "Refusing to merge unrelated histories"
+
+This is normal for GitHub template repos. Use **Method 1 (Cherry-Pick)** or **Method 2 (Manual Copy)** instead.
+
+### README.md Conflicts
+
+When cherry-picking, your README.md (your profile) will conflict with the template README:
 
 ```bash
-# Find the commit hash on upstream
-git fetch upstream
-git log upstream/main --oneline | head -20
-
-# Cherry-pick specific commit
-git cherry-pick <commit-hash>
-git push origin main
+# Always keep YOUR version:
+git checkout --ours README.md
+git add README.md
+git cherry-pick --continue
 ```
 
-Example for the commit spam fix:
+### "Already exists" when cherry-picking
+
+If you already have a commit, skip it:
 
 ```bash
-git fetch upstream
-git cherry-pick d6a72fc  # The commit spam fix
-git push origin main
+git cherry-pick --skip
 ```
 
 ## Latest Updates
