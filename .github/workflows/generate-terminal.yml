@@ -1,0 +1,80 @@
+name: Generate Terminal Widget
+
+on:
+  schedule:
+    # Run every 6 hours
+    - cron: '0 */6 * * *'
+  
+  # Allow manual trigger
+  workflow_dispatch:
+  
+  # Run on push to main (optional, for testing)
+  # push:
+  #   branches:
+  #     - main
+  #   paths:
+  #     - 'scripts/**'
+  #     - '.github/workflows/generate-terminal.yml'
+
+jobs:
+  generate:
+    runs-on: ubuntu-latest
+    
+    permissions:
+      contents: write
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+      
+      - name: Setup Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+          cache: 'pip'
+      
+      - name: Install dependencies
+        run: pip install -r requirements.txt
+      
+      - name: Generate SVG
+        env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python scripts/generate_svg.py
+      
+      # Generate contribution snake animation using Platane/snk
+      # Thanks to @Platane for this awesome action! ❤️
+      # https://github.com/Platane/snk
+      - name: Generate Snake Animation
+        uses: Platane/snk/svg-only@v3
+        with:
+          github_user_name: ${{ github.repository_owner }}
+          outputs: |
+            snake.svg?palette=github-dark
+            snake-light.svg?palette=github-light
+      
+      - name: Commit and push if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "github-actions[bot]@users.noreply.github.com"
+          
+          # Pull latest changes first
+          git pull --rebase || true
+          
+          git add terminal.svg snake.svg snake-light.svg
+          
+          # Only commit if there are changes
+          if git diff --staged --quiet; then
+            echo "No changes to commit"
+          else
+            # Check if last commit was an auto-update (to amend instead of new commit)
+            LAST_MSG=$(git log -1 --pretty=%s)
+            if [[ "$LAST_MSG" == "chore: Update terminal widget [skip ci]" ]]; then
+              echo "Amending previous auto-update commit..."
+              git commit --amend --no-edit
+              git push --force-with-lease
+            else
+              echo "Creating new commit..."
+              git commit -m "chore: Update terminal widget [skip ci]"
+              git push
+            fi
+          fi

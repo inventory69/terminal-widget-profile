@@ -1,0 +1,32 @@
+# Terminal Widget Configuration
+# Customize your GitHub profile terminal widget
+
+# Your GitHub username (REQUIRED)
+username: inventory69
+
+# Theme selection (catppuccin | nord | gruvbox | tokyo_night)
+theme: catppuccin
+
+# Personal bio (optional)
+bio:
+  name: "Your Name"  # Display name (optional, defaults to GitHub username)
+  tagline: "Frontend Dev • UI/UX Designer"  # Short description
+  website: "https://yourwebsite.com"  # Personal website (optional)
+  links:  # Additional links (optional)
+    - title: "LinkedIn"
+      url: "https://linkedin.com/in/your-username"
+#   - title: "Email"
+#     url: "mailto:your@email.com"
+
+# Display settings
+display:
+  show_bio: true        # Show bio section
+  show_stats: true      # Show GitHub statistics
+  show_projects: true   # Show top projects
+  show_snake: true      # Show contribution snake animation
+  max_projects: 4       # Number of top projects to display (1-10)
+
+# Terminal appearance
+terminal:
+  width: 800   # SVG width in pixels
+  height: 720  # SVG height in pixels (increased for snake section)

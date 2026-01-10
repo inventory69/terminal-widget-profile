@@ -1,0 +1,134 @@
+<svg width="{{ terminal.width }}" height="{{ terminal.height }}" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+  <defs>
+    {# Include theme-specific CSS #}
+    {% include theme + '.css.j2' %}
+  </defs>
+  
+  {# Terminal window background #}
+  <rect class="terminal-bg" x="0" y="0" width="{{ terminal.width }}" height="{{ terminal.height }}" rx="10"/>
+  <rect class="terminal-border" x="0" y="0" width="{{ terminal.width }}" height="{{ terminal.height }}" rx="10"/>
+  
+  {# Window controls (macOS-style traffic lights) #}
+  <circle class="traffic-red" cx="20" cy="20" r="6"/>
+  <circle class="traffic-yellow" cx="40" cy="20" r="6"/>
+  <circle class="traffic-green" cx="60" cy="20" r="6"/>
+  
+  {# Window title #}
+  <text class="window-title" x="{{ terminal.width / 2 }}" y="25" text-anchor="middle">{{ username }}@github</text>
+  
+  {# Command prompt #}
+  <text class="terminal-text" x="20" y="55">
+    <tspan class="prompt-user">{{ username }}@github</tspan>
+    <tspan class="prompt-path"> ~ </tspan>
+    <tspan class="prompt-symbol">% </tspan>
+    <tspan>neofetch</tspan>
+  </text>
+  
+  {# Calculate section positions - using namespace for Jinja2 scoping #}
+  {% set ns = namespace(y=75) %}
+  
+  {# Personal Bio Section #}
+  {% if display.show_bio and bio %}
+  {% set bio_height = 65 if bio.links else 50 %}
+  <g class="section" transform="translate(20, {{ ns.y }})">
+    <rect class="section-box" x="0" y="0" width="{{ terminal.width - 40 }}" height="{{ bio_height }}" rx="5"/>
+    
+    {% if bio.name or bio.tagline %}
+    <text class="bio-name" x="10" y="22">👤 {{ bio.name or display_name }}</text>
+    {% endif %}
+    
+    {% if bio.tagline %}
+    <text class="section-text secondary" x="10" y="40">{{ bio.tagline }}</text>
+    {% endif %}
+    
+    {% if bio.website or bio.links %}
+    <text class="section-text small" x="10" y="56">
+      {% if bio.website %}<tspan>🌐 {{ bio.website | replace('https://', '') | replace('http://', '') }}</tspan>{% endif %}
+      {% for link in bio.links[:3] %}
+        <tspan dx="15">{{ link.title }}</tspan>
+      {% endfor %}
+    </text>
+    {% endif %}
+  </g>
+  {% set ns.y = ns.y + bio_height + 10 %}
+  {% endif %}
+  
+  {# GitHub Stats Section #}
+  {% if display.show_stats %}
+  <g class="section" transform="translate(20, {{ ns.y }})">
+    <rect class="section-box" x="0" y="0" width="{{ terminal.width - 40 }}" height="100" rx="5"/>
+    
+    <text class="section-title" x="10" y="22">📊 GitHub Stats</text>
+    <line class="section-divider" x1="10" y1="30" x2="{{ terminal.width - 50 }}" y2="30"/>
+    
+    <text class="stat-text" x="15" y="50">
+      <tspan>Public Repos</tspan>
+      <tspan class="stat-value" x="{{ terminal.width - 120 }}">{{ repos_count }}</tspan>
+    </text>
+    
+    <text class="stat-text" x="15" y="70">
+      <tspan>Total Stars</tspan>
+      <tspan class="stat-value" x="{{ terminal.width - 120 }}">{{ "{:,}".format(total_stars) }}</tspan>
+    </text>
+    
+    <text class="stat-text" x="15" y="90">
+      <tspan>Followers</tspan>
+      <tspan class="stat-value" x="{{ terminal.width - 120 }}">{{ followers }}</tspan>
+    </text>
+  </g>
+  {% set ns.y = ns.y + 110 %}
+  {% endif %}
+  
+  {# Top Projects Section #}
+  {% if display.show_projects and top_projects %}
+  {% set project_height = 35 + (top_projects | length * 35) %}
+  <g class="section" transform="translate(20, {{ ns.y }})">
+    <rect class="section-box" x="0" y="0" width="{{ terminal.width - 40 }}" height="{{ project_height }}" rx="5"/>
+    
+    <text class="section-title" x="10" y="22">🚀 Top Projects</text>
+    <line class="section-divider" x1="10" y1="30" x2="{{ terminal.width - 50 }}" y2="30"/>
+    
+    {% for project in top_projects %}
+    {% set py = 48 + (loop.index0 * 35) %}
+    <text class="project-text" x="15" y="{{ py }}">
+      <tspan class="project-number">{{ loop.index }}.</tspan>
+      <tspan class="project-name" dx="5">{{ project.name }}</tspan>
+      <tspan class="project-stars" dx="10">⭐ {{ project.stars }}</tspan>
+    </text>
+    <text class="project-description" x="30" y="{{ py + 14 }}">{{ project.description }} • {{ project.language }}</text>
+    {% endfor %}
+  </g>
+  {% set ns.y = ns.y + project_height + 10 %}
+  {% endif %}
+  
+  {# Snake contribution animation - embedded from snake.svg #}
+  {% if display.show_snake %}
+  {% set snake_section_height = (snake_dims.height | default(160)) | int + 45 %}
+  <g class="section snake-section" transform="translate(20, {{ ns.y }})">
+    <rect class="section-box" x="0" y="0" width="{{ terminal.width - 40 }}" height="{{ snake_section_height }}" rx="5"/>
+    
+    <text class="section-title" x="10" y="22">🐍 Contributions</text>
+    <line class="section-divider" x1="10" y1="30" x2="{{ terminal.width - 50 }}" y2="30"/>
+    
+    {% if snake_content %}
+    {# Embedded snake animation with proper positioning #}
+    <g class="snake-wrapper" transform="translate(10, 35)">
+      {{ snake_content | safe }}
+    </g>
+    {% else %}
+    <text class="section-text small" x="{{ (terminal.width - 40) / 2 }}" y="{{ snake_section_height / 2 + 10 }}" text-anchor="middle">
+      Snake animation will be embedded after first workflow run
+    </text>
+    {% endif %}
+  </g>
+  {% set ns.y = ns.y + snake_section_height + 10 %}
+  {% endif %}
+  
+  {# Command prompt with blinking cursor #}
+  <text class="terminal-text" x="20" y="{{ ns.y + 30 }}">
+    <tspan class="prompt-user">{{ username }}@github</tspan>
+    <tspan class="prompt-path"> ~ </tspan>
+    <tspan class="prompt-symbol">% </tspan>
+    <tspan class="cursor">█</tspan>
+  </text>
+</svg>
