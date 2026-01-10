@@ -90,6 +90,7 @@ display:
 - [Configuration Guide](docs/CONFIGURATION.md)
 - [Development & Testing](docs/DEVELOPMENT.md)
 - [Troubleshooting](docs/TROUBLESHOOTING.md)
+- [Updating from Upstream](docs/UPDATING.md) - Get latest fixes and features
 
 ## Credits
 
