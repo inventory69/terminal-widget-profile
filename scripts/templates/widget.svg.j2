@@ -79,7 +79,7 @@
 
   {# === Fetch (two-column) === #}
   {% if display.show_fetch and fetch_rows %}
-  {% set fetch_h = fetch_rows|length * 18 + 14 %}
+  {% set fetch_h = fetch_rows|length * 18 + 24 %}
   <rect class="surface" x="20" y="{{ ns.y }}" width="{{ W - 40 }}" height="{{ fetch_h }}" rx="6"/>
   <text class="small" x="32" y="{{ ns.y + 14 }}">┌─ system ─</text>
   {% for glyph, label, value, color in fetch_rows %}

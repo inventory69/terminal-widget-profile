@@ -157,7 +157,7 @@ def compute_height(cfg: dict, theme: dict, fetch_count: int, project_count: int,
     h += max(bio_h, logo_h, 50) + 14
 
     if d["show_fetch"] and fetch_count:
-        h += fetch_count * 18 + 14 + 12
+        h += fetch_count * 18 + 24 + 12
     if d["show_projects"] and project_count:
         h += project_count * 22 + 22 + 12
     if d["show_stats"]:
