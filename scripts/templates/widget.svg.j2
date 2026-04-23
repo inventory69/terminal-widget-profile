@@ -1,0 +1,142 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 {{ W }} {{ H }}" width="{{ W }}" height="{{ H }}" font-family="'JetBrains Mono','Fira Code','Cascadia Code','Symbols Nerd Font',monospace">
+  <defs>
+    <style>
+      .bg     { fill: {{ t.base }}; }
+      .border { fill: none; stroke: {{ t.overlay }}; stroke-width: 1; }
+      .surface{ fill: {{ t.surface }}; stroke: {{ t.overlay }}; stroke-width: 1; }
+      .title  { fill: {{ t.muted }}; font-size: 11px; }
+      .dot-r  { fill: {{ t.red }};   }
+      .dot-y  { fill: {{ t.yellow }};}
+      .dot-g  { fill: {{ t.green }}; }
+      .text   { fill: {{ t.text }};   font-size: 12px; }
+      .muted  { fill: {{ t.muted }};  font-size: 12px; }
+      .accent { fill: {{ t.accent }}; font-size: 12px; font-weight: 600; }
+      .green  { fill: {{ t.green }};  font-size: 12px; }
+      .yellow { fill: {{ t.yellow }}; font-size: 12px; }
+      .red    { fill: {{ t.red }};    font-size: 12px; }
+      .head   { fill: {{ t.accent }}; font-size: 12px; font-weight: 700; }
+      .small  { fill: {{ t.muted }};  font-size: 10px; }
+      .logo   { font-size: 11px; line-height: 1; }
+      .glyph  { font-size: 13px; }
+      .cursor { fill: {{ t.text }}; animation: blink 1.05s steps(2,start) infinite; }
+      @keyframes blink { to { visibility: hidden; } }
+    </style>
+  </defs>
+
+  {# === Window === #}
+  <rect class="bg" x="0" y="0" width="{{ W }}" height="{{ H }}" rx="10"/>
+  <rect class="border" x="0.5" y="0.5" width="{{ W - 1 }}" height="{{ H - 1 }}" rx="10"/>
+
+  {# title bar #}
+  <line x1="0" y1="30" x2="{{ W }}" y2="30" stroke="{{ t.overlay }}" stroke-width="1"/>
+  <circle class="dot-r" cx="18" cy="15" r="5"/>
+  <circle class="dot-y" cx="34" cy="15" r="5"/>
+  <circle class="dot-g" cx="50" cy="15" r="5"/>
+  <text class="title" x="{{ W / 2 }}" y="19" text-anchor="middle">{{ username }}@github — ~/profile</text>
+
+  {% set ns = namespace(y=50) %}
+
+  {# === Header: ASCII logo (left) + bio (right) === #}
+  {% set logo_w = 130 if logo else 0 %}
+  {% set header_x = 20 + logo_w %}
+  {% set header_h = [logo|length * 14, 90 if (display.show_bio and bio) else 0] | max %}
+  {% if header_h == 0 %}{% set header_h = 50 %}{% endif %}
+
+  {% if logo %}
+  <g transform="translate(20 {{ ns.y }})">
+    {% for line, role in logo %}
+    <text class="logo" x="0" y="{{ (loop.index0 + 1) * 13 }}" fill="{{ t[role] }}" xml:space="preserve">{{ line }}</text>
+    {% endfor %}
+  </g>
+  {% endif %}
+
+  {% if display.show_bio and bio %}
+  <g transform="translate({{ header_x }} {{ ns.y }})">
+    <text class="head" x="0" y="14">{{ bio.name or display_name }}</text>
+    <text class="muted" x="0" y="18">
+      <tspan x="0" dy="14" xml:space="preserve">{{ '─' * ((bio.name or display_name)|length) }}</tspan>
+    </text>
+    {% if bio.tagline %}
+    <text class="text" x="0" y="50">{{ bio.tagline }}</text>
+    {% endif %}
+    {% set bio_y = namespace(v=68) %}
+    {% if bio.website %}
+    <text class="accent" x="0" y="{{ bio_y.v }}">↗ <tspan class="muted" dx="2">{{ bio.website | replace('https://','') | replace('http://','') }}</tspan></text>
+    {% set bio_y.v = bio_y.v + 16 %}
+    {% endif %}
+    {% if bio.links %}
+    <text x="0" y="{{ bio_y.v }}">
+      {% for link in bio.links[:4] %}
+        {% if not loop.first %}<tspan class="muted" dx="6"> · </tspan>{% endif %}
+        <tspan class="accent">{{ link.title }}</tspan>
+      {% endfor %}
+    </text>
+    {% endif %}
+  </g>
+  {% endif %}
+
+  {% set ns.y = ns.y + header_h + 14 %}
+
+  {# === Fetch (two-column) === #}
+  {% if display.show_fetch and fetch_rows %}
+  {% set fetch_h = fetch_rows|length * 18 + 14 %}
+  <rect class="surface" x="20" y="{{ ns.y }}" width="{{ W - 40 }}" height="{{ fetch_h }}" rx="6"/>
+  <text class="small" x="32" y="{{ ns.y + 14 }}">┌─ system ─</text>
+  {% for glyph, label, value, color in fetch_rows %}
+  {% set ry = ns.y + 32 + loop.index0 * 18 %}
+  <text class="glyph" x="32"  y="{{ ry }}" fill="{{ t[color] }}">{{ glyph }}</text>
+  <text class="accent" x="56"  y="{{ ry }}">{{ label }}</text>
+  <text class="text"  x="170" y="{{ ry }}">{{ value }}</text>
+  {% endfor %}
+  {% set ns.y = ns.y + fetch_h + 12 %}
+  {% endif %}
+
+  {# === Projects === #}
+  {% if display.show_projects and top_projects %}
+  {% set proj_h = top_projects|length * 22 + 22 %}
+  <rect class="surface" x="20" y="{{ ns.y }}" width="{{ W - 40 }}" height="{{ proj_h }}" rx="6"/>
+  <text class="small" x="32" y="{{ ns.y + 14 }}">┌─ ~/projects ─</text>
+  {% for p in top_projects %}
+  {% set py = ns.y + 32 + loop.index0 * 22 %}
+  <circle cx="38" cy="{{ py - 4 }}" r="5" fill="{{ p.language_color }}"/>
+  <text class="accent" x="50" y="{{ py }}">{{ p.name }}</text>
+  <text class="yellow" x="{{ W - 220 }}" y="{{ py }}">★ {{ p.stars }}</text>
+  <text class="muted"  x="{{ W - 170 }}" y="{{ py }}">{{ p.language }}</text>
+  {% endfor %}
+  {% set ns.y = ns.y + proj_h + 12 %}
+  {% endif %}
+
+  {# === Stats line (compact) === #}
+  {% if display.show_stats %}
+  <text class="text" x="20" y="{{ ns.y + 14 }}">
+    <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">{{ repos_count }}</tspan>
+    <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">{{ "{:,}".format(total_stars) }}</tspan>
+    <tspan class="muted" xml:space="preserve">    followers </tspan><tspan class="green">{{ followers }}</tspan>
+    <tspan class="muted" xml:space="preserve">    following </tspan><tspan class="purple" fill="{{ t.purple }}">{{ following }}</tspan>
+  </text>
+  {% set ns.y = ns.y + 20 %}
+  {% endif %}
+
+  {# === Snake (optional, embedded) === #}
+  {% if display.embed_snake and snake_content %}
+  <g transform="translate(20 {{ ns.y }})">{{ snake_content | safe }}</g>
+  {% set ns.y = ns.y + (snake_dims.height|int) + 12 %}
+  {% endif %}
+
+  {# === Palette bar === #}
+  {% if display.show_palette %}
+  {% set sw = ((W - 60) / 8) | int %}
+  {% for c in t.colors %}
+  <rect x="{{ 20 + loop.index0 * (sw + 4) }}" y="{{ ns.y + 4 }}" width="{{ sw }}" height="14" rx="3" fill="{{ c }}"/>
+  {% endfor %}
+  {% set ns.y = ns.y + 28 %}
+  {% endif %}
+
+  {# === Prompt with blinking cursor === #}
+  <text x="20" y="{{ ns.y + 14 }}" font-size="12">
+    <tspan fill="{{ t.green }}">{{ username }}@github</tspan>
+    <tspan fill="{{ t.muted }}" xml:space="preserve"> ~ </tspan>
+    <tspan fill="{{ t.accent }}">❯ </tspan>
+    <tspan class="cursor">▋</tspan>
+  </text>
+</svg>
