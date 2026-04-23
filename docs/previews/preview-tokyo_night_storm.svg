@@ -1,0 +1,126 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 740 508" width="740" height="508" font-family="'JetBrains Mono','Fira Code','Cascadia Code','Symbols Nerd Font',monospace">
+  <defs>
+    <style>
+      .bg     { fill: #24283b; }
+      .border { fill: none; stroke: #3b4261; stroke-width: 1; }
+      .surface{ fill: #1f2335; stroke: #3b4261; stroke-width: 1; }
+      .title  { fill: #787c99; font-size: 11px; }
+      .dot-r  { fill: #f7768e;   }
+      .dot-y  { fill: #e0af68;}
+      .dot-g  { fill: #9ece6a; }
+      .text   { fill: #c0caf5;   font-size: 12px; }
+      .muted  { fill: #787c99;  font-size: 12px; }
+      .accent { fill: #7aa2f7; font-size: 12px; font-weight: 600; }
+      .green  { fill: #9ece6a;  font-size: 12px; }
+      .yellow { fill: #e0af68; font-size: 12px; }
+      .red    { fill: #f7768e;    font-size: 12px; }
+      .head   { fill: #7aa2f7; font-size: 12px; font-weight: 700; }
+      .small  { fill: #787c99;  font-size: 10px; }
+      .logo   { font-size: 11px; line-height: 1; }
+      .glyph  { font-size: 13px; }
+      .cursor { fill: #c0caf5; animation: blink 1.05s steps(2,start) infinite; }
+      @keyframes blink { to { visibility: hidden; } }
+    </style>
+  </defs>
+
+  <rect class="bg" x="0" y="0" width="740" height="508" rx="10"/>
+  <rect class="border" x="0.5" y="0.5" width="739" height="507" rx="10"/>
+
+  <line x1="0" y1="30" x2="740" y2="30" stroke="#3b4261" stroke-width="1"/>
+  <circle class="dot-r" cx="18" cy="15" r="5"/>
+  <circle class="dot-y" cx="34" cy="15" r="5"/>
+  <circle class="dot-g" cx="50" cy="15" r="5"/>
+  <text class="title" x="370.0" y="19" text-anchor="middle">jane-ricer@github — ~/profile</text>
+
+
+
+  <g transform="translate(20 50)">
+    <text class="logo" x="0" y="13" fill="#7aa2f7" xml:space="preserve">       /\       </text>
+    <text class="logo" x="0" y="26" fill="#7aa2f7" xml:space="preserve">      /  \      </text>
+    <text class="logo" x="0" y="39" fill="#7aa2f7" xml:space="preserve">     /\   \     </text>
+    <text class="logo" x="0" y="52" fill="#7aa2f7" xml:space="preserve">    /      \    </text>
+    <text class="logo" x="0" y="65" fill="#7aa2f7" xml:space="preserve">   /   ,,   \   </text>
+    <text class="logo" x="0" y="78" fill="#7aa2f7" xml:space="preserve">  /   |  |   \  </text>
+    <text class="logo" x="0" y="91" fill="#787c99" xml:space="preserve"> / _-'    `-_ \ </text>
+    <text class="logo" x="0" y="104" fill="#787c99" xml:space="preserve">/_-'        `-_\</text>
+  </g>
+
+  <g transform="translate(150 50)">
+    <text class="head" x="0" y="14">Jane Ricer</text>
+    <text class="muted" x="0" y="18">
+      <tspan x="0" dy="14" xml:space="preserve">──────────</tspan>
+    </text>
+    <text class="text" x="0" y="50">Arch enjoyer • Hyprland tinkerer • OSS</text>
+    <text class="accent" x="0" y="68">↗ <tspan class="muted" dx="2">jane.dev</tspan></text>
+    <text x="0" y="84">
+        <tspan class="accent">GitHub</tspan>
+<tspan class="muted" dx="6"> · </tspan>        <tspan class="accent">Mastodon</tspan>
+    </text>
+  </g>
+
+
+  <rect class="surface" x="20" y="176" width="700" height="104" rx="6"/>
+  <text class="small" x="32" y="190">┌─ system ─</text>
+  <text class="glyph" x="32"  y="208" fill="#7aa2f7">◆</text>
+  <text class="accent" x="56"  y="208">OS</text>
+  <text class="text"  x="170" y="208">Arch Linux</text>
+  <text class="glyph" x="32"  y="226" fill="#bb9af7">▣</text>
+  <text class="accent" x="56"  y="226">WM</text>
+  <text class="text"  x="170" y="226">Hyprland</text>
+  <text class="glyph" x="32"  y="244" fill="#9ece6a">❯</text>
+  <text class="accent" x="56"  y="244">Shell</text>
+  <text class="text"  x="170" y="244">fish</text>
+  <text class="glyph" x="32"  y="262" fill="#7aa2f7">▶</text>
+  <text class="accent" x="56"  y="262">Terminal</text>
+  <text class="text"  x="170" y="262">Kitty</text>
+  <text class="glyph" x="32"  y="280" fill="#e0af68">✎</text>
+  <text class="accent" x="56"  y="280">Editor</text>
+  <text class="text"  x="170" y="280">Neovim</text>
+
+  <rect class="surface" x="20" y="292" width="700" height="132" rx="6"/>
+  <text class="small" x="32" y="306">┌─ ~/projects ─</text>
+  <circle cx="38" cy="320" r="5" fill="#000080"/>
+  <text class="accent" x="50" y="324">hyprland-dots</text>
+  <text class="yellow" x="520" y="324">★ 1284</text>
+  <text class="muted"  x="570" y="324">Lua</text>
+  <circle cx="38" cy="342" r="5" fill="#89e051"/>
+  <text class="accent" x="50" y="346">neofetch-themes</text>
+  <text class="yellow" x="520" y="346">★ 412</text>
+  <text class="muted"  x="570" y="346">Shell</text>
+  <circle cx="38" cy="364" r="5" fill="#f34b7d"/>
+  <text class="accent" x="50" y="368">waybar-modules</text>
+  <text class="yellow" x="520" y="368">★ 198</text>
+  <text class="muted"  x="570" y="368">C++</text>
+  <circle cx="38" cy="386" r="5" fill="#a3be8c"/>
+  <text class="accent" x="50" y="390">rofi-launchers</text>
+  <text class="yellow" x="520" y="390">★ 87</text>
+  <text class="muted"  x="570" y="390">Rasi</text>
+  <circle cx="38" cy="408" r="5" fill="#3572A5"/>
+  <text class="accent" x="50" y="412">terminal-widget</text>
+  <text class="yellow" x="520" y="412">★ 56</text>
+  <text class="muted"  x="570" y="412">Python</text>
+
+  <text class="text" x="20" y="450">
+    <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">38</tspan>
+    <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">2,037</tspan>
+    <tspan class="muted" xml:space="preserve">    followers </tspan><tspan class="green">137</tspan>
+    <tspan class="muted" xml:space="preserve">    following </tspan><tspan class="purple" fill="#bb9af7">42</tspan>
+  </text>
+
+
+  <rect x="20" y="460" width="85" height="14" rx="3" fill="#414868"/>
+  <rect x="109" y="460" width="85" height="14" rx="3" fill="#f7768e"/>
+  <rect x="198" y="460" width="85" height="14" rx="3" fill="#9ece6a"/>
+  <rect x="287" y="460" width="85" height="14" rx="3" fill="#e0af68"/>
+  <rect x="376" y="460" width="85" height="14" rx="3" fill="#7aa2f7"/>
+  <rect x="465" y="460" width="85" height="14" rx="3" fill="#bb9af7"/>
+  <rect x="554" y="460" width="85" height="14" rx="3" fill="#7dcfff"/>
+  <rect x="643" y="460" width="85" height="14" rx="3" fill="#c0caf5"/>
+
+  <text x="20" y="498" font-size="12">
+    <tspan fill="#9ece6a">jane-ricer@github</tspan>
+    <tspan fill="#787c99" xml:space="preserve"> ~ </tspan>
+    <tspan fill="#7aa2f7">❯ </tspan>
+    <tspan class="cursor">▋</tspan>
+  </text>
+</svg>
