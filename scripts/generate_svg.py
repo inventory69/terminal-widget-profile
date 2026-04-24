@@ -212,6 +212,58 @@ def render(cfg: dict, gh: dict) -> str:
     )
 
 
+def update_readme_links(cfg: dict) -> None:
+    """Regenerate the <!-- WIDGET-LINKS-START/END --> block in README.md from config."""
+    readme = ROOT / "README.md"
+    if not readme.exists():
+        return
+
+    bio = cfg.get("bio") or {}
+    website = bio.get("website", "")
+    links = bio.get("links") or []
+
+    # Primary href for the SVG image wrapper
+    img_href = website or (links[0]["url"] if links else "#")
+
+    # Build individual link elements
+    link_parts = []
+    if website:
+        display = website.replace("https://", "").replace("http://", "").rstrip("/")
+        link_parts.append(f'<a href="{website}">↗ {display}</a>')
+    for link in links:
+        url = link["url"]
+        title = link["title"]
+        icon = "✉" if url.startswith("mailto:") else "↗"
+        link_parts.append(f'<a href="{url}">{icon} {title}</a>')
+
+    separator = "\n  &nbsp;·&nbsp;\n  "
+    links_line = separator.join(link_parts) if link_parts else ""
+
+    inner = (
+        f'<div align="center">\n'
+        f'  <a href="{img_href}">\n'
+        f'    <img src="terminal.svg" alt="Terminal Widget" width="800"/>\n'
+        f'  </a>\n'
+    )
+    if links_line:
+        inner += f'  <br/>\n  {links_line}\n'
+    inner += "</div>"
+
+    START = "<!-- WIDGET-LINKS-START -->"
+    END = "<!-- WIDGET-LINKS-END -->"
+    new_block = f"{START}\n{inner}\n{END}"
+
+    content = readme.read_text(encoding="utf-8")
+    if START in content and END in content:
+        s = content.index(START)
+        e = content.index(END) + len(END)
+        content = content[:s] + new_block + content[e:]
+        readme.write_text(content, encoding="utf-8")
+        print("📝 updated README.md widget links")
+    else:
+        print("⚠️  README.md: WIDGET-LINKS markers not found, skipping link update")
+
+
 def main() -> int:
     cfg = load_config()
     print(f"📖 user={cfg['username']} theme={cfg['theme']}")
@@ -221,6 +273,7 @@ def main() -> int:
     svg = render(cfg, gh)
     OUTPUT_FILE.write_text(svg, encoding="utf-8")
     print(f"💾 wrote {OUTPUT_FILE} ({len(svg.encode('utf-8'))} bytes)")
+    update_readme_links(cfg)
     return 0
 
 
