@@ -79,7 +79,7 @@ def render_one(theme: str, out_dir: Path) -> Path:
     out_dir.mkdir(parents=True, exist_ok=True)
     out_file = out_dir / f"preview-{theme}.svg"
     out_file.write_text(svg, encoding="utf-8")
-    print(f"  ✓ {out_file.relative_to(ROOT)} ({len(svg.encode('utf-8'))} bytes)")
+    print(f"  ✓ {out_file.resolve().relative_to(ROOT)} ({len(svg.encode('utf-8'))} bytes)")
     return out_file
 
 
