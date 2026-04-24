@@ -45,7 +45,7 @@
   {% if logo %}
   <g transform="translate(20 {{ ns.y }})">
     {% for line, role in logo %}
-    <text class="logo" x="0" y="{{ (loop.index0 + 1) * 13 }}" fill="{{ t[role] }}" xml:space="preserve">{{ line }}</text>
+    <text class="logo" x="0" y="{{ (loop.index0 + 1) * 13 }}" fill="{{ t[role] }}" xml:space="preserve">{{ line | e }}</text>
     {% endfor %}
   </g>
   {% endif %}
