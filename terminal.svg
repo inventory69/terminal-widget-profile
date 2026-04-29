@@ -80,7 +80,7 @@
   <text class="small" x="32" y="316">┌─ ~/projects ─</text>
   <circle cx="38" cy="330" r="5" fill="#A97BFF"/>
   <text class="accent" x="50" y="334">simple-notes-sync</text>
-  <text class="yellow" x="520" y="334">★ 94</text>
+  <text class="yellow" x="520" y="334">★ 95</text>
   <text class="muted"  x="570" y="334">Kotlin</text>
   <circle cx="38" cy="352" r="5" fill="#f1e05a"/>
   <text class="accent" x="50" y="356">simple-notes-desktop</text>
@@ -94,14 +94,14 @@
   <text class="accent" x="50" y="400">HazeBot</text>
   <text class="yellow" x="520" y="400">★ 2</text>
   <text class="muted"  x="570" y="400">Python</text>
-  <circle cx="38" cy="418" r="5" fill="#3572A5"/>
-  <text class="accent" x="50" y="422">inventory69</text>
+  <circle cx="38" cy="418" r="5" fill="#A97BFF"/>
+  <text class="accent" x="50" y="422">deltip</text>
   <text class="yellow" x="520" y="422">★ 0</text>
-  <text class="muted"  x="570" y="422">Python</text>
+  <text class="muted"  x="570" y="422">Kotlin</text>
 
   <text class="text" x="20" y="460">
-    <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">13</tspan>
-    <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">103</tspan>
+    <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">14</tspan>
+    <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">104</tspan>
     <tspan class="muted" xml:space="preserve">    followers </tspan><tspan class="green">9</tspan>
     <tspan class="muted" xml:space="preserve">    following </tspan><tspan class="purple" fill="#cba6f7">3</tspan>
   </text>
