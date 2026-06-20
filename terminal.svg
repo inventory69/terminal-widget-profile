@@ -100,7 +100,7 @@
   <text class="muted"  x="570" y="422">Kotlin</text>
 
   <text class="text" x="20" y="460">
-    <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">14</tspan>
+    <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">13</tspan>
     <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">136</tspan>
     <tspan class="muted" xml:space="preserve">    followers </tspan><tspan class="green">9</tspan>
     <tspan class="muted" xml:space="preserve">    following </tspan><tspan class="purple" fill="#cba6f7">3</tspan>
