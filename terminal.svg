@@ -80,7 +80,7 @@
   <text class="small" x="32" y="316">┌─ ~/projects ─</text>
   <circle cx="38" cy="330" r="5" fill="#A97BFF"/>
   <text class="accent" x="50" y="334">simple-notes-sync</text>
-  <text class="yellow" x="520" y="334">★ 133</text>
+  <text class="yellow" x="520" y="334">★ 132</text>
   <text class="muted"  x="570" y="334">Kotlin</text>
   <circle cx="38" cy="352" r="5" fill="#f1e05a"/>
   <text class="accent" x="50" y="356">simple-notes-desktop</text>
@@ -101,7 +101,7 @@
 
   <text class="text" x="20" y="460">
     <tspan class="muted" xml:space="preserve">  repos </tspan><tspan class="accent">13</tspan>
-    <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">145</tspan>
+    <tspan class="muted" xml:space="preserve">    stars </tspan><tspan class="yellow">144</tspan>
     <tspan class="muted" xml:space="preserve">    followers </tspan><tspan class="green">9</tspan>
     <tspan class="muted" xml:space="preserve">    following </tspan><tspan class="purple" fill="#cba6f7">3</tspan>
   </text>
